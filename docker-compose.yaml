@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  idle-champions-sifter:
+    container_name: idle-champions-sifter
+    build:
+      context: .
+    ports:
+      - 1234:1234
+    volumes:
+      - .:/app
+      - /app/node_modules
+    entrypoint: [ "npm", "run", "dev" ]
