@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
+    "lib": [ "es2015" ],
     "module": "commonjs",
     "sourceMap": true,
-    "watch": true
+    "watch": true,
+    "types": [
+      "node"
+    ]
   }
 }
