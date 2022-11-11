@@ -27,7 +27,7 @@ const result = chunks.map(chunk => ({
     age: Number(chunk[6]),
     roles: multipleOption(chunk[9]),
     classes: multipleOption(chunk[11]),
-    damage_type: chunk[12],
+    damage_type: multipleOption(chunk[12]),
     slot: Number(chunk[1]),
     cost: Number(chunk[2]),
     al_lc: chunk[7],

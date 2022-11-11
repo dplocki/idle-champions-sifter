@@ -12,7 +12,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 1,
     "cost": 5,
     "al_lc": "N",
@@ -40,7 +42,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 2,
     "cost": 50,
     "al_lc": "L",
@@ -68,7 +72,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 1000,
     "al_lc": "L",
@@ -96,7 +102,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 4,
     "cost": 25000,
     "al_lc": "N",
@@ -124,7 +132,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 5,
     "cost": 1000000,
     "al_lc": "C",
@@ -152,7 +162,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 6,
     "cost": 50000000,
     "al_lc": "L",
@@ -181,7 +193,9 @@
     "classes": [
       "Ranger"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 7,
     "cost": 2500000000,
     "al_lc": "C",
@@ -208,7 +222,9 @@
     "classes": [
       "Sorcerer"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 8,
     "cost": 100000000000,
     "al_lc": "C",
@@ -237,7 +253,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 9,
     "cost": 10000000000000,
     "al_lc": "N",
@@ -266,7 +284,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 1000000000000000,
     "al_lc": "N",
@@ -293,7 +313,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 11,
     "cost": 250000000000000000,
     "al_lc": "N",
@@ -322,7 +344,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 100000000000000000000,
     "al_lc": "N",
@@ -349,7 +373,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 100000000000,
     "al_lc": "C",
@@ -377,7 +403,9 @@
     "classes": [
       "Monk"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 4,
     "cost": 65000,
     "al_lc": "L",
@@ -404,7 +432,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 6,
     "cost": 100000000,
     "al_lc": "C",
@@ -433,7 +463,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 4300,
     "al_lc": "L",
@@ -461,7 +493,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 5,
     "cost": 1500000,
     "al_lc": "C",
@@ -488,7 +522,9 @@
     "classes": [
       "Ranger"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 9,
     "cost": 12500000000000,
     "al_lc": "L",
@@ -516,7 +552,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 1330000000000000,
     "al_lc": "L",
@@ -544,7 +582,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 2,
     "cost": 65,
     "al_lc": "C",
@@ -572,7 +612,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 9,
     "cost": 8000000000000,
     "al_lc": "L",
@@ -600,7 +642,9 @@
     "classes": [
       "Ranger"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 12,
     "cost": 50000000000000000000,
     "al_lc": "C",
@@ -628,7 +672,9 @@
     "classes": [
       "Sorcerer"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 11,
     "cost": 35000000000000000,
     "al_lc": "C",
@@ -656,7 +702,9 @@
     "classes": [
       "Monk"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 90000000000,
     "al_lc": "L",
@@ -684,7 +732,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 7,
     "cost": 8000000000,
     "al_lc": "C",
@@ -712,7 +762,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 6,
     "cost": 78000000,
     "al_lc": "N",
@@ -740,7 +792,9 @@
       "Fighter",
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 1250,
     "al_lc": "L",
@@ -768,7 +822,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 1,
     "cost": 10,
     "al_lc": "N",
@@ -796,7 +852,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 5,
     "cost": 1250000,
     "al_lc": "C",
@@ -825,7 +883,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 250000000000000000000,
     "al_lc": "L",
@@ -854,7 +914,9 @@
       "Fighter",
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 4,
     "cost": 75000,
     "al_lc": "C",
@@ -882,7 +944,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 750000000000000,
     "al_lc": "C",
@@ -909,7 +973,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 7,
     "cost": 5250000000,
     "al_lc": "N",
@@ -937,7 +1003,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 2,
     "cost": 45,
     "al_lc": "C",
@@ -965,7 +1033,9 @@
       "Bard",
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 8,
     "cost": 250000000000,
     "al_lc": "N",
@@ -993,7 +1063,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 11,
     "cost": 500000000000000000,
     "al_lc": "C",
@@ -1021,7 +1093,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 100000000000000000000,
     "al_lc": "L",
@@ -1048,7 +1122,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 8,
     "al_lc": "C",
@@ -1076,7 +1152,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 4,
     "cost": 45000,
     "al_lc": "C",
@@ -1103,7 +1181,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 7,
     "cost": 12500000000,
     "al_lc": "C",
@@ -1130,7 +1210,9 @@
     "classes": [
       "Monk"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 900000000000000,
     "al_lc": "C",
@@ -1158,7 +1240,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 9,
     "cost": 7500000000000,
     "al_lc": "C",
@@ -1185,7 +1269,9 @@
     "classes": [
       "Inventor (Rogue)"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 3,
     "cost": 750,
     "al_lc": "L",
@@ -1214,7 +1300,9 @@
       "Cleric",
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 5,
     "cost": 2000000,
     "al_lc": "L",
@@ -1242,7 +1330,9 @@
     "classes": [
       "Samurai (Fighter)"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 2,
     "cost": 75,
     "al_lc": "N",
@@ -1270,7 +1360,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 150000000000,
     "al_lc": "L",
@@ -1298,7 +1390,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 6,
     "cost": 125000000,
     "al_lc": "C",
@@ -1326,7 +1420,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 7,
     "cost": 7500000000,
     "al_lc": "C",
@@ -1353,7 +1449,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 20,
     "al_lc": "L",
@@ -1380,7 +1478,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 5,
     "cost": 900000,
     "al_lc": "C",
@@ -1408,7 +1508,9 @@
       "Warlock",
       "Sorcerer"
     ],
-    "damage_type": "Magic (Ultimate : Melee)",
+    "damage_type": [
+      "Magic (Ultimate : Melee)"
+    ],
     "slot": 11,
     "cost": 750000000000000000,
     "al_lc": "C",
@@ -1437,7 +1539,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 4,
     "cost": 50000,
     "al_lc": "L",
@@ -1465,7 +1569,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 6,
     "cost": 90000000,
     "al_lc": "L",
@@ -1492,7 +1598,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 2500,
     "al_lc": "L",
@@ -1520,7 +1628,9 @@
     "classes": [
       "Ranger"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 9,
     "cost": 11000000000000,
     "al_lc": "C",
@@ -1548,7 +1658,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 11,
     "cost": 75000000000000000,
     "al_lc": "L",
@@ -1577,7 +1689,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 300000000000000,
     "al_lc": "C",
@@ -1605,7 +1719,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 30,
     "al_lc": "N",
@@ -1635,7 +1751,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 5,
     "cost": 3000000,
     "al_lc": "C",
@@ -1664,7 +1782,9 @@
       "Fighter",
       "Wizard"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 200000000000000000000,
     "al_lc": "N",
@@ -1692,7 +1812,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 2,
     "cost": 100,
     "al_lc": "C",
@@ -1721,7 +1843,9 @@
       "Fighter",
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 4,
     "cost": 100000,
     "al_lc": "N",
@@ -1749,7 +1873,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 11,
     "cost": 100000000000000000,
     "al_lc": "C",
@@ -1778,7 +1904,9 @@
       "Bard",
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 7,
     "cost": 15000000000,
     "al_lc": "N",
@@ -1807,7 +1935,9 @@
       "Rogue",
       "Wizard"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 500000000000,
     "al_lc": "N",
@@ -1835,7 +1965,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 500000000000,
     "al_lc": "C",
@@ -1863,7 +1995,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 5000,
     "al_lc": "L",
@@ -1890,7 +2024,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 10,
     "cost": 500000000000000,
     "al_lc": "N",
@@ -1918,7 +2054,9 @@
     "classes": [
       "Artificer"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 9,
     "cost": 20000000000000,
     "al_lc": "N",
@@ -1946,7 +2084,9 @@
     "classes": [
       "Barbarian"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 850000000000000,
     "al_lc": "L",
@@ -1974,7 +2114,9 @@
       "Fighter",
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 15,
     "al_lc": "C",
@@ -2004,7 +2146,9 @@
       "Druid",
       "Warlock"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 10000000000000000000,
     "al_lc": "C",
@@ -2031,7 +2175,9 @@
     "classes": [
       "Sorcerer"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 7,
     "cost": 10000000000,
     "al_lc": "L",
@@ -2059,7 +2205,9 @@
     "classes": [
       "Sorcerer"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 4,
     "cost": 90000,
     "al_lc": "C",
@@ -2086,7 +2234,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 2,
     "cost": 60,
     "al_lc": "C",
@@ -2115,7 +2265,9 @@
       "Rogue",
       "Bard"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 8,
     "cost": 125000000000,
     "al_lc": "L",
@@ -2144,7 +2296,9 @@
       "Cleric",
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 11,
     "cost": 425000000000000000,
     "al_lc": "N",
@@ -2172,7 +2326,9 @@
       "Wizard",
       "Cleric"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 6,
     "cost": 150000000,
     "al_lc": "N",
@@ -2199,7 +2355,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 6,
     "cost": 250000000,
     "al_lc": "L",
@@ -2227,7 +2385,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 25,
     "al_lc": "C",
@@ -2255,7 +2415,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 9,
     "cost": 3000000000000,
     "al_lc": "N",
@@ -2283,7 +2445,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 3750,
     "al_lc": "N",
@@ -2311,7 +2475,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 6,
     "cost": 250000000,
     "al_lc": "N",
@@ -2339,7 +2505,9 @@
     "classes": [
       "Paladin"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 12,
     "cost": 15000000000000000000,
     "al_lc": "L",
@@ -2368,7 +2536,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 10,
     "cost": 1000000000000000,
     "al_lc": "C",
@@ -2395,7 +2565,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 5,
     "cost": 5000000,
     "al_lc": "C",
@@ -2422,7 +2594,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 366000000000,
     "al_lc": "C",
@@ -2450,7 +2624,9 @@
     "classes": [
       "Monk"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 1,
     "cost": 40,
     "al_lc": "C",
@@ -2478,7 +2654,9 @@
       "Rogue",
       "Bard"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 3,
     "cost": 7500,
     "al_lc": "C",
@@ -2507,7 +2685,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 2,
     "cost": 90,
     "al_lc": "C",
@@ -2535,7 +2715,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 11,
     "cost": 1000000000000000000,
     "al_lc": "N",
@@ -2562,7 +2744,9 @@
     "classes": [
       "Rogue"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 7,
     "cost": 5000000000,
     "al_lc": "N",
@@ -2590,7 +2774,9 @@
     "classes": [
       "Cleric"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 5,
     "cost": 2500000,
     "al_lc": "N",
@@ -2619,7 +2805,9 @@
       "Barbarian",
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 10,
     "cost": 900000000000000,
     "al_lc": "C",
@@ -2654,7 +2842,9 @@
       "Rogue",
       "Wizard"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 1,
     "cost": 8,
     "al_lc": "C",
@@ -2683,7 +2873,9 @@
     "classes": [
       "Artificer"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 12,
     "cost": 150000000000000000000,
     "al_lc": "N",
@@ -2713,7 +2905,9 @@
       "Barbarian",
       "Druid"
     ],
-    "damage_type": "Melee",
+    "damage_type": [
+      "Melee"
+    ],
     "slot": 8,
     "cost": 400000000000,
     "al_lc": "C",
@@ -2741,7 +2935,9 @@
     "classes": [
       "Warlock"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 2,
     "cost": 150,
     "al_lc": "N",
@@ -2769,7 +2965,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 7,
     "cost": 25000000000,
     "al_lc": "N",
@@ -2798,7 +2996,9 @@
     "classes": [
       "Wizard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 6,
     "cost": 100000000,
     "al_lc": "L",
@@ -2825,7 +3025,9 @@
     "classes": [
       "Fighter"
     ],
-    "damage_type": "Ranged",
+    "damage_type": [
+      "Ranged"
+    ],
     "slot": 9,
     "cost": 25000000000000,
     "al_lc": "L",
@@ -2853,7 +3055,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 2,
     "cost": 40,
     "al_lc": "N",
@@ -2882,7 +3086,9 @@
       "Warlock",
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 3,
     "cost": 8000,
     "al_lc": "C",
@@ -2910,7 +3116,9 @@
     "classes": [
       "Sorcerer"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 5,
     "cost": 2000000,
     "al_lc": "N",
@@ -2937,7 +3145,10 @@
     "classes": [
       "Ranger"
     ],
-    "damage_type": "Ranged / Melee",
+    "damage_type": [
+      "Ranged",
+      "Melee"
+    ],
     "slot": 4,
     "cost": 80000,
     "al_lc": "C",
@@ -2964,7 +3175,9 @@
     "classes": [
       "Druid"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 1,
     "cost": 10,
     "al_lc": "C",
@@ -2992,7 +3205,9 @@
     "classes": [
       "Bard"
     ],
-    "damage_type": "Magic",
+    "damage_type": [
+      "Magic"
+    ],
     "slot": 12,
     "cost": 0,
     "al_lc": "C",
