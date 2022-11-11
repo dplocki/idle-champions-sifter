@@ -1,0 +1,3009 @@
+[
+  {
+    "name": "Bruenor",
+    "race": "Shield Dwarf",
+    "affilation": [
+      "Companions of the Hall"
+    ],
+    "age": 252,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 1,
+    "cost": 5,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4,
+    "str": 17,
+    "dex": 10,
+    "con": 16,
+    "int": 8,
+    "wis": 13,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Celeste",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 36,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Magic",
+    "slot": 2,
+    "cost": 50,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 6,
+    "str": 14,
+    "dex": 8,
+    "con": 13,
+    "int": 12,
+    "wis": 15,
+    "cha": 10,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nayeli",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 39,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 1000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.7,
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 8,
+    "wis": 10,
+    "cha": 14,
+    "overwhelm": 20
+  },
+  {
+    "name": "Jarlaxle",
+    "race": "Drow",
+    "affilation": [
+      ""
+    ],
+    "age": 245,
+    "roles": [
+      "DPS",
+      "Gold"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 4,
+    "cost": 25000,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 5,
+    "str": 10,
+    "dex": 18,
+    "con": 13,
+    "int": 16,
+    "wis": 11,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Calliope",
+    "race": "Half-Elf",
+    "affilation": [
+      "Force Grey"
+    ],
+    "age": 65,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 5,
+    "cost": 1000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 3.7,
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 19,
+    "overwhelm": 5
+  },
+  {
+    "name": "Asharra",
+    "race": "Aarakocra",
+    "affilation": [
+      ""
+    ],
+    "age": 38,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 6,
+    "cost": 50000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 7,
+    "str": 10,
+    "dex": 11,
+    "con": 9,
+    "int": 17,
+    "wis": 15,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Minsc",
+    "race": "Human",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 45,
+    "roles": [
+      "DPS",
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "damage_type": "Melee",
+    "slot": 7,
+    "cost": 2500000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 18,
+    "dex": 12,
+    "con": 17,
+    "int": 10,
+    "wis": 10,
+    "cha": 10,
+    "overwhelm": 5
+  },
+  {
+    "name": "Delina",
+    "race": "Elf",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 245,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Sorcerer"
+    ],
+    "damage_type": "Magic",
+    "slot": 8,
+    "cost": 100000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 6,
+    "str": 9,
+    "dex": 16,
+    "con": 15,
+    "int": 15,
+    "wis": 13,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Makos",
+    "race": "Tiefling",
+    "affilation": [
+      ""
+    ],
+    "age": 56,
+    "roles": [
+      "DPS",
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 9,
+    "cost": 10000000000000,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 5.7,
+    "str": 11,
+    "dex": 10,
+    "con": 14,
+    "int": 14,
+    "wis": 8,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Tyril",
+    "race": "Firbolg",
+    "affilation": [
+      "Force Grey"
+    ],
+    "age": 75,
+    "roles": [
+      "Tanking",
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 1000000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.7,
+    "str": 18,
+    "dex": 15,
+    "con": 15,
+    "int": 13,
+    "wis": 18,
+    "cha": 13,
+    "overwhelm": 5
+  },
+  {
+    "name": "Jamilah",
+    "race": "Human",
+    "affilation": [
+      "Force Grey"
+    ],
+    "age": 35,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 11,
+    "cost": 250000000000000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.5,
+    "str": 18,
+    "dex": 13,
+    "con": 17,
+    "int": 10,
+    "wis": 15,
+    "cha": 14,
+    "overwhelm": 15
+  },
+  {
+    "name": "Arkhan",
+    "race": "Dragonborn",
+    "affilation": [
+      "Dark Order",
+      "Force Grey"
+    ],
+    "age": 40,
+    "roles": [
+      "DPS",
+      "Tanking"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 100000000000000000000,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 3.9,
+    "str": 20,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 18,
+    "overwhelm": 30
+  },
+  {
+    "name": "Hitch",
+    "race": "Human",
+    "affilation": [
+      "Force Grey"
+    ],
+    "age": 29,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 100000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.9,
+    "str": 11,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 15,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Stoki",
+    "race": "Gnome",
+    "affilation": [
+      ""
+    ],
+    "age": 45,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Monk"
+    ],
+    "damage_type": "Melee",
+    "slot": 4,
+    "cost": 65000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 5.75,
+    "str": 11,
+    "dex": 18,
+    "con": 15,
+    "int": 13,
+    "wis": 17,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Krond",
+    "race": "Half-Orc",
+    "affilation": [
+      ""
+    ],
+    "age": 42,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 6,
+    "cost": 100000000,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 5.25,
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 16,
+    "wis": 13,
+    "cha": 9,
+    "overwhelm": 5
+  },
+  {
+    "name": "Gromma",
+    "race": "Tortle",
+    "affilation": [
+      ""
+    ],
+    "age": 80,
+    "roles": [
+      "DPS",
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 4300,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.9,
+    "str": 14,
+    "dex": 10,
+    "con": 18,
+    "int": 12,
+    "wis": 17,
+    "cha": 13,
+    "overwhelm": 20
+  },
+  {
+    "name": "Dhadius",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 57,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 5,
+    "cost": 1500000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 3.5,
+    "str": 8,
+    "dex": 12,
+    "con": 10,
+    "int": 18,
+    "wis": 9,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Drizzt",
+    "race": "Drow",
+    "affilation": [
+      "Companions of the Hall"
+    ],
+    "age": 75,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "damage_type": "Melee",
+    "slot": 9,
+    "cost": 12500000000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.7,
+    "str": 10,
+    "dex": 19,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Barrowin",
+    "race": "Dwarf",
+    "affilation": [
+      ""
+    ],
+    "age": 115,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 1330000000000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.6,
+    "str": 16,
+    "dex": 12,
+    "con": 15,
+    "int": 11,
+    "wis": 18,
+    "cha": 10,
+    "overwhelm": 5
+  },
+  {
+    "name": "Regis",
+    "race": "Halfling",
+    "affilation": [
+      "Companions of the Hall"
+    ],
+    "age": 51,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 2,
+    "cost": 65,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 7.7,
+    "str": 8,
+    "dex": 19,
+    "con": 14,
+    "int": 13,
+    "wis": 10,
+    "cha": 15,
+    "overwhelm": 5
+  },
+  {
+    "name": "Birdsong",
+    "race": "Tabaxi",
+    "affilation": [
+      ""
+    ],
+    "age": 26,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Melee",
+    "slot": 9,
+    "cost": 8000000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 3.75,
+    "str": 9,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 11,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Zorbu",
+    "race": "Gnome",
+    "affilation": [
+      ""
+    ],
+    "age": 325,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "damage_type": "Ranged",
+    "slot": 12,
+    "cost": 50000000000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.2,
+    "str": 8,
+    "dex": 17,
+    "con": 14,
+    "int": 12,
+    "wis": 16,
+    "cha": 13,
+    "overwhelm": 5
+  },
+  {
+    "name": "Strix",
+    "race": "Tiefling",
+    "affilation": [
+      "Waffle Crew"
+    ],
+    "age": 82,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Sorcerer"
+    ],
+    "damage_type": "Magic",
+    "slot": 11,
+    "cost": 35000000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 10,
+    "dex": 12,
+    "con": 14,
+    "int": 16,
+    "wis": 11,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nrakk",
+    "race": "Githzerai",
+    "affilation": [
+      ""
+    ],
+    "age": 41,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Monk"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 90000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 5.5,
+    "str": 13,
+    "dex": 17,
+    "con": 15,
+    "int": 12,
+    "wis": 19,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Catti-brie",
+    "race": "Human",
+    "affilation": [
+      "Companions of the Hall"
+    ],
+    "age": 33,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Ranged",
+    "slot": 7,
+    "cost": 8000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5.3,
+    "str": 15,
+    "dex": 18,
+    "con": 14,
+    "int": 17,
+    "wis": 11,
+    "cha": 13,
+    "overwhelm": 5
+  },
+  {
+    "name": "Evelyn",
+    "race": "Human",
+    "affilation": [
+      "Waffle Crew"
+    ],
+    "age": 22,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 6,
+    "cost": 78000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 7,
+    "str": 19,
+    "dex": 14,
+    "con": 16,
+    "int": 11,
+    "wis": 12,
+    "cha": 18,
+    "overwhelm": 20
+  },
+  {
+    "name": "Binwin",
+    "race": "Mountain Dwarf",
+    "affilation": [
+      ""
+    ],
+    "age": 39,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Fighter",
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 1250,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 6,
+    "str": 18,
+    "dex": 8,
+    "con": 18,
+    "int": 10,
+    "wis": 11,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Deekin",
+    "race": "Kobold",
+    "affilation": [
+      ""
+    ],
+    "age": 28,
+    "roles": [
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Ranged",
+    "slot": 1,
+    "cost": 10,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 7.5,
+    "str": 8,
+    "dex": 14,
+    "con": 15,
+    "int": 10,
+    "wis": 10,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Xander",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 19,
+    "roles": [
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 5,
+    "cost": 1250000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 3.5,
+    "str": 8,
+    "dex": 20,
+    "con": 10,
+    "int": 14,
+    "wis": 15,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Azaka",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 40,
+    "roles": [
+      "DPS",
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 250000000000000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 4.5,
+    "str": 19,
+    "dex": 14,
+    "con": 16,
+    "int": 11,
+    "wis": 9,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Ishi",
+    "race": "Kobold",
+    "affilation": [
+      ""
+    ],
+    "age": 27,
+    "roles": [
+      "DPS",
+      "Gold"
+    ],
+    "classes": [
+      "Fighter",
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 4,
+    "cost": 75000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.25,
+    "str": 10,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 14,
+    "cha": 15,
+    "overwhelm": 5
+  },
+  {
+    "name": "Wulfgar",
+    "race": "Human",
+    "affilation": [
+      "Companions of the Hall"
+    ],
+    "age": 33,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 750000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 20,
+    "dex": 13,
+    "con": 14,
+    "int": 11,
+    "wis": 9,
+    "cha": 14,
+    "overwhelm": 20
+  },
+  {
+    "name": "Farideh",
+    "race": "Tiefling",
+    "affilation": [
+      "Brimstone Angels"
+    ],
+    "age": 19,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 7,
+    "cost": 5250000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Donaar",
+    "race": "Dragonborn",
+    "affilation": [
+      "Acquisitions Incorporated: The “C” Team"
+    ],
+    "age": 19,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Magic",
+    "slot": 2,
+    "cost": 45,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 3.8,
+    "str": 18,
+    "dex": 8,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Vlahnya",
+    "race": "Eladrin",
+    "affilation": [
+      "Sirens of the Realms"
+    ],
+    "age": 530,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 8,
+    "cost": 250000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 8,
+    "dex": 14,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Warden",
+    "race": "Warforged",
+    "affilation": [
+      ""
+    ],
+    "age": 12,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Melee",
+    "slot": 11,
+    "cost": 500000000000000000,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 4.75,
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 8,
+    "wis": 11,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nerys",
+    "race": "Human",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 26,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 100000000000000000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.8,
+    "str": 16,
+    "dex": 13,
+    "con": 15,
+    "int": 12,
+    "wis": 17,
+    "cha": 15,
+    "overwhelm": 5
+  },
+  {
+    "name": "K'thriss",
+    "race": "Drow",
+    "affilation": [
+      "Acquisitions Incorporated: The “C” Team"
+    ],
+    "age": 320,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 8,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 8,
+    "dex": 16,
+    "con": 10,
+    "int": 13,
+    "wis": 10,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Paultin",
+    "race": "Human",
+    "affilation": [
+      "Waffle Crew"
+    ],
+    "age": 25,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Ranged",
+    "slot": 4,
+    "cost": 45000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 4,
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Black Viper",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 32,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 7,
+    "cost": 12500000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 11,
+    "wis": 11,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Rosie",
+    "race": "Halfling",
+    "affilation": [
+      "Acquisitions Incorporated: The “C” Team"
+    ],
+    "age": 110,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Monk"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 900000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 8,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 14,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Aila",
+    "race": "Wild Elf",
+    "affilation": [
+      "Heroes of Aerois"
+    ],
+    "age": 25,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 9,
+    "cost": 7500000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.5,
+    "str": 18,
+    "dex": 18,
+    "con": 16,
+    "int": 9,
+    "wis": 13,
+    "cha": 10,
+    "overwhelm": 25
+  },
+  {
+    "name": "Spurt",
+    "race": "Kobold",
+    "affilation": [
+      ""
+    ],
+    "age": 0,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Inventor (Rogue)"
+    ],
+    "damage_type": "Ranged",
+    "slot": 3,
+    "cost": 750,
+    "al_lc": "L",
+    "al_gb": "E",
+    "base_attack_cooldown": 7.5,
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 8,
+    "wis": 7,
+    "cha": 8,
+    "overwhelm": 5
+  },
+  {
+    "name": "Qillek",
+    "race": "Aarakocra",
+    "affilation": [
+      "Heroes of Aerois"
+    ],
+    "age": 3,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric",
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 5,
+    "cost": 2000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.75,
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 13,
+    "wis": 18,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Korth",
+    "race": "Lizardfolk",
+    "affilation": [
+      ""
+    ],
+    "age": 55,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Samurai (Fighter)"
+    ],
+    "damage_type": "Melee",
+    "slot": 2,
+    "cost": 75,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 5.5,
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 13,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Walnut",
+    "race": "Wood Elf",
+    "affilation": [
+      "Acquisitions Incorporated: The “C” Team"
+    ],
+    "age": 62,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 150000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.5,
+    "str": 8,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 20,
+    "cha": 10,
+    "overwhelm": 25
+  },
+  {
+    "name": "Shandie",
+    "race": "Halfling",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 63,
+    "roles": [
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Ranged",
+    "slot": 6,
+    "cost": 125000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 10,
+    "dex": 18,
+    "con": 15,
+    "int": 13,
+    "wis": 12,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Jim",
+    "race": "Human",
+    "affilation": [
+      "Acquisitions Incorporated"
+    ],
+    "age": 41,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 7,
+    "cost": 7500000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 4.75,
+    "str": 8,
+    "dex": 14,
+    "con": 10,
+    "int": 18,
+    "wis": 12,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Turiel",
+    "race": "Aasimar",
+    "affilation": [
+      ""
+    ],
+    "age": 121,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 20,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 10,
+    "str": 9,
+    "dex": 11,
+    "con": 16,
+    "int": 13,
+    "wis": 17,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Pwent",
+    "race": "Dwarf",
+    "affilation": [
+      ""
+    ],
+    "age": 176,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 5,
+    "cost": 900000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 18,
+    "dex": 14,
+    "con": 17,
+    "int": 9,
+    "wis": 12,
+    "cha": 8,
+    "overwhelm": 5
+  },
+  {
+    "name": "Avren",
+    "race": "Half-Elf",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 40,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Warlock",
+      "Sorcerer"
+    ],
+    "damage_type": "Magic (Ultimate : Melee)",
+    "slot": 11,
+    "cost": 750000000000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.5,
+    "str": 8,
+    "dex": 16,
+    "con": 15,
+    "int": 13,
+    "wis": 10,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Sentry",
+    "race": "Warforged",
+    "affilation": [
+      "Heroes of Aerois"
+    ],
+    "age": 13,
+    "roles": [
+      "Tanking",
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 4,
+    "cost": 50000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 4,
+    "str": 18,
+    "dex": 10,
+    "con": 15,
+    "int": 8,
+    "wis": 14,
+    "cha": 14,
+    "overwhelm": 20
+  },
+  {
+    "name": "Krull",
+    "race": "Tortle",
+    "affilation": [
+      "Dark Order"
+    ],
+    "age": 40,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Melee",
+    "slot": 6,
+    "cost": 90000000,
+    "al_lc": "L",
+    "al_gb": "E",
+    "base_attack_cooldown": 6.5,
+    "str": 20,
+    "dex": 14,
+    "con": 15,
+    "int": 12,
+    "wis": 20,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Artemis",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 131,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 2500,
+    "al_lc": "L",
+    "al_gb": "E",
+    "base_attack_cooldown": 4.7,
+    "str": 14,
+    "dex": 20,
+    "con": 15,
+    "int": 16,
+    "wis": 16,
+    "cha": 13,
+    "overwhelm": 5
+  },
+  {
+    "name": "Môrgæn",
+    "race": "High Elf",
+    "affilation": [
+      "Acquisitions Incorporated"
+    ],
+    "age": 150,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "damage_type": "Ranged",
+    "slot": 9,
+    "cost": 11000000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 5.2,
+    "str": 12,
+    "dex": 20,
+    "con": 12,
+    "int": 14,
+    "wis": 15,
+    "cha": 10,
+    "overwhelm": 5
+  },
+  {
+    "name": "Dragonbait",
+    "race": "Saurial",
+    "affilation": [
+      ""
+    ],
+    "age": 242,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 11,
+    "cost": 75000000000000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.8,
+    "str": 15,
+    "dex": 13,
+    "con": 17,
+    "int": 14,
+    "wis": 16,
+    "cha": 18,
+    "overwhelm": 25
+  },
+  {
+    "name": "Havilar",
+    "race": "Tiefling",
+    "affilation": [
+      "Brimstone Angels"
+    ],
+    "age": 19,
+    "roles": [
+      "Tanking",
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 300000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 7,
+    "str": 18,
+    "dex": 15,
+    "con": 13,
+    "int": 9,
+    "wis": 12,
+    "cha": 12,
+    "overwhelm": 20
+  },
+  {
+    "name": "Sisaspia",
+    "race": "Yuan-ti Pureblood",
+    "affilation": [
+      ""
+    ],
+    "age": 37,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 30,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 7.8,
+    "str": 11,
+    "dex": 13,
+    "con": 15,
+    "int": 14,
+    "wis": 18,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Briv",
+    "race": "Half-Orc",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 42,
+    "roles": [
+      "Tanking",
+      "Healing",
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 5,
+    "cost": 3000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 7.5,
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 8,
+    "cha": 18,
+    "overwhelm": 30
+  },
+  {
+    "name": "Melf",
+    "race": "Elf",
+    "affilation": [
+      ""
+    ],
+    "age": 210,
+    "roles": [
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Fighter",
+      "Wizard"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 200000000000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 17,
+    "dex": 15,
+    "con": 14,
+    "int": 19,
+    "wis": 11,
+    "cha": 10,
+    "overwhelm": 5
+  },
+  {
+    "name": "Krydle",
+    "race": "Half-Elf",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 36,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 2,
+    "cost": 100,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5.3,
+    "str": 14,
+    "dex": 17,
+    "con": 15,
+    "int": 13,
+    "wis": 11,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Jaheira",
+    "race": "Half-Elf",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 36,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Fighter",
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 4,
+    "cost": 100000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 4.4,
+    "str": 15,
+    "dex": 14,
+    "con": 17,
+    "int": 10,
+    "wis": 14,
+    "cha": 15,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nova",
+    "race": "Air-Genasi",
+    "affilation": [
+      "Heroes of Aerois"
+    ],
+    "age": 20,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Melee",
+    "slot": 11,
+    "cost": 100000000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 3.9,
+    "str": 7,
+    "dex": 16,
+    "con": 16,
+    "int": 15,
+    "wis": 8,
+    "cha": 20,
+    "overwhelm": 20
+  },
+  {
+    "name": "Freely",
+    "race": "Halfling",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 42,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 7,
+    "cost": 15000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.8,
+    "str": 13,
+    "dex": 17,
+    "con": 10,
+    "int": 8,
+    "wis": 10,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Beadle & Grimm|Beadle",
+    "race": "Dwarf",
+    "affilation": [
+      ""
+    ],
+    "age": 91,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Rogue",
+      "Wizard"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 500000000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.5,
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 8,
+    "overwhelm": 5
+  },
+  {
+    "name": "Beadle & Grimm|Grimm",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 26,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 500000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.5,
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 12,
+    "wis": 9,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Omin",
+    "race": "Half-Elf",
+    "affilation": [
+      "Acquisitions Incorporated"
+    ],
+    "age": 43,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 5000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 7,
+    "str": 16,
+    "dex": 8,
+    "con": 14,
+    "int": 11,
+    "wis": 18,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Ulkoria",
+    "race": "Dwarf",
+    "affilation": [
+      ""
+    ],
+    "age": 377,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 10,
+    "cost": 500000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.5,
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 20,
+    "wis": 15,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Lazaapz",
+    "race": "Goblin",
+    "affilation": [
+      ""
+    ],
+    "age": 19,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Artificer"
+    ],
+    "damage_type": "Melee",
+    "slot": 9,
+    "cost": 20000000000000,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 4.5,
+    "str": 8,
+    "dex": 16,
+    "con": 16,
+    "int": 18,
+    "wis": 10,
+    "cha": 8,
+    "overwhelm": 25
+  },
+  {
+    "name": "Torogar",
+    "race": "Minotaur",
+    "affilation": [
+      "Dark Order"
+    ],
+    "age": 32,
+    "roles": [
+      "Support",
+      "DPS"
+    ],
+    "classes": [
+      "Barbarian"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 850000000000000,
+    "al_lc": "L",
+    "al_gb": "E",
+    "base_attack_cooldown": 5.25,
+    "str": 23,
+    "dex": 17,
+    "con": 14,
+    "int": 8,
+    "wis": 9,
+    "cha": 15,
+    "overwhelm": 5
+  },
+  {
+    "name": "Ezmerelda",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 27,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Fighter",
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 15,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 14,
+    "dex": 19,
+    "con": 16,
+    "int": 16,
+    "wis": 11,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Penelope",
+    "race": "Halfling",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 37,
+    "roles": [
+      "Support",
+      "Gold",
+      "Healing"
+    ],
+    "classes": [
+      "Druid",
+      "Warlock"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 10000000000000000000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5.5,
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 8,
+    "wis": 17,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Lucius",
+    "race": "High Elf",
+    "affilation": [
+      "Heroes of Aerois"
+    ],
+    "age": 76,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Sorcerer"
+    ],
+    "damage_type": "Magic",
+    "slot": 7,
+    "cost": 10000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 13,
+    "dex": 14,
+    "con": 13,
+    "int": 11,
+    "wis": 13,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Baeloth",
+    "race": "Drow",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 222,
+    "roles": [
+      "Gold",
+      "Support"
+    ],
+    "classes": [
+      "Sorcerer"
+    ],
+    "damage_type": "Magic",
+    "slot": 4,
+    "cost": 90000,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 6.5,
+    "str": 12,
+    "dex": 14,
+    "con": 16,
+    "int": 19,
+    "wis": 12,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Talin",
+    "race": "Tiefling",
+    "affilation": [
+      ""
+    ],
+    "age": 26,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 2,
+    "cost": 60,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.2,
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 13,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Hew Maan",
+    "race": "Kobold / \"Human\"",
+    "affilation": [
+      ""
+    ],
+    "age": 67,
+    "roles": [
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Rogue",
+      "Bard"
+    ],
+    "damage_type": "Ranged",
+    "slot": 8,
+    "cost": 125000000000,
+    "al_lc": "L",
+    "al_gb": "E",
+    "base_attack_cooldown": 6.3,
+    "str": 11,
+    "dex": 12,
+    "con": 16,
+    "int": 12,
+    "wis": 8,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Orisha",
+    "race": "Aasimar",
+    "affilation": [
+      "Sirens of the Realms"
+    ],
+    "age": 30,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Cleric",
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 11,
+    "cost": 425000000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 14,
+    "dex": 13,
+    "con": 10,
+    "int": 13,
+    "wis": 17,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Alyndra",
+    "race": "Elf",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 168,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Wizard",
+      "Cleric"
+    ],
+    "damage_type": "Magic",
+    "slot": 6,
+    "cost": 150000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 18,
+    "wis": 14,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Reya",
+    "race": "Human / Celestial",
+    "affilation": [
+      ""
+    ],
+    "age": 19,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 6,
+    "cost": 250000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 5.5,
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 13,
+    "wis": 11,
+    "cha": 20,
+    "overwhelm": 5
+  },
+  {
+    "name": "Orkira",
+    "race": "Dragonborn",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 34,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 25,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 13,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 20,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Shaka",
+    "race": "Tiefling",
+    "affilation": [
+      "Rivals of Waterdeep"
+    ],
+    "age": 29,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 9,
+    "cost": 3000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.8,
+    "str": 10,
+    "dex": 16,
+    "con": 15,
+    "int": 16,
+    "wis": 13,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Mehen",
+    "race": "Dragonborn",
+    "affilation": [
+      "Brimstone Angels"
+    ],
+    "age": 48,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 3750,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 4,
+    "str": 19,
+    "dex": 8,
+    "con": 15,
+    "int": 13,
+    "wis": 12,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Sgt. Knox",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 50,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Melee",
+    "slot": 6,
+    "cost": 250000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 8,
+    "str": 19,
+    "dex": 12,
+    "con": 15,
+    "int": 12,
+    "wis": 10,
+    "cha": 14,
+    "overwhelm": 25
+  },
+  {
+    "name": "Selise",
+    "race": "Human",
+    "affilation": [
+      "Rivals of Waterdeep"
+    ],
+    "age": 42,
+    "roles": [
+      "Tanking",
+      "Support"
+    ],
+    "classes": [
+      "Paladin"
+    ],
+    "damage_type": "Melee",
+    "slot": 12,
+    "cost": 15000000000000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 19,
+    "dex": 11,
+    "con": 11,
+    "int": 15,
+    "wis": 13,
+    "cha": 15,
+    "overwhelm": 15
+  },
+  {
+    "name": "Ellywick",
+    "race": "Gnome",
+    "affilation": [
+      ""
+    ],
+    "age": 125,
+    "roles": [
+      "Support",
+      "Gold",
+      "Healing"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 10,
+    "cost": 1000000000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6.4,
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 13,
+    "wis": 12,
+    "cha": 20,
+    "overwhelm": 5
+  },
+  {
+    "name": "Prudence",
+    "race": "Tiefling",
+    "affilation": [
+      "Oxventurers Guild"
+    ],
+    "age": 28,
+    "roles": [
+      "DPS"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 5,
+    "cost": 5000000,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 7,
+    "str": 14,
+    "dex": 12,
+    "con": 17,
+    "int": 15,
+    "wis": 12,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Corazón",
+    "race": "Human",
+    "affilation": [
+      "Oxventurers Guild"
+    ],
+    "age": 30,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 366000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 4.8,
+    "str": 13,
+    "dex": 18,
+    "con": 12,
+    "int": 16,
+    "wis": 15,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "D'hani",
+    "race": "Aarakocra",
+    "affilation": [
+      "Rivals of Waterdeep"
+    ],
+    "age": 8,
+    "roles": [
+      "DPS",
+      "Gold"
+    ],
+    "classes": [
+      "Monk"
+    ],
+    "damage_type": "Melee",
+    "slot": 1,
+    "cost": 40,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 4.5,
+    "str": 11,
+    "dex": 20,
+    "con": 14,
+    "int": 11,
+    "wis": 20,
+    "cha": 7,
+    "overwhelm": 5
+  },
+  {
+    "name": "Brig",
+    "race": "Human",
+    "affilation": [
+      "Sirens of the Realms"
+    ],
+    "age": 38,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Rogue",
+      "Bard"
+    ],
+    "damage_type": "Melee",
+    "slot": 3,
+    "cost": 7500,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Widdle",
+    "race": "Dhampir Gnome",
+    "affilation": [
+      "Heroes of the Planes"
+    ],
+    "age": 423,
+    "roles": [
+      "Support",
+      "Healing",
+      "Speed"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 2,
+    "cost": 90,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 5.5,
+    "str": 18,
+    "dex": 15,
+    "con": 13,
+    "int": 17,
+    "wis": 12,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Rust",
+    "race": "Tabaxi",
+    "affilation": [
+      "Oxventurers Guild"
+    ],
+    "age": 23,
+    "roles": [
+      "Gold",
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Ranged",
+    "slot": 11,
+    "cost": 1000000000000000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 5,
+    "str": 12,
+    "dex": 18,
+    "con": 15,
+    "int": 11,
+    "wis": 12,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Xerophon",
+    "race": "Doppelganger",
+    "affilation": [
+      ""
+    ],
+    "age": 47,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Rogue"
+    ],
+    "damage_type": "Melee",
+    "slot": 7,
+    "cost": 5000000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 7.5,
+    "str": 9,
+    "dex": 18,
+    "con": 13,
+    "int": 12,
+    "wis": 14,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Viconia",
+    "race": "Drow",
+    "affilation": [
+      "Heroes of Baldur's Gate"
+    ],
+    "age": 270,
+    "roles": [
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Cleric"
+    ],
+    "damage_type": "Ranged",
+    "slot": 5,
+    "cost": 2500000,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 5.25,
+    "str": 10,
+    "dex": 19,
+    "con": 8,
+    "int": 16,
+    "wis": 18,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Yorven",
+    "race": "Harengon",
+    "affilation": [
+      ""
+    ],
+    "age": 39,
+    "roles": [
+      "DPS",
+      "Support"
+    ],
+    "classes": [
+      "Barbarian",
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 10,
+    "cost": 900000000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 5,
+    "str": 20,
+    "dex": 14,
+    "con": 14,
+    "int": 8,
+    "wis": 13,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "NERDS",
+    "race": "NERDS",
+    "affilation": [
+      ""
+    ],
+    "age": 38,
+    "roles": [
+      "DPS",
+      "Tanking",
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Fighter",
+      "Ranger",
+      "Bard",
+      "Cleric",
+      "Rogue",
+      "Wizard"
+    ],
+    "damage_type": "Melee",
+    "slot": 1,
+    "cost": 8,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 4.2,
+    "str": 9,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 11,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Vi",
+    "race": "Gnome",
+    "affilation": [
+      "Acquisitions Incorporated"
+    ],
+    "age": 500,
+    "roles": [
+      "Gold",
+      "Speed",
+      "Support"
+    ],
+    "classes": [
+      "Artificer"
+    ],
+    "damage_type": "Ranged",
+    "slot": 12,
+    "cost": 150000000000000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 7,
+    "str": 8,
+    "dex": 12,
+    "con": 16,
+    "int": 18,
+    "wis": 13,
+    "cha": 12,
+    "overwhelm": 5
+  },
+  {
+    "name": "Tatyana",
+    "race": "Air Genasi",
+    "affilation": [
+      "Black Dice Society"
+    ],
+    "age": 30,
+    "roles": [
+      "Tanking",
+      "Support",
+      "Speed"
+    ],
+    "classes": [
+      "Barbarian",
+      "Druid"
+    ],
+    "damage_type": "Melee",
+    "slot": 8,
+    "cost": 400000000000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 6,
+    "str": 16,
+    "dex": 13,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 11,
+    "overwhelm": 25
+  },
+  {
+    "name": "Blooshi",
+    "race": "Bullywug",
+    "affilation": [
+      ""
+    ],
+    "age": 11.5,
+    "roles": [
+      "Support",
+      "Tanking"
+    ],
+    "classes": [
+      "Warlock"
+    ],
+    "damage_type": "Magic",
+    "slot": 2,
+    "cost": 150,
+    "al_lc": "N",
+    "al_gb": "E",
+    "base_attack_cooldown": 4.5,
+    "str": 10,
+    "dex": 14,
+    "con": 16,
+    "int": 13,
+    "wis": 8,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Gazrick",
+    "race": "Gnome (Rock)",
+    "affilation": [
+      "Rivals of Waterdeep"
+    ],
+    "age": 130,
+    "roles": [
+      "Gold",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Magic",
+    "slot": 7,
+    "cost": 25000000000,
+    "al_lc": "N",
+    "al_gb": "G",
+    "base_attack_cooldown": 5,
+    "str": 8,
+    "dex": 10,
+    "con": 13,
+    "int": 16,
+    "wis": 20,
+    "cha": 14,
+    "overwhelm": 5
+  },
+  {
+    "name": "Dungeon Master",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": null,
+    "roles": [
+      "Gold",
+      "Healing",
+      "Support"
+    ],
+    "classes": [
+      "Wizard"
+    ],
+    "damage_type": "Magic",
+    "slot": 6,
+    "cost": 100000000,
+    "al_lc": "L",
+    "al_gb": "G",
+    "base_attack_cooldown": 9,
+    "str": 18,
+    "dex": 18,
+    "con": 18,
+    "int": 18,
+    "wis": 18,
+    "cha": 18,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nordom",
+    "race": "Modron",
+    "affilation": [
+      ""
+    ],
+    "age": 122,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": "Ranged",
+    "slot": 9,
+    "cost": 25000000000000,
+    "al_lc": "L",
+    "al_gb": "N",
+    "base_attack_cooldown": 7,
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 8,
+    "cha": 8,
+    "overwhelm": 5
+  },
+  {
+    "name": "Merilwen",
+    "race": "Elf (Wood)",
+    "affilation": [
+      "Oxventurers Guild"
+    ],
+    "age": 101,
+    "roles": [
+      "Gold",
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Magic",
+    "slot": 2,
+    "cost": 40,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 7.5,
+    "str": 12,
+    "dex": 17,
+    "con": 15,
+    "int": 14,
+    "wis": 20,
+    "cha": 11,
+    "overwhelm": 5
+  },
+  {
+    "name": "Nahara",
+    "race": "Aasimar (Reborn)",
+    "affilation": [
+      "Black Dice Society"
+    ],
+    "age": 27,
+    "roles": [
+      "DPS",
+      "Speed"
+    ],
+    "classes": [
+      "Warlock",
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 3,
+    "cost": 8000,
+    "al_lc": "C",
+    "al_gb": "N",
+    "base_attack_cooldown": 5,
+    "str": 9,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 16,
+    "overwhelm": 5
+  },
+  {
+    "name": "Valentine",
+    "race": "Half-elf (Reborn)",
+    "affilation": [
+      "Black Dice Society"
+    ],
+    "age": 22,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Sorcerer"
+    ],
+    "damage_type": "Magic",
+    "slot": 5,
+    "cost": 2000000,
+    "al_lc": "N",
+    "al_gb": "N",
+    "base_attack_cooldown": 7,
+    "str": 9,
+    "dex": 13,
+    "con": 14,
+    "int": 12,
+    "wis": 13,
+    "cha": 17,
+    "overwhelm": null
+  },
+  {
+    "name": "Desmond",
+    "race": "Human",
+    "affilation": [
+      "Black Dice Society"
+    ],
+    "age": 33,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "damage_type": "Ranged / Melee",
+    "slot": 4,
+    "cost": 80000,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 6.25,
+    "str": 16,
+    "dex": 15,
+    "con": 11,
+    "int": 11,
+    "wis": 12,
+    "cha": 13,
+    "overwhelm": 5
+  },
+  {
+    "name": "Voronika",
+    "race": "Eladrin",
+    "affilation": [
+      "Black Dice Society"
+    ],
+    "age": 31,
+    "roles": [
+      "Support"
+    ],
+    "classes": [
+      "Druid"
+    ],
+    "damage_type": "Magic",
+    "slot": 1,
+    "cost": 10,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 10,
+    "str": 10,
+    "dex": 18,
+    "con": 18,
+    "int": 12,
+    "wis": 23,
+    "cha": 17,
+    "overwhelm": 5
+  },
+  {
+    "name": "Dob",
+    "race": "Half-Orc",
+    "affilation": [
+      "Oxventurers Guild"
+    ],
+    "age": 28,
+    "roles": [
+      "Support",
+      "Gold"
+    ],
+    "classes": [
+      "Bard"
+    ],
+    "damage_type": "Magic",
+    "slot": 12,
+    "cost": 0,
+    "al_lc": "C",
+    "al_gb": "G",
+    "base_attack_cooldown": 8.75,
+    "str": 12,
+    "dex": 18,
+    "con": 17,
+    "int": 13,
+    "wis": 14,
+    "cha": 18,
+    "overwhelm": 5
+  }
+]
