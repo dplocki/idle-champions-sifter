@@ -1,8 +1,9 @@
-FROM node:alpine
+FROM node:19-alpine
 
 WORKDIR /app
 
-COPY package.json /app/
-COPY src /app/src
+RUN npm install -g typescript
 
-RUN npm ci
+COPY . /app/
+
+CMD tsc *.ts --watch
