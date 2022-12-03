@@ -3220,5 +3220,35 @@
     "wis": 14,
     "cha": 18,
     "overwhelm": 5
+  },
+  {
+    "name": "Warduke",
+    "race": "Human",
+    "affilation": [
+      ""
+    ],
+    "age": 39,
+    "roles": [
+      "DPS",
+      "Tanking"
+    ],
+    "classes": [
+      "Fighter"
+    ],
+    "damage_type": [
+      "Melee"
+    ],
+    "slot": 8,
+    "cost": 0,
+    "al_lc": "C",
+    "al_gb": "E",
+    "base_attack_cooldown": 5,
+    "str": 19,
+    "dex": 11,
+    "con": 17,
+    "int": 9,
+    "wis": 11,
+    "cha": 11,
+    "overwhelm": 25
   }
 ]
