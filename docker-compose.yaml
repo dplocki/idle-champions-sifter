@@ -1,9 +1,0 @@
-version: "3.9"
-
-services:
-  idle-champions-sifter:
-    container_name: idle-champions-sifter
-    build:
-      context: .
-    volumes:
-      - .:/app
