@@ -1,5 +1,5 @@
 <script lang="ts">
-	import QueryTextBox from "./querytextbox.svelte";
+    import QueryTextBox from "./components/querytextbox.svelte";
 
     let results: any[] = [];
 
