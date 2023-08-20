@@ -12,6 +12,10 @@
 	let columns: IColumnState[] = [];
 
 	onMount(() => {
+		if (!datasource || datasource.length === 0) {
+			return;
+		}
+
 		columns = Object.keys(datasource[0]).map((columnName) => ({
 			name: columnName,
 			sort: 'None'
@@ -28,7 +32,7 @@
 			}
 
 			return 0;
-		}
+		};
 
 		datasource = datasource.sort(compear);
 		columns = columns.map((oryginalColumn: IColumnState) => {
@@ -43,9 +47,10 @@
 	function columnClick(column: IColumnState): void {
 		if (column.sort === 'ASC') {
 			buildSort(column.name, 'DESC');
-		} else {
-			buildSort(column.name, 'ASC');
+			return;
 		}
+
+		buildSort(column.name, 'ASC');
 	}
 </script>
 
@@ -73,3 +78,37 @@
 	</tbody>
 	<tfoot />
 </table>
+
+<style>
+	/* Stylowanie tabeli */
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		border: 1px solid #ccc;
+		margin-bottom: 20px;
+	}
+
+	/* Stylowanie wierszy parzystych */
+	tr:nth-child(even) {
+		background-color: #f5f5f5;
+	}
+
+	/* Stylowanie wierszy nieparzystych */
+	tr:nth-child(odd) {
+		background-color: #ffffff;
+	}
+
+	/* Stylowanie komórek danych */
+	td {
+		padding: 8px;
+		border: 1px solid #ccc;
+	}
+
+	/* Stylowanie komórek nagłówka */
+	th {
+		padding: 8px;
+		background-color: #333;
+		color: #fff;
+		border: 1px solid #ccc;
+	}
+</style>
