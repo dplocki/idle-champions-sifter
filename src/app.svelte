@@ -1,5 +1,6 @@
 <script lang="ts">
-    import QueryTextBox from "./components/queryTextBox.svelte";
+    import QueryTextBox from "./components/QueryTextBox.svelte";
+	import Table from "./components/Table.svelte";
 
     let results: any[] = [];
 
@@ -13,6 +14,4 @@
 
 <QueryTextBox on:query={newquery} />
 
-{#each results as result}
-    <li>{ result }</li>
-{/each}
+<Table datasource={results} />
