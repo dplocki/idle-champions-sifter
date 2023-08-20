@@ -2082,7 +2082,7 @@
 		"name": "Dungeon Master",
 		"race": "Human",
 		"affilation": [""],
-		"age": null,
+		"age": 1001,
 		"roles": ["Gold", "Healing", "Support"],
 		"classes": ["Wizard"],
 		"damage_type": ["Magic"],
