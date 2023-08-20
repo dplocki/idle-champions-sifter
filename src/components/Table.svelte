@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	type SortDirectorion = 'None' | 'ASC' | 'DESC';
+
 	interface IColumnState {
 		name: string;
-		sort: 'None' | 'ASC' | 'DESC';
+		sort: SortDirectorion;
 	}
 
 	export let datasource: any[] = [];
@@ -16,45 +18,33 @@
 		}));
 	});
 
-	function columnClick(column: IColumnState) {
-		const columnName = column.name;
+	function buildSort(columnName: string, sortDirectorion: SortDirectorion): void {
+		const direction = sortDirectorion !== 'ASC' ? -1 : 1;
+		const compear = (a: any, b: any) => {
+			if (a[columnName] > b[columnName]) {
+				return 1 * direction;
+			} else if (a[columnName] < b[columnName]) {
+				return -1 * direction;
+			}
 
-		if (column.sort !== 'ASC') {
-			datasource = datasource.sort((a: any, b: any) => {
-				if (a[columnName] > b[columnName]) {
-					return 1;
-				} else if (a[columnName] < b[columnName]) {
-					return -1;
-				}
+			return 0;
+		}
 
-				return 0;
-			});
+		datasource = datasource.sort(compear);
+		columns = columns.map((oryginalColumn: IColumnState) => {
+			if (oryginalColumn.name === columnName) {
+				return { ...oryginalColumn, sort: sortDirectorion };
+			}
 
-			columns = columns.map((oryginalColumn: IColumnState) => {
-				if (oryginalColumn.name === column.name) {
-					return { ...oryginalColumn, sort: 'ASC' };
-				}
+			return { ...oryginalColumn, sort: 'None' };
+		});
+	}
 
-				return { ...oryginalColumn, sort: 'None' };
-			});
+	function columnClick(column: IColumnState): void {
+		if (column.sort === 'ASC') {
+			buildSort(column.name, 'DESC');
 		} else {
-			datasource = datasource.sort((a: any, b: any) => {
-				if (a[columnName] < b[columnName]) {
-					return 1;
-				} else if (a[columnName] > b[columnName]) {
-					return -1;
-				}
-
-				return 0;
-			});
-
-			columns = columns.map((oryginalColumn: IColumnState) => {
-				if (oryginalColumn.name === column.name) {
-					return { ...oryginalColumn, sort: 'DESC' };
-				}
-
-				return { ...oryginalColumn, sort: 'None' };
-			});
+			buildSort(column.name, 'ASC');
 		}
 	}
 </script>
