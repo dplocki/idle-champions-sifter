@@ -1,5 +1,6 @@
-<script>
-    import App from '../app.svelte';
+<script lang="ts">
+	import App from '../app.svelte';
+	export let data: any;
 </script>
 
-<App />
+<App database={data.database} />
