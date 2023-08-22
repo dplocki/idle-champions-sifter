@@ -1,11 +1,12 @@
 <script lang="ts">
 	import QueryTextBox from './components/QueryTextBox.svelte';
 	import Table from './components/Table.svelte';
+	import { lexer } from './query.parser';
 
 	export let database: any[];
 
-	function newquery(event: Event) {
-		console.log('newquery', event);
+	function newquery(event: CustomEvent<string>) {
+		console.log('newquery', lexer(event.detail));
 	}
 </script>
 
