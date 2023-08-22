@@ -2181,7 +2181,7 @@
 		"int": 12,
 		"wis": 13,
 		"cha": 17,
-		"overwhelm": null
+		"overwhelm": 5
 	},
 	{
 		"name": "Desmond",
