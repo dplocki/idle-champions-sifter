@@ -7,4 +7,10 @@ describe('lexer', () => {
 
 		expect(result).toStrictEqual([]);
 	});
+
+	it('should return only tokens no mater on spaces in input', () => {
+		const result = lexer('   a     b c          	      d          ');
+
+		expect(result).toStrictEqual(['a', 'b', 'c', 'd']);
+	});
 });
