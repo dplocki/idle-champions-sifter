@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
 
 	type SortDirectorion = 'None' | 'ASC' | 'DESC';
 
@@ -69,7 +70,7 @@
 	</thead>
 	<tbody>
 		{#each datasource as datum}
-			<tr>
+			<tr transition:fade>
 				{#each columns as column}
 					<td>{datum[column.name]}</td>
 				{/each}
