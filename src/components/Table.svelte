@@ -32,16 +32,16 @@
 		return (current + 1) % 3 as SortDirectorion;
 	}
 
-	function columnClick(column: IColumnState, event: MouseEvent): void {
+	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			let tmp = sortColumns.find(c => c.name === column.name);
+			let tmp = sortColumns.find(c => c.name === clickedColumnData.name);
 			if (tmp) {
 				sortColumns = sortColumns.map(x => x !== tmp ? tmp! : { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
-				sortColumns = [ ...sortColumns, { ...column, sort: switchSortDirection(column.sort) }];
+				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }];
 			}
 		} else {
-			sortColumns = [{ ...column, sort: switchSortDirection(column.sort) }]
+			sortColumns = [{ ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }]
 		}
 
 		const compear = (a: any, b: any) => {
