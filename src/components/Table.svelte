@@ -2,7 +2,11 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
-	type SortDirectorion = 'None' | 'ASC' | 'DESC';
+	enum SortDirectorion  {
+		None = 'None',
+		Asc = 'ASC',
+		Desc = 'DESC'
+	};
 
 	interface IColumnState {
 		name: string;
@@ -11,6 +15,7 @@
 
 	export let datasource: any[] = [];
 	let columns: IColumnState[] = [];
+	let sortColumns: IColumnState[] = [];
 
 	onMount(() => {
 		if (!datasource || datasource.length === 0) {
@@ -19,46 +24,75 @@
 
 		columns = Object.keys(datasource[0]).map((columnName) => ({
 			name: columnName,
-			sort: 'None'
+			sort: SortDirectorion.None
 		}));
 	});
 
-	function buildSort(columnName: string, sortDirectorion: SortDirectorion): void {
-		const direction = sortDirectorion !== 'ASC' ? -1 : 1;
+	function columnClick(column: IColumnState, event: MouseEvent): void {
+		if (event.shiftKey) {
+			let tmp = sortColumns.find(c => c.name === column.name);
+
+			if (tmp) {
+				let tmp2 = tmp as IColumnState;
+				if (tmp2.sort === SortDirectorion.None) {
+					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.Asc });
+				} else if (tmp.sort === SortDirectorion.Asc) {
+					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.Desc });
+				} else {
+					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.None });
+				}
+			} else {
+				if (column.sort === SortDirectorion.None) {
+					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.Asc }]
+				} else if (column.sort === SortDirectorion.Asc) {
+					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.Desc }]
+				} else {
+					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.None }]
+				}
+			}
+		} else {
+			if (column.sort === SortDirectorion.None) {
+				sortColumns = [{ ...column, sort: SortDirectorion.Asc }]
+			} else if (column.sort === SortDirectorion.Asc) {
+				sortColumns = [{ ...column, sort: SortDirectorion.Desc }]
+			} else {
+				sortColumns = [{ ...column, sort: SortDirectorion.None }]
+			}
+		}
+
 		const compear = (a: any, b: any) => {
-			if (a[columnName] > b[columnName]) {
-				return 1 * direction;
-			} else if (a[columnName] < b[columnName]) {
-				return -1 * direction;
+			for (const element of sortColumns) {
+				const direction = element.sort === SortDirectorion.Asc ? 1 : -1;
+
+				if (a[element.name] > b[element.name]) {
+					return 1 * direction;
+				} else if (a[element.name] < b[element.name]) {
+					return -1 * direction;
+				}
 			}
 
 			return 0;
 		};
 
 		datasource = datasource.sort(compear);
-		columns = columns.map((oryginalColumn: IColumnState) => {
-			if (oryginalColumn.name === columnName) {
-				return { ...oryginalColumn, sort: sortDirectorion };
+		columns = columns.map(c => {
+			let tmp = sortColumns.find(s => s.name === c.name);
+			if (!tmp) {
+				return { ...c, sort: SortDirectorion.None };
 			}
 
-			return { ...oryginalColumn, sort: 'None' };
-		});
-	}
-
-	function columnClick(column: IColumnState): void {
-		if (column.sort === 'ASC') {
-			buildSort(column.name, 'DESC');
-			return;
-		}
-
-		buildSort(column.name, 'ASC');
+			return {
+				...c,
+				sort: tmp.sort
+			};
+		})
 	}
 </script>
 
 <table>
 	<thead>
 		{#each columns as column}
-			<th on:click={() => columnClick(column)}>
+			<th on:click={(event) => columnClick(column, event)}>
 				{column.name}
 				{#if column.sort === 'ASC'}
 					🔺
