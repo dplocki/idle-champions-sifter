@@ -35,10 +35,8 @@
 	function columnClick(column: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
 			let tmp = sortColumns.find(c => c.name === column.name);
-
 			if (tmp) {
-				let tmp2 = tmp as IColumnState;
-				sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: switchSortDirection(tmp2.sort) });
+				sortColumns = sortColumns.map(x => x !== tmp ? tmp! : { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
 				sortColumns = [ ...sortColumns, { ...column, sort: switchSortDirection(column.sort) }];
 			}
