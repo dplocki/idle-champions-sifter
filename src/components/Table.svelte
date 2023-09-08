@@ -3,9 +3,9 @@
 	import { fade } from 'svelte/transition';
 
 	enum SortDirectorion  {
-		None = 'None',
-		Asc = 'ASC',
-		Desc = 'DESC'
+		None = 0,
+		Asc = 1,
+		Desc = 2
 	};
 
 	interface IColumnState {
@@ -28,36 +28,22 @@
 		}));
 	});
 
+	function switchSortDirection(current: SortDirectorion): SortDirectorion {
+		return (current + 1) % 3 as SortDirectorion;
+	}
+
 	function columnClick(column: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
 			let tmp = sortColumns.find(c => c.name === column.name);
 
 			if (tmp) {
 				let tmp2 = tmp as IColumnState;
-				if (tmp2.sort === SortDirectorion.None) {
-					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.Asc });
-				} else if (tmp.sort === SortDirectorion.Asc) {
-					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.Desc });
-				} else {
-					sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: SortDirectorion.None });
-				}
+				sortColumns = sortColumns.map(x => x !== tmp2 ? tmp2 : { ...tmp2, sort: switchSortDirection(tmp2.sort) });
 			} else {
-				if (column.sort === SortDirectorion.None) {
-					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.Asc }]
-				} else if (column.sort === SortDirectorion.Asc) {
-					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.Desc }]
-				} else {
-					sortColumns = [ ...sortColumns, { ...column, sort: SortDirectorion.None }]
-				}
+				sortColumns = [ ...sortColumns, { ...column, sort: switchSortDirection(column.sort) }];
 			}
 		} else {
-			if (column.sort === SortDirectorion.None) {
-				sortColumns = [{ ...column, sort: SortDirectorion.Asc }]
-			} else if (column.sort === SortDirectorion.Asc) {
-				sortColumns = [{ ...column, sort: SortDirectorion.Desc }]
-			} else {
-				sortColumns = [{ ...column, sort: SortDirectorion.None }]
-			}
+			sortColumns = [{ ...column, sort: switchSortDirection(column.sort) }]
 		}
 
 		const compear = (a: any, b: any) => {
@@ -94,9 +80,9 @@
 		{#each columns as column}
 			<th on:click={(event) => columnClick(column, event)}>
 				{column.name}
-				{#if column.sort === 'ASC'}
+				{#if column.sort === 1 }
 					🔺
-				{:else if column.sort === 'DESC'}
+				{:else if column.sort === 2}
 					🔻
 				{/if}
 			</th>
