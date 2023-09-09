@@ -29,7 +29,7 @@
 	});
 
 	function switchSortDirection(current: SortDirectorion): SortDirectorion {
-		return (current + 1) % 3 as SortDirectorion;
+		return current === SortDirectorion.Asc ? SortDirectorion.Desc : SortDirectorion.Asc;
 	}
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
@@ -125,9 +125,15 @@
 
 	/* Stylowanie komórek nagłówka */
 	th {
-		padding: 8px;
+		min-width: 10em;
+		padding: 1em;
 		background-color: #333;
 		color: #fff;
 		border: 1px solid #ccc;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 	}
 </style>
