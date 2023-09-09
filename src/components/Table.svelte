@@ -36,7 +36,7 @@
 		if (event.shiftKey) {
 			let tmp = sortColumns.find(column => column.name === clickedColumnData.name);
 			if (tmp) {
-				sortColumns = sortColumns.map(column => column !== tmp ? tmp! : { ...tmp, sort: switchSortDirection(tmp.sort) });
+				sortColumns = sortColumns.map(column => column !== tmp ? column : { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
 				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }];
 			}
