@@ -59,14 +59,14 @@
 		};
 
 		datasource = datasource.sort(compear);
-		columns = columns.map(c => {
-			let tmp = sortColumns.find(s => s.name === c.name);
+		columns = columns.map(column => {
+			let tmp = sortColumns.find(s => s.name === column.name);
 			if (!tmp) {
-				return { ...c, sort: SortDirectorion.None };
+				return { ...column, sort: SortDirectorion.None };
 			}
 
 			return {
-				...c,
+				...column,
 				sort: tmp.sort
 			};
 		})
