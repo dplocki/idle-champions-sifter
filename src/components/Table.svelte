@@ -34,9 +34,9 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			let tmp = sortColumns.find(c => c.name === clickedColumnData.name);
+			let tmp = sortColumns.find(column => column.name === clickedColumnData.name);
 			if (tmp) {
-				sortColumns = sortColumns.map(x => x !== tmp ? tmp! : { ...tmp, sort: switchSortDirection(tmp.sort) });
+				sortColumns = sortColumns.map(column => column !== tmp ? tmp! : { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
 				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }];
 			}
