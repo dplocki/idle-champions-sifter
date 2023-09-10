@@ -76,11 +76,8 @@
 		{#each columns as column}
 			<th on:click={(event) => columnClick(column, event)}>
 				{column.name}
-				{#if column.sort === 1 }
-					🔺{ column.order }
-				{:else if column.sort === 2}
-					🔻{ column.order }
-				{/if}
+				{#if column.sort === 1 }🔺{:else if column.sort === 2}🔻{/if}
+				{#if column.order > 1}<sup>{ column.order }</sup>{/if}
 			</th>
 		{/each}
 	</thead>
@@ -133,5 +130,11 @@
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
+	}
+
+	th > sup {
+		font-size: xx-small;
+		padding: 0;
+		margin-left: -0.5em;
 	}
 </style>
