@@ -35,21 +35,19 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			let tmp = columns.find(column => column.order !== 0 && column.name === clickedColumnData.name);
-			if (tmp) {
-				columns = columns.map(column =>
-					column !== tmp
+			columns = columns.map(column =>
+				column.name !== clickedColumnData.name
 					? column
-					: { ...column, sort: switchSortDirection(column.sort) });
-			} else {
-				const lastSortableColumn = Math.max(...columns.map(column => column.order));
-				columns = columns.map(column =>
-					clickedColumnData.name !== column.name
-					? column
-					: { ...column, sort: switchSortDirection(column.sort), order: lastSortableColumn + 1 });
-			}
+					: {
+						...column,
+						sort: switchSortDirection(column.sort),
+						order: column.order !== 0 ? column.order : Math.max(...columns.map(column => column.order)) + 1
+					});
 		} else {
-			columns = columns.map(column => clickedColumnData.name !== column.name ? { ...column, order: 0, sort: SortDirectorion.None } : { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 });
+			columns = columns.map(column =>
+				clickedColumnData.name !== column.name
+					? { ...column, order: 0, sort: SortDirectorion.None }
+					: { ...column, sort: switchSortDirection(column.sort), order: 1 });
 		}
 
 		const compear = (a: any, b: any) => {
