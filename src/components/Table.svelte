@@ -50,16 +50,16 @@
 					: { ...column, sort: switchSortDirection(column.sort), order: 1 });
 		}
 
-		const compear = (a: any, b: any) => {
+		const compear = (first: Record<string, any>, second: Record<string, any>) => {
 			for (const element of columns) {
 				if (element.order === 0) {
 					continue;
 				}
 
 				const direction = element.sort === SortDirectorion.Asc ? 1 : -1;
-				if (a[element.name] > b[element.name]) {
+				if (first[element.name] > second[element.name]) {
 					return 1 * direction;
-				} else if (a[element.name] < b[element.name]) {
+				} else if (first[element.name] < second[element.name]) {
 					return -1 * direction;
 				}
 			}
