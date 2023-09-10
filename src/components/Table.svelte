@@ -36,7 +36,7 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			const lastSortableColumn = Math.max(0, ...sortColumns.map(column => column.order));
+			const lastSortableColumn = Math.max(...columns.map(column => column.order));
 			let tmp = sortColumns.find(column => column.name === clickedColumnData.name);
 			if (tmp) {
 				sortColumns = sortColumns.map(column => column !== tmp ? column : { ...tmp, sort: switchSortDirection(tmp.sort) });
@@ -47,21 +47,6 @@
 			sortColumns = [{ ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 }]
 		}
 
-		const compear = (a: any, b: any) => {
-			for (const element of sortColumns) {
-				const direction = element.sort === SortDirectorion.Asc ? 1 : -1;
-
-				if (a[element.name] > b[element.name]) {
-					return 1 * direction;
-				} else if (a[element.name] < b[element.name]) {
-					return -1 * direction;
-				}
-			}
-
-			return 0;
-		};
-
-		datasource = datasource.sort(compear);
 		columns = columns.map(column => {
 			let tmp = sortColumns.find(s => s.name === column.name);
 			if (!tmp) {
@@ -74,6 +59,25 @@
 				order: tmp.order
 			};
 		});
+
+		const compear = (a: any, b: any) => {
+			for (const element of columns) {
+				if (element.order === 0) {
+					continue;
+				}
+
+				const direction = element.sort === SortDirectorion.Asc ? 1 : -1;
+				if (a[element.name] > b[element.name]) {
+					return 1 * direction;
+				} else if (a[element.name] < b[element.name]) {
+					return -1 * direction;
+				}
+			}
+
+			return 0;
+		};
+
+		datasource = datasource.sort(compear);
 	}
 </script>
 
