@@ -16,7 +16,6 @@
 
 	export let datasource: any[] = [];
 	let columns: IColumnState[] = [];
-	let sortColumns: IColumnState[] = [];
 
 	onMount(() => {
 		if (!datasource || datasource.length === 0) {
@@ -36,29 +35,22 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			const lastSortableColumn = Math.max(...columns.map(column => column.order));
-			let tmp = sortColumns.find(column => column.name === clickedColumnData.name);
+			let tmp = columns.find(column => column.order !== 0 && column.name === clickedColumnData.name);
 			if (tmp) {
-				sortColumns = sortColumns.map(column => column !== tmp ? column : { ...tmp, sort: switchSortDirection(tmp.sort) });
+				columns = columns.map(column =>
+					column !== tmp
+					? column
+					: { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
-				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: lastSortableColumn + 1 }];
+				const lastSortableColumn = Math.max(...columns.map(column => column.order));
+				columns = columns.map(column =>
+					clickedColumnData.name !== column.name
+					? column
+					: { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: lastSortableColumn + 1 });
 			}
 		} else {
-			sortColumns = [{ ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 }]
+			columns = columns.map(column => clickedColumnData.name !== column.name ? { ...column, order: 0, sort: SortDirectorion.None } : { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 });
 		}
-
-		columns = columns.map(column => {
-			let tmp = sortColumns.find(s => s.name === column.name);
-			if (!tmp) {
-				return { ...column, sort: SortDirectorion.None, order: 0 };
-			}
-
-			return {
-				...column,
-				sort: tmp.sort,
-				order: tmp.order
-			};
-		});
 
 		const compear = (a: any, b: any) => {
 			for (const element of columns) {
