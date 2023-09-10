@@ -11,6 +11,7 @@
 	interface IColumnState {
 		name: string;
 		sort: SortDirectorion;
+		order: number;
 	}
 
 	export let datasource: any[] = [];
@@ -24,7 +25,8 @@
 
 		columns = Object.keys(datasource[0]).map((columnName) => ({
 			name: columnName,
-			sort: SortDirectorion.None
+			sort: SortDirectorion.None,
+			order: 0
 		}));
 	});
 
@@ -34,14 +36,15 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
+			const lastSortableColumn = Math.max(0, ...sortColumns.map(column => column.order));
 			let tmp = sortColumns.find(column => column.name === clickedColumnData.name);
 			if (tmp) {
 				sortColumns = sortColumns.map(column => column !== tmp ? column : { ...tmp, sort: switchSortDirection(tmp.sort) });
 			} else {
-				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }];
+				sortColumns = [ ...sortColumns, { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: lastSortableColumn + 1 }];
 			}
 		} else {
-			sortColumns = [{ ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort) }]
+			sortColumns = [{ ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 }]
 		}
 
 		const compear = (a: any, b: any) => {
@@ -62,14 +65,15 @@
 		columns = columns.map(column => {
 			let tmp = sortColumns.find(s => s.name === column.name);
 			if (!tmp) {
-				return { ...column, sort: SortDirectorion.None };
+				return { ...column, sort: SortDirectorion.None, order: 0 };
 			}
 
 			return {
 				...column,
-				sort: tmp.sort
+				sort: tmp.sort,
+				order: tmp.order
 			};
-		})
+		});
 	}
 </script>
 
@@ -79,9 +83,9 @@
 			<th on:click={(event) => columnClick(column, event)}>
 				{column.name}
 				{#if column.sort === 1 }
-					🔺
+					🔺{ column.order }
 				{:else if column.sort === 2}
-					🔻
+					🔻{ column.order }
 				{/if}
 			</th>
 		{/each}
