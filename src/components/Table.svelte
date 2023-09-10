@@ -40,13 +40,13 @@
 				columns = columns.map(column =>
 					column !== tmp
 					? column
-					: { ...tmp, sort: switchSortDirection(tmp.sort) });
+					: { ...column, sort: switchSortDirection(column.sort) });
 			} else {
 				const lastSortableColumn = Math.max(...columns.map(column => column.order));
 				columns = columns.map(column =>
 					clickedColumnData.name !== column.name
 					? column
-					: { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: lastSortableColumn + 1 });
+					: { ...column, sort: switchSortDirection(column.sort), order: lastSortableColumn + 1 });
 			}
 		} else {
 			columns = columns.map(column => clickedColumnData.name !== column.name ? { ...column, order: 0, sort: SortDirectorion.None } : { ...clickedColumnData, sort: switchSortDirection(clickedColumnData.sort), order: 1 });
