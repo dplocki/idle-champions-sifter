@@ -41,4 +41,9 @@
 			datum['Overwhelm'] =  typeof(value) === 'string' ? parseInt(value) : value;
 			return datum;
 		})
+		.map(datum => {
+			datum.Icon = datum.Icon.replace(/\.png.+$/, '.png');
+
+			return Object.assign({'Icon': null, 'Name': null }, datum);
+		});
 })();

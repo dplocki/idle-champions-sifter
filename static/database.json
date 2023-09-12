@@ -1,9 +1,9 @@
 [
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Bruenor.png",
+		"Name": "Bruenor",
 		"Slot": 1,
 		"Cost": 5,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Bruenor.png/revision/latest/scale-to-width-down/35?cb=20190501123001",
-		"Name": "Bruenor",
 		"HP": 98,
 		"Age": 252,
 		"ALL-C": "N",
@@ -23,10 +23,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b1/Icon_Celeste.png",
+		"Name": "Celeste",
 		"Slot": 2,
 		"Cost": 50,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b1/Icon_Celeste.png/revision/latest/scale-to-width-down/35?cb=20190501123407",
-		"Name": "Celeste",
 		"HP": 43,
 		"Age": 36,
 		"ALL-C": "L",
@@ -46,10 +46,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Nayeli.png",
+		"Name": "Nayeli",
 		"Slot": 3,
 		"Cost": 1000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Nayeli.png/revision/latest/scale-to-width-down/35?cb=20190501123410",
-		"Name": "Nayeli",
 		"HP": 188,
 		"Age": 39,
 		"ALL-C": "L",
@@ -69,10 +69,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Jarlaxle.png",
+		"Name": "Jarlaxle",
 		"Slot": 4,
 		"Cost": 25000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Jarlaxle.png/revision/latest/scale-to-width-down/35?cb=20190501123413",
-		"Name": "Jarlaxle",
 		"HP": 43,
 		"Age": 245,
 		"ALL-C": "N",
@@ -92,10 +92,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0f/Icon_Calliope.png",
+		"Name": "Calliope",
 		"Slot": 5,
 		"Cost": 1000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0f/Icon_Calliope.png/revision/latest/scale-to-width-down/35?cb=20190501123416",
-		"Name": "Calliope",
 		"HP": 45,
 		"Age": 65,
 		"ALL-C": "C",
@@ -115,10 +115,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Asharra.png",
+		"Name": "Asharra",
 		"Slot": 6,
 		"Cost": 50000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Asharra.png/revision/latest/scale-to-width-down/35?cb=20190501123419",
-		"Name": "Asharra",
 		"HP": 35,
 		"Age": 38,
 		"ALL-C": "L",
@@ -138,10 +138,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4d/Icon_Minsc.png",
+		"Name": "Minsc",
 		"Slot": 7,
 		"Cost": 2500000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4d/Icon_Minsc.png/revision/latest/scale-to-width-down/35?cb=20190501123421",
-		"Name": "Minsc",
 		"HP": 47,
 		"Age": 45,
 		"ALL-C": "C",
@@ -161,10 +161,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/24/Icon_Delina.png",
+		"Name": "Delina",
 		"Slot": 8,
 		"Cost": 100000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/24/Icon_Delina.png/revision/latest/scale-to-width-down/35?cb=20190501123425",
-		"Name": "Delina",
 		"HP": 41,
 		"Age": 245,
 		"ALL-C": "C",
@@ -184,10 +184,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/30/Icon_Makos.png",
+		"Name": "Makos",
 		"Slot": 9,
 		"Cost": 10000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/30/Icon_Makos.png/revision/latest/scale-to-width-down/35?cb=20190501123428",
-		"Name": "Makos",
 		"HP": 41,
 		"Age": 56,
 		"ALL-C": "N",
@@ -207,10 +207,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ca/Icon_Tyril.png",
+		"Name": "Tyril",
 		"Slot": 10,
 		"Cost": 1000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ca/Icon_Tyril.png/revision/latest/scale-to-width-down/35?cb=20190501123431",
-		"Name": "Tyril",
 		"HP": 69,
 		"Age": 75,
 		"ALL-C": "N",
@@ -230,10 +230,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Jamilah.png",
+		"Name": "Jamilah",
 		"Slot": 11,
 		"Cost": 250000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Jamilah.png/revision/latest/scale-to-width-down/35?cb=20190501123434",
-		"Name": "Jamilah",
 		"HP": 94,
 		"Age": 35,
 		"ALL-C": "N",
@@ -253,10 +253,10 @@
 		"Overwhelm": 15
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/45/Icon_Arkhan.png",
+		"Name": "Arkhan",
 		"Slot": 12,
 		"Cost": 100000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/45/Icon_Arkhan.png/revision/latest/scale-to-width-down/35?cb=20190501123437",
-		"Name": "Arkhan",
 		"HP": 441,
 		"Age": 40,
 		"ALL-C": "N",
@@ -276,10 +276,10 @@
 		"Overwhelm": 30
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b4/Icon_Hitch.png",
+		"Name": "Hitch",
 		"Slot": 8,
 		"Cost": 100000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b4/Icon_Hitch.png/revision/latest/scale-to-width-down/35?cb=20190501123440",
-		"Name": "Hitch",
 		"HP": 43,
 		"Age": 29,
 		"ALL-C": "C",
@@ -299,10 +299,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_Stoki.png",
+		"Name": "Stoki",
 		"Slot": 4,
 		"Cost": 65000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_Stoki.png/revision/latest/scale-to-width-down/35?cb=20190501123443",
-		"Name": "Stoki",
 		"HP": 41,
 		"Age": 45,
 		"ALL-C": "L",
@@ -322,10 +322,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9d/Icon_Krond.png",
+		"Name": "Krond",
 		"Slot": 6,
 		"Cost": 100000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9d/Icon_Krond.png/revision/latest/scale-to-width-down/35?cb=20190501123445",
-		"Name": "Krond",
 		"HP": 1745,
 		"Age": 42,
 		"ALL-C": "C",
@@ -345,10 +345,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/16/Icon_Gromma.png",
+		"Name": "Gromma",
 		"Slot": 3,
 		"Cost": 4300,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/16/Icon_Gromma.png/revision/latest/scale-to-width-down/35?cb=20190501123448",
-		"Name": "Gromma",
 		"HP": 0,
 		"Age": 80,
 		"ALL-C": "L",
@@ -368,10 +368,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/47/Icon_Dhadius.png",
+		"Name": "Dhadius",
 		"Slot": 5,
 		"Cost": 1500000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/47/Icon_Dhadius.png/revision/latest/scale-to-width-down/35?cb=20190501123450",
-		"Name": "Dhadius",
 		"HP": 37,
 		"Age": 57,
 		"ALL-C": "C",
@@ -391,10 +391,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Drizzt.png",
+		"Name": "Drizzt",
 		"Slot": 9,
 		"Cost": 12500000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Drizzt.png/revision/latest/scale-to-width-down/35?cb=20190501123453",
-		"Name": "Drizzt",
 		"HP": 1700,
 		"Age": 75,
 		"ALL-C": "L",
@@ -414,10 +414,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/88/Icon_Barrowin.png",
+		"Name": "Barrowin",
 		"Slot": 10,
 		"Cost": 1330000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/88/Icon_Barrowin.png/revision/latest/scale-to-width-down/35?cb=20190501123455",
-		"Name": "Barrowin",
 		"HP": 1753,
 		"Age": 115,
 		"ALL-C": "L",
@@ -437,10 +437,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Regis.png",
+		"Name": "Regis",
 		"Slot": 2,
 		"Cost": 65,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Regis.png/revision/latest/scale-to-width-down/35?cb=20190501123457",
-		"Name": "Regis",
 		"HP": 1698,
 		"Age": 51,
 		"ALL-C": "C",
@@ -460,10 +460,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Birdsong.png",
+		"Name": "Birdsong",
 		"Slot": 9,
 		"Cost": 8000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Birdsong.png/revision/latest/scale-to-width-down/35?cb=20190501123500",
-		"Name": "Birdsong",
 		"HP": 1698,
 		"Age": 26,
 		"ALL-C": "L",
@@ -483,10 +483,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/96/Icon_Zorbu.png",
+		"Name": "Zorbu",
 		"Slot": 12,
 		"Cost": 50000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/96/Icon_Zorbu.png/revision/latest/scale-to-width-down/35?cb=20190501123502",
-		"Name": "Zorbu",
 		"HP": 45,
 		"Age": 325,
 		"ALL-C": "C",
@@ -506,10 +506,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_Strix.png",
+		"Name": "Strix",
 		"Slot": 11,
 		"Cost": 35000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_Strix.png/revision/latest/scale-to-width-down/35?cb=20190501123504",
-		"Name": "Strix",
 		"HP": 1696,
 		"Age": 82,
 		"ALL-C": "C",
@@ -529,10 +529,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/46/Icon_Nrakk.png",
+		"Name": "Nrakk",
 		"Slot": 8,
 		"Cost": 90000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/46/Icon_Nrakk.png/revision/latest/scale-to-width-down/35?cb=20190501123507",
-		"Name": "Nrakk",
 		"HP": 1700,
 		"Age": 41,
 		"ALL-C": "L",
@@ -552,10 +552,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Catti-brie.png",
+		"Name": "Catti-brie",
 		"Slot": 7,
 		"Cost": 8000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Catti-brie.png/revision/latest/scale-to-width-down/35?cb=20190501123509",
-		"Name": "Catti-brie",
 		"HP": 1700,
 		"Age": 33,
 		"ALL-C": "C",
@@ -575,10 +575,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f0/Icon_Evelyn.png",
+		"Name": "Evelyn",
 		"Slot": 6,
 		"Cost": 78000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f0/Icon_Evelyn.png/revision/latest/scale-to-width-down/35?cb=20190501123512",
-		"Name": "Evelyn",
 		"HP": 1839,
 		"Age": 22,
 		"ALL-C": "N",
@@ -598,10 +598,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/76/Icon_Binwin.png",
+		"Name": "Binwin",
 		"Slot": 3,
 		"Cost": 1250,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/76/Icon_Binwin.png/revision/latest/scale-to-width-down/35?cb=20190501123515",
-		"Name": "Binwin",
 		"HP": 98,
 		"Age": 39,
 		"ALL-C": "L",
@@ -621,10 +621,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d7/Icon_Deekin.png",
+		"Name": "Deekin",
 		"Slot": 1,
 		"Cost": 10,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d7/Icon_Deekin.png/revision/latest/scale-to-width-down/35?cb=20190501123517",
-		"Name": "Deekin",
 		"HP": 45,
 		"Age": 28,
 		"ALL-C": "N",
@@ -644,10 +644,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Xander.png",
+		"Name": "Xander",
 		"Slot": 5,
 		"Cost": 1250000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Xander.png/revision/latest/scale-to-width-down/35?cb=20191022055105",
-		"Name": "Xander",
 		"HP": 41,
 		"Age": 19,
 		"ALL-C": "C",
@@ -667,10 +667,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0d/Icon_Azaka.png",
+		"Name": "Azaka",
 		"Slot": 12,
 		"Cost": 250000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0d/Icon_Azaka.png/revision/latest/scale-to-width-down/35?cb=20190501123522",
-		"Name": "Azaka",
 		"HP": 52,
 		"Age": 40,
 		"ALL-C": "L",
@@ -690,10 +690,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Ishi.png",
+		"Name": "Ishi",
 		"Slot": 4,
 		"Cost": 75000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Ishi.png/revision/latest/scale-to-width-down/35?cb=20190501123524",
-		"Name": "Ishi",
 		"HP": 47,
 		"Age": 27,
 		"ALL-C": "C",
@@ -713,10 +713,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/95/Icon_Wulfgar.png",
+		"Name": "Wulfgar",
 		"Slot": 10,
 		"Cost": 750000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/95/Icon_Wulfgar.png/revision/latest/scale-to-width-down/35?cb=20190501182653",
-		"Name": "Wulfgar",
 		"HP": 534,
 		"Age": 33,
 		"ALL-C": "C",
@@ -736,10 +736,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Farideh.png",
+		"Name": "Farideh",
 		"Slot": 7,
 		"Cost": 5250000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Farideh.png/revision/latest/scale-to-width-down/35?cb=20190501123529",
-		"Name": "Farideh",
 		"HP": 45,
 		"Age": 19,
 		"ALL-C": "N",
@@ -759,10 +759,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Donaar.png",
+		"Name": "Donaar",
 		"Slot": 2,
 		"Cost": 45,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Donaar.png/revision/latest/scale-to-width-down/35?cb=20190501123532",
-		"Name": "Donaar",
 		"HP": 94,
 		"Age": 19,
 		"ALL-C": "C",
@@ -782,10 +782,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a5/Icon_Vlahnya.png",
+		"Name": "Vlahnya",
 		"Slot": 8,
 		"Cost": 250000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a5/Icon_Vlahnya.png/revision/latest/scale-to-width-down/35?cb=20190501123534",
-		"Name": "Vlahnya",
 		"HP": 37,
 		"Age": 530,
 		"ALL-C": "N",
@@ -805,10 +805,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Warden.png",
+		"Name": "Warden",
 		"Slot": 11,
 		"Cost": 500000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Warden.png/revision/latest/scale-to-width-down/35?cb=20190501123537",
-		"Name": "Warden",
 		"HP": 96,
 		"Age": 12,
 		"ALL-C": "C",
@@ -828,10 +828,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Nerys.png",
+		"Name": "Nerys",
 		"Slot": 12,
 		"Cost": 100000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Nerys.png/revision/latest/scale-to-width-down/35?cb=20190501123540",
-		"Name": "Nerys",
 		"HP": 45,
 		"Age": 26,
 		"ALL-C": "L",
@@ -851,10 +851,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b2/Icon_K%27thriss.png",
+		"Name": "K'thriss",
 		"Slot": 1,
 		"Cost": 8,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b2/Icon_K%27thriss.png/revision/latest/scale-to-width-down/35?cb=20190501123542",
-		"Name": "K'thriss",
 		"HP": 41,
 		"Age": 320,
 		"ALL-C": "C",
@@ -874,10 +874,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Paultin.png",
+		"Name": "Paultin",
 		"Slot": 4,
 		"Cost": 45000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Paultin.png/revision/latest/scale-to-width-down/35?cb=20190501123545",
-		"Name": "Paultin",
 		"HP": 41,
 		"Age": 25,
 		"ALL-C": "C",
@@ -897,10 +897,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e3/Icon_Black_Viper.png",
+		"Name": "Black Viper",
 		"Slot": 7,
 		"Cost": 12500000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e3/Icon_Black_Viper.png/revision/latest/scale-to-width-down/35?cb=20190501123548",
-		"Name": "Black Viper",
 		"HP": 47,
 		"Age": 32,
 		"ALL-C": "C",
@@ -920,10 +920,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Rosie.png",
+		"Name": "Rosie",
 		"Slot": 10,
 		"Cost": 900000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Rosie.png/revision/latest/scale-to-width-down/35?cb=20190501123552",
-		"Name": "Rosie",
 		"HP": 0,
 		"Age": 110,
 		"ALL-C": "C",
@@ -943,10 +943,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1f/Icon_Aila.png",
+		"Name": "Aila",
 		"Slot": 9,
 		"Cost": 7500000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1f/Icon_Aila.png/revision/latest/scale-to-width-down/35?cb=20190501123554",
-		"Name": "Aila",
 		"HP": 239,
 		"Age": 25,
 		"ALL-C": "C",
@@ -966,10 +966,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/98/Icon_Spurt.png",
+		"Name": "Spurt",
 		"Slot": 3,
 		"Cost": 750,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/98/Icon_Spurt.png/revision/latest/scale-to-width-down/35?cb=20190501175021",
-		"Name": "Spurt",
 		"HP": 35,
 		"Age": 0,
 		"ALL-C": "L",
@@ -989,10 +989,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Qillek.png",
+		"Name": "Qillek",
 		"Slot": 5,
 		"Cost": 2000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Qillek.png/revision/latest/scale-to-width-down/35?cb=20190523194927",
-		"Name": "Qillek",
 		"HP": 39,
 		"Age": 3,
 		"ALL-C": "L",
@@ -1012,10 +1012,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/15/Icon_Korth.png",
+		"Name": "Korth",
 		"Slot": 2,
 		"Cost": 75,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/15/Icon_Korth.png/revision/latest/scale-to-width-down/35?cb=20190622075627",
-		"Name": "Korth",
 		"HP": 98,
 		"Age": 55,
 		"ALL-C": "N",
@@ -1035,10 +1035,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Walnut.png",
+		"Name": "Walnut",
 		"Slot": 8,
 		"Cost": 150000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Walnut.png/revision/latest/scale-to-width-down/35?cb=20190703184319",
-		"Name": "Walnut",
 		"HP": 270,
 		"Age": 62,
 		"ALL-C": "L",
@@ -1058,10 +1058,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/ff/Icon_Shandie.png",
+		"Name": "Shandie",
 		"Slot": 6,
 		"Cost": 125000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/ff/Icon_Shandie.png/revision/latest/scale-to-width-down/35?cb=20191022055132",
-		"Name": "Shandie",
 		"HP": 47,
 		"Age": 63,
 		"ALL-C": "C",
@@ -1081,10 +1081,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Jim.png",
+		"Name": "Jim",
 		"Slot": 7,
 		"Cost": 7500000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Jim.png/revision/latest/scale-to-width-down/35?cb=20191022055136",
-		"Name": "Jim",
 		"HP": 35,
 		"Age": 41,
 		"ALL-C": "C",
@@ -1104,10 +1104,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Turiel.png",
+		"Name": "Turiel",
 		"Slot": 1,
 		"Cost": 20,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Turiel.png/revision/latest/scale-to-width-down/35?cb=20191022055139",
-		"Name": "Turiel",
 		"HP": 41,
 		"Age": 121,
 		"ALL-C": "L",
@@ -1127,10 +1127,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4c/Icon_Pwent.png",
+		"Name": "Pwent",
 		"Slot": 5,
 		"Cost": 900000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4c/Icon_Pwent.png/revision/latest/scale-to-width-down/35?cb=20191022055143",
-		"Name": "Pwent",
 		"HP": 98,
 		"Age": 176,
 		"ALL-C": "C",
@@ -1150,10 +1150,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/07/Icon_Avren.png",
+		"Name": "Avren",
 		"Slot": 11,
 		"Cost": 750000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/07/Icon_Avren.png/revision/latest/scale-to-width-down/35?cb=20191022055146",
-		"Name": "Avren",
 		"HP": 45,
 		"Age": 40,
 		"ALL-C": "C",
@@ -1173,10 +1173,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Sentry.png",
+		"Name": "Sentry",
 		"Slot": 4,
 		"Cost": 50000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Sentry.png/revision/latest/scale-to-width-down/35?cb=20191120152934",
-		"Name": "Sentry",
 		"HP": 215,
 		"Age": 13,
 		"ALL-C": "L",
@@ -1196,10 +1196,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0e/Icon_Krull.png",
+		"Name": "Krull",
 		"Slot": 6,
 		"Cost": 90000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0e/Icon_Krull.png/revision/latest/scale-to-width-down/35?cb=20191208092120",
-		"Name": "Krull",
 		"HP": 232,
 		"Age": 40,
 		"ALL-C": "L",
@@ -1219,10 +1219,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/32/Icon_Artemis.png",
+		"Name": "Artemis",
 		"Slot": 3,
 		"Cost": 2500,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/32/Icon_Artemis.png/revision/latest/scale-to-width-down/35?cb=20191211194702",
-		"Name": "Artemis",
 		"HP": 45,
 		"Age": 131,
 		"ALL-C": "L",
@@ -1242,10 +1242,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7c/Icon_M%C3%B4rg%C3%A6n.png",
+		"Name": "Môrgæn",
 		"Slot": 9,
 		"Cost": 11000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7c/Icon_M%C3%B4rg%C3%A6n.png/revision/latest/scale-to-width-down/35?cb=20191218215024",
-		"Name": "Môrgæn",
 		"HP": 43,
 		"Age": 150,
 		"ALL-C": "C",
@@ -1265,10 +1265,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/43/Icon_Dragonbait.png",
+		"Name": "Dragonbait",
 		"Slot": 11,
 		"Cost": 75000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/43/Icon_Dragonbait.png/revision/latest/scale-to-width-down/35?cb=20191212010319",
-		"Name": "Dragonbait",
 		"HP": 0,
 		"Age": 242,
 		"ALL-C": "L",
@@ -1288,10 +1288,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Havilar",
 		"Slot": 10,
 		"Cost": 300000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Havilar.png/revision/latest/scale-to-width-down/35?cb=20191218215018",
-		"Name": "Havilar",
 		"HP": 342,
 		"Age": 19,
 		"ALL-C": "C",
@@ -1311,10 +1311,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Sisaspia",
 		"Slot": 1,
 		"Cost": 30,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Sisaspia.png/revision/latest/scale-to-width-down/35?cb=20200108213242",
-		"Name": "Sisaspia",
 		"HP": 47,
 		"Age": 37,
 		"ALL-C": "N",
@@ -1334,10 +1334,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Briv",
 		"Slot": 5,
 		"Cost": 3000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4f/Icon_Briv.png/revision/latest/scale-to-width-down/35?cb=20200313062911",
-		"Name": "Briv",
 		"HP": 0,
 		"Age": 42,
 		"ALL-C": "C",
@@ -1357,10 +1357,10 @@
 		"Overwhelm": 30
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Melf",
 		"Slot": 12,
 		"Cost": 200000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/dd/Icon_Melf.png/revision/latest/scale-to-width-down/35?cb=20200402022403",
-		"Name": "Melf",
 		"HP": 45,
 		"Age": 210,
 		"ALL-C": "N",
@@ -1380,10 +1380,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Krydle",
 		"Slot": 2,
 		"Cost": 100,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Krydle.png/revision/latest/scale-to-width-down/35?cb=20200421172326",
-		"Name": "Krydle",
 		"HP": 45,
 		"Age": 36,
 		"ALL-C": "C",
@@ -1403,10 +1403,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Jaheira",
 		"Slot": 9,
 		"Cost": 100000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b5/Icon_Jaheira.png/revision/latest/scale-to-width-down/35?cb=20200514013028",
-		"Name": "Jaheira",
 		"HP": 45,
 		"Age": 36,
 		"ALL-C": "N",
@@ -1426,10 +1426,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Nova",
 		"Slot": 11,
 		"Cost": 100000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Nova.png/revision/latest/scale-to-width-down/35?cb=20200603213302",
-		"Name": "Nova",
 		"HP": 581,
 		"Age": 20,
 		"ALL-C": "C",
@@ -1449,10 +1449,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Freely",
 		"Slot": 7,
 		"Cost": 15000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Freely.png/revision/latest/scale-to-width-down/35?cb=20200624224805",
-		"Name": "Freely",
 		"HP": 43,
 		"Age": 42,
 		"ALL-C": "N",
@@ -1472,10 +1472,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Beadle",
 		"Slot": 8,
 		"Cost": 500000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/90/Icon_Beadle.png/revision/latest/scale-to-width-down/35?cb=20200717034308",
-		"Name": "Beadle",
 		"HP": 0,
 		"Age": 91,
 		"ALL-C": "N",
@@ -1495,10 +1495,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Grimm",
 		"Slot": 8,
 		"Cost": 500000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2a/Icon_Grimm.png/revision/latest/scale-to-width-down/35?cb=20200717034308",
-		"Name": "Grimm",
 		"HP": 47,
 		"Age": 26,
 		"ALL-C": "C",
@@ -1518,10 +1518,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Omin",
 		"Slot": 3,
 		"Cost": 5000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e9/Icon_Omin.png/revision/latest/scale-to-width-down/35?cb=20200805233753",
-		"Name": "Omin",
 		"HP": 94,
 		"Age": 43,
 		"ALL-C": "L",
@@ -1541,10 +1541,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Ulkoria",
 		"Slot": 10,
 		"Cost": 500000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/42/Icon_Ulkoria.png/revision/latest/scale-to-width-down/35?cb=20200820055005",
-		"Name": "Ulkoria",
 		"HP": 0,
 		"Age": 377,
 		"ALL-C": "N",
@@ -1564,10 +1564,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Lazaapz",
 		"Slot": 9,
 		"Cost": 20000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/51/Icon_Lazaapz.png/revision/latest/scale-to-width-down/35?cb=20200904235015",
-		"Name": "Lazaapz",
 		"HP": 145,
 		"Age": 19,
 		"ALL-C": "N",
@@ -1587,10 +1587,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Torogar",
 		"Slot": 10,
 		"Cost": 850000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/64/Icon_Torogar.png/revision/latest/scale-to-width-down/35?cb=20200926014725",
-		"Name": "Torogar",
 		"HP": 112,
 		"Age": 32,
 		"ALL-C": "L",
@@ -1610,10 +1610,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Ezmerelda",
 		"Slot": 1,
 		"Cost": 15,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/6c/Icon_Ezmerelda.png/revision/latest/scale-to-width-down/35?cb=20201020221059",
-		"Name": "Ezmerelda",
 		"HP": 43,
 		"Age": 27,
 		"ALL-C": "C",
@@ -1633,10 +1633,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Penelope",
 		"Slot": 12,
 		"Cost": 10000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Penelope.png/revision/latest/scale-to-width-down/35?cb=20201106212916",
-		"Name": "Penelope",
 		"HP": 37,
 		"Age": 37,
 		"ALL-C": "C",
@@ -1656,10 +1656,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Lucius",
 		"Slot": 7,
 		"Cost": 10000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e5/Icon_Lucius.png/revision/latest/scale-to-width-down/35?cb=20201201202747",
-		"Name": "Lucius",
 		"HP": 43,
 		"Age": 76,
 		"ALL-C": "L",
@@ -1679,10 +1679,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Baeloth",
 		"Slot": 4,
 		"Cost": 90000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/af/Icon_Baeloth.png/revision/latest/scale-to-width-down/35?cb=20201220231646",
-		"Name": "Baeloth",
 		"HP": 41,
 		"Age": 222,
 		"ALL-C": "C",
@@ -1702,10 +1702,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/52/Icon_Talin.png",
+		"Name": "Talin",
 		"Slot": 2,
 		"Cost": 60,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/52/Icon_Talin.png/revision/latest/scale-to-width-down/35?cb=20210111221639",
-		"Name": "Talin",
 		"HP": 47,
 		"Age": 26,
 		"ALL-C": "C",
@@ -1725,10 +1725,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Hew_Maan.png",
+		"Name": "Hew Maan",
 		"Slot": 8,
 		"Cost": 125000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Hew_Maan.png/revision/latest/scale-to-width-down/35?cb=20210202052842",
-		"Name": "Hew Maan",
 		"HP": 35,
 		"Age": 67,
 		"ALL-C": "L",
@@ -1748,10 +1748,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/87/Icon_Orisha.png",
+		"Name": "Orisha",
 		"Slot": 11,
 		"Cost": 425000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/87/Icon_Orisha.png/revision/latest/scale-to-width-down/35?cb=20210219230610",
-		"Name": "Orisha",
 		"HP": 41,
 		"Age": 30,
 		"ALL-C": "N",
@@ -1771,10 +1771,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/77/Icon_Alyndra.png",
+		"Name": "Alyndra",
 		"Slot": 6,
 		"Cost": 150000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/77/Icon_Alyndra.png/revision/latest/scale-to-width-down/35?cb=20210312221400",
-		"Name": "Alyndra",
 		"HP": 45,
 		"Age": 168,
 		"ALL-C": "N",
@@ -1794,10 +1794,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/26/Icon_Reya.png",
+		"Name": "Reya",
 		"Slot": 6,
 		"Cost": 250000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/26/Icon_Reya.png/revision/latest/scale-to-width-down/35?cb=20210328201747",
-		"Name": "Reya",
 		"HP": 623,
 		"Age": 19,
 		"ALL-C": "L",
@@ -1817,10 +1817,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b7/Icon_Orkira.png",
+		"Name": "Orkira",
 		"Slot": 1,
 		"Cost": 25,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b7/Icon_Orkira.png/revision/latest/scale-to-width-down/35?cb=20210405054653",
-		"Name": "Orkira",
 		"HP": 49,
 		"Age": 34,
 		"ALL-C": "C",
@@ -1840,10 +1840,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Shaka.png",
+		"Name": "Shaka",
 		"Slot": 9,
 		"Cost": 3000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Shaka.png/revision/latest/scale-to-width-down/35?cb=20210423215038",
-		"Name": "Shaka",
 		"HP": 45,
 		"Age": 29,
 		"ALL-C": "N",
@@ -1863,10 +1863,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a2/Icon_Mehen.png",
+		"Name": "Mehen",
 		"Slot": 3,
 		"Cost": 3750,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a2/Icon_Mehen.png/revision/latest/scale-to-width-down/35?cb=20210514185437",
-		"Name": "Mehen",
 		"HP": 47,
 		"Age": 48,
 		"ALL-C": "N",
@@ -1886,10 +1886,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/81/Icon_Sgt._Knox.png",
+		"Name": "Sgt. Knox",
 		"Slot": 6,
 		"Cost": 250000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/81/Icon_Sgt._Knox.png/revision/latest/scale-to-width-down/35?cb=20210625184630",
-		"Name": "Sgt. Knox",
 		"HP": 148,
 		"Age": 50,
 		"ALL-C": "N",
@@ -1909,10 +1909,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2d/Icon_Selise.png",
+		"Name": "Selise",
 		"Slot": 12,
 		"Cost": 15000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2d/Icon_Selise.png/revision/latest/scale-to-width-down/35?cb=20210604185836",
-		"Name": "Selise",
 		"HP": 524,
 		"Age": 42,
 		"ALL-C": "L",
@@ -1932,10 +1932,10 @@
 		"Overwhelm": 15
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Ellywick",
 		"Slot": 10,
 		"Cost": 1000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ad/Icon_Ellywick.png/revision/latest/scale-to-width-down/35?cb=20210627233739",
-		"Name": "Ellywick",
 		"HP": 42,
 		"Age": 125,
 		"ALL-C": "C",
@@ -1955,10 +1955,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Prudence",
 		"Slot": 5,
 		"Cost": 5000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ae/Icon_Prudence.png/revision/latest/scale-to-width-down/35?cb=20210805214853",
-		"Name": "Prudence",
 		"HP": 37,
 		"Age": 28,
 		"ALL-C": "C",
@@ -1978,10 +1978,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Corazón",
 		"Slot": 8,
 		"Cost": 366000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2e/Icon_Coraz%C3%B3n.png/revision/latest/scale-to-width-down/35?cb=20210827191012",
-		"Name": "Corazón",
 		"HP": 43,
 		"Age": 30,
 		"ALL-C": "C",
@@ -2001,10 +2001,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "D'hani",
 		"Slot": 1,
 		"Cost": 40,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_D%27hani.png/revision/latest/scale-to-width-down/35?cb=20210905091210",
-		"Name": "D'hani",
 		"HP": 43,
 		"Age": 8,
 		"ALL-C": "C",
@@ -2024,10 +2024,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Brig",
 		"Slot": 3,
 		"Cost": 7500,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/68/Icon_Brig.png/revision/latest/scale-to-width-down/35?cb=20211015212137",
-		"Name": "Brig",
 		"HP": 49,
 		"Age": 38,
 		"ALL-C": "C",
@@ -2047,10 +2047,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Widdle",
 		"Slot": 2,
 		"Cost": 90,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d3/Icon_Widdle.png/revision/latest/scale-to-width-down/35?cb=20211105211846",
-		"Name": "Widdle",
 		"HP": 49,
 		"Age": 423,
 		"ALL-C": "C",
@@ -2070,10 +2070,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Rust",
 		"Slot": 11,
 		"Cost": 1000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Rust.png/revision/latest/scale-to-width-down/35?cb=20220107202001",
-		"Name": "Rust",
 		"HP": 47,
 		"Age": 23,
 		"ALL-C": "N",
@@ -2093,10 +2093,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Xerophon",
 		"Slot": 7,
 		"Cost": 5000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/00/Icon_Xerophon.png/revision/latest/scale-to-width-down/35?cb=20211201205349",
-		"Name": "Xerophon",
 		"HP": 0,
 		"Age": 47,
 		"ALL-C": "N",
@@ -2116,10 +2116,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Viconia",
 		"Slot": 5,
 		"Cost": 2500000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f7/Icon_Viconia.png/revision/latest/scale-to-width-down/35?cb=20211217225941",
-		"Name": "Viconia",
 		"HP": 39,
 		"Age": 270,
 		"ALL-C": "N",
@@ -2139,10 +2139,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Yorven",
 		"Slot": 10,
 		"Cost": 900000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0b/Icon_Yorven.png/revision/latest/scale-to-width-down/35?cb=20211204005448",
-		"Name": "Yorven",
 		"HP": 47,
 		"Age": 39,
 		"ALL-C": "C",
@@ -2162,10 +2162,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "NERDS",
 		"Slot": 1,
 		"Cost": 8,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_NERDS.png/revision/latest/scale-to-width-down/35?cb=20210901215553",
-		"Name": "NERDS",
 		"HP": 0,
 		"Age": 38,
 		"ALL-C": "C",
@@ -2185,10 +2185,10 @@
 		"Overwhelm": 15
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Vi",
 		"Slot": 12,
 		"Cost": 150000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Vi.png/revision/latest/scale-to-width-down/35?cb=20220128203313",
-		"Name": "Vi",
 		"HP": 41,
 		"Age": 500,
 		"ALL-C": "N",
@@ -2208,10 +2208,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Tatyana",
 		"Slot": 8,
 		"Cost": 400000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Tatyana.png/revision/latest/scale-to-width-down/35?cb=20220304223024",
-		"Name": "Tatyana",
 		"HP": 322,
 		"Age": 30,
 		"ALL-C": "C",
@@ -2231,10 +2231,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Blooshi",
 		"Slot": 2,
 		"Cost": 150,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/44/Icon_Blooshi.png/revision/latest/scale-to-width-down/35?cb=20220323180547",
-		"Name": "Blooshi",
 		"HP": 132,
 		"Age": 11.5,
 		"ALL-C": "N",
@@ -2254,10 +2254,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Gazrick",
 		"Slot": 7,
 		"Cost": 25000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Gazrick.png/revision/latest/scale-to-width-down/35?cb=20220331192645",
-		"Name": "Gazrick",
 		"HP": 139,
 		"Age": 130,
 		"ALL-C": "N",
@@ -2277,10 +2277,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Dungeon Master",
 		"Slot": 6,
 		"Cost": 100000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Dungeon_Master.png/revision/latest/scale-to-width-down/35?cb=20220422174116",
-		"Name": "Dungeon Master",
 		"HP": 146,
 		"Age": "1000+",
 		"ALL-C": "L",
@@ -2300,10 +2300,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Nordom",
 		"Slot": 9,
 		"Cost": 25000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/70/Icon_Nordom.png/revision/latest/scale-to-width-down/35?cb=20220513190709",
-		"Name": "Nordom",
 		"HP": 160,
 		"Age": 122,
 		"ALL-C": "L",
@@ -2323,10 +2323,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Merilwen",
 		"Slot": 2,
 		"Cost": 40,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Merilwen.png/revision/latest/scale-to-width-down/35?cb=20220603192009",
-		"Name": "Merilwen",
 		"HP": 45,
 		"Age": 101,
 		"ALL-C": "N",
@@ -2346,10 +2346,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Nahara",
 		"Slot": 3,
 		"Cost": 8000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/59/Icon_Nahara.png/revision/latest/scale-to-width-down/35?cb=20220624190828",
-		"Name": "Nahara",
 		"HP": 65,
 		"Age": 27,
 		"ALL-C": "C",
@@ -2369,10 +2369,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Valentine",
 		"Slot": 5,
 		"Cost": 2000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4e/Icon_Valentine.png/revision/latest/scale-to-width-down/35?cb=20220715203131",
-		"Name": "Valentine",
 		"HP": 170,
 		"Age": 22,
 		"ALL-C": "N",
@@ -2392,10 +2392,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Desmond",
 		"Slot": 4,
 		"Cost": 80000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Desmond.png/revision/latest/scale-to-width-down/35?cb=20220218203541",
-		"Name": "Desmond",
 		"HP": 142,
 		"Age": 33,
 		"ALL-C": "C",
@@ -2415,10 +2415,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Name": "Voronika",
 		"Slot": 1,
 		"Cost": 10,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/17/Icon_Voronika.png/revision/latest/scale-to-width-down/35?cb=20220805192516",
-		"Name": "Voronika",
 		"HP": 61,
 		"Age": 31,
 		"ALL-C": "C",
@@ -2438,10 +2438,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/fe/Icon_Dob.png",
+		"Name": "Dob",
 		"Slot": 12,
 		"Cost": 75000000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/fe/Icon_Dob.png/revision/latest/scale-to-width-down/35?cb=20220819201204",
-		"Name": "Dob",
 		"HP": 186,
 		"Age": 28,
 		"ALL-C": "C",
@@ -2461,10 +2461,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bb/Icon_Egbert.png",
+		"Name": "Egbert",
 		"Slot": 7,
 		"Cost": 50000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bb/Icon_Egbert.png/revision/latest/scale-to-width-down/35?cb=20220923191740",
-		"Name": "Egbert",
 		"HP": 2219,
 		"Age": 24,
 		"ALL-C": "C",
@@ -2484,10 +2484,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Kent.png",
+		"Name": "Kent",
 		"Slot": 4,
 		"Cost": 125000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Kent.png/revision/latest/scale-to-width-down/35?cb=20221014202641",
-		"Name": "Kent",
 		"HP": 206,
 		"Age": 35,
 		"ALL-C": "N",
@@ -2507,10 +2507,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/80/Icon_Virgil.png",
+		"Name": "Virgil",
 		"Slot": 10,
 		"Cost": 1250000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/80/Icon_Virgil.png/revision/latest/scale-to-width-down/35?cb=20221104190112",
-		"Name": "Virgil",
 		"HP": 198,
 		"Age": 32,
 		"ALL-C": "N",
@@ -2530,10 +2530,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/29/Icon_Warduke.png",
+		"Name": "Warduke",
 		"Slot": 8,
 		"Cost": 4000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/29/Icon_Warduke.png/revision/latest/scale-to-width-down/35?cb=20221125211634",
-		"Name": "Warduke",
 		"HP": 3680,
 		"Age": 39,
 		"ALL-C": "C",
@@ -2553,10 +2553,10 @@
 		"Overwhelm": 25
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c0/Icon_Imoen.png",
+		"Name": "Imoen",
 		"Slot": 11,
 		"Cost": 500000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c0/Icon_Imoen.png/revision/latest/scale-to-width-down/35?cb=20221216205921",
-		"Name": "Imoen",
 		"HP": 189,
 		"Age": 20,
 		"ALL-C": "N",
@@ -2576,10 +2576,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Fen.png",
+		"Name": "Fen",
 		"Slot": 6,
 		"Cost": 200000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Fen.png/revision/latest/scale-to-width-down/35?cb=20230106205151",
-		"Name": "Fen",
 		"HP": 258,
 		"Age": 200,
 		"ALL-C": "C",
@@ -2599,10 +2599,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/cb/Icon_Brother_Uriah.png",
+		"Name": "Brother Uriah",
 		"Slot": 9,
 		"Cost": 15000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/cb/Icon_Brother_Uriah.png/revision/latest/scale-to-width-down/35?cb=20230127204436",
-		"Name": "Brother Uriah",
 		"HP": 217,
 		"Age": 33,
 		"ALL-C": "L",
@@ -2622,10 +2622,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c6/Icon_Solaak.png",
+		"Name": "Solaak",
 		"Slot": 2,
 		"Cost": 250,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c6/Icon_Solaak.png/revision/latest/scale-to-width-down/35?cb=20230223103528",
-		"Name": "Solaak",
 		"HP": 0,
 		"Age": 22,
 		"ALL-C": "N",
@@ -2645,10 +2645,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d5/Icon_Miria.png",
+		"Name": "Miria",
 		"Slot": 12,
 		"Cost": 0,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d5/Icon_Miria.png/revision/latest/scale-to-width-down/35?cb=20230316024703",
-		"Name": "Miria",
 		"HP": 0,
 		"Age": 347,
 		"ALL-C": "L",
@@ -2668,10 +2668,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/aa/Icon_Antrius.png",
+		"Name": "Antrius",
 		"Slot": 4,
 		"Cost": 0,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/aa/Icon_Antrius.png/revision/latest/scale-to-width-down/35?cb=20230410022900",
-		"Name": "Antrius",
 		"HP": 0,
 		"Age": 45,
 		"ALL-C": "C",
@@ -2691,10 +2691,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Nixie.png",
+		"Name": "Nixie",
 		"Slot": 1,
 		"Cost": 50,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Nixie.png/revision/latest/scale-to-width-down/35?cb=20230428120415",
-		"Name": "Nixie",
 		"HP": 0,
 		"Age": 19,
 		"ALL-C": "C",
@@ -2714,10 +2714,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Evandra.png",
+		"Name": "Evandra",
 		"Slot": 5,
 		"Cost": 1750000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Evandra.png/revision/latest/scale-to-width-down/35?cb=20230529040502",
-		"Name": "Evandra",
 		"HP": 198,
 		"Age": 27,
 		"ALL-C": "C",
@@ -2737,10 +2737,10 @@
 		"Overwhelm": 20
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_BBEG.png",
+		"Name": "BBEG",
 		"Slot": 3,
 		"Cost": 6000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_BBEG.png/revision/latest/scale-to-width-down/35?cb=20230607205855",
-		"Name": "BBEG",
 		"HP": 71,
 		"Age": 500,
 		"ALL-C": "L",
@@ -2760,10 +2760,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/03/Icon_Strongheart.png",
+		"Name": "Strongheart",
 		"Slot": 11,
 		"Cost": 850000000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/03/Icon_Strongheart.png/revision/latest/scale-to-width-down/35?cb=20230624081853",
-		"Name": "Strongheart",
 		"HP": 49,
 		"Age": 39,
 		"ALL-C": "L",
@@ -2783,10 +2783,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Commodore_Krux.png",
+		"Name": "Commodore Krux",
 		"Slot": 4,
 		"Cost": 0,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Commodore_Krux.png/revision/latest/scale-to-width-down/35?cb=20230720111932",
-		"Name": "Commodore Krux",
 		"HP": 0,
 		"Age": 52,
 		"ALL-C": "L",
@@ -2806,10 +2806,10 @@
 		"Overwhelm": 0
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a8/Icon_Vin_Ursa.png",
+		"Name": "Vin Ursa",
 		"Slot": 7,
 		"Cost": 12500000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a8/Icon_Vin_Ursa.png/revision/latest/scale-to-width-down/35?cb=20230725202046",
-		"Name": "Vin Ursa",
 		"HP": 341,
 		"Age": 27,
 		"ALL-C": "L",
@@ -2829,10 +2829,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Lae%27zel.png",
+		"Name": "Lae'zel",
 		"Slot": 2,
 		"Cost": 125,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Lae%27zel.png/revision/latest/scale-to-width-down/35?cb=20230813230241",
-		"Name": "Lae'zel",
 		"HP": 54,
 		"Age": 22,
 		"ALL-C": "L",
@@ -2852,10 +2852,10 @@
 		"Overwhelm": 5
 	},
 	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a9/Icon_Astarion.png",
+		"Name": "Astarion",
 		"Slot": 10,
 		"Cost": 1200000000000000,
-		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a9/Icon_Astarion.png/revision/latest/scale-to-width-down/35?cb=20230902014852",
-		"Name": "Astarion",
 		"HP": 70,
 		"Age": 350,
 		"ALL-C": "N",
