@@ -56,10 +56,16 @@
 		}
 
 		const compear = (first: Record<string, any>, second: Record<string, any>) => {
-			for (const element of columns) {
-				if (element.order === 0) {
-					continue;
+			const sortColumns: Record<number, IColumnState> = columns.reduce((result: Record<number, IColumnState>, element: IColumnState): object => {
+				if (element.order !== 0) {
+					result[element.order] = element;
 				}
+
+				return result;
+			}, {});
+
+			for (let index = 1; index <= Object.keys(sortColumns).length; index++) {
+				const element = sortColumns[index];
 
 				const direction = element.sort === SortDirectorion.Asc ? 1 : -1;
 				if (first[element.name] > second[element.name]) {
