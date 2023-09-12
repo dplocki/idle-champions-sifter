@@ -1288,7 +1288,7 @@
 		"Overwhelm": 25
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Havilar.png",
 		"Name": "Havilar",
 		"Slot": 10,
 		"Cost": 300000000000000,
@@ -1311,7 +1311,7 @@
 		"Overwhelm": 20
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Sisaspia.png",
 		"Name": "Sisaspia",
 		"Slot": 1,
 		"Cost": 30,
@@ -1334,7 +1334,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4f/Icon_Briv.png",
 		"Name": "Briv",
 		"Slot": 5,
 		"Cost": 3000000,
@@ -1357,7 +1357,7 @@
 		"Overwhelm": 30
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/dd/Icon_Melf.png",
 		"Name": "Melf",
 		"Slot": 12,
 		"Cost": 200000000000000000000,
@@ -1380,7 +1380,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Krydle.png",
 		"Name": "Krydle",
 		"Slot": 2,
 		"Cost": 100,
@@ -1403,7 +1403,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b5/Icon_Jaheira.png",
 		"Name": "Jaheira",
 		"Slot": 9,
 		"Cost": 100000,
@@ -1426,7 +1426,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Nova.png",
 		"Name": "Nova",
 		"Slot": 11,
 		"Cost": 100000000000000000,
@@ -1449,7 +1449,7 @@
 		"Overwhelm": 20
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Freely.png",
 		"Name": "Freely",
 		"Slot": 7,
 		"Cost": 15000000000,
@@ -1472,7 +1472,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/90/Icon_Beadle.png",
 		"Name": "Beadle",
 		"Slot": 8,
 		"Cost": 500000000000,
@@ -1495,7 +1495,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2a/Icon_Grimm.png",
 		"Name": "Grimm",
 		"Slot": 8,
 		"Cost": 500000000000,
@@ -1518,7 +1518,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e9/Icon_Omin.png",
 		"Name": "Omin",
 		"Slot": 3,
 		"Cost": 5000,
@@ -1541,7 +1541,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/42/Icon_Ulkoria.png",
 		"Name": "Ulkoria",
 		"Slot": 10,
 		"Cost": 500000000000000,
@@ -1564,7 +1564,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/51/Icon_Lazaapz.png",
 		"Name": "Lazaapz",
 		"Slot": 9,
 		"Cost": 20000000000000,
@@ -1587,7 +1587,7 @@
 		"Overwhelm": 25
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/64/Icon_Torogar.png",
 		"Name": "Torogar",
 		"Slot": 10,
 		"Cost": 850000000000000,
@@ -1610,7 +1610,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/6c/Icon_Ezmerelda.png",
 		"Name": "Ezmerelda",
 		"Slot": 1,
 		"Cost": 15,
@@ -1633,7 +1633,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Penelope.png",
 		"Name": "Penelope",
 		"Slot": 12,
 		"Cost": 10000000000000000000,
@@ -1656,7 +1656,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e5/Icon_Lucius.png",
 		"Name": "Lucius",
 		"Slot": 7,
 		"Cost": 10000000000,
@@ -1679,7 +1679,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/af/Icon_Baeloth.png",
 		"Name": "Baeloth",
 		"Slot": 4,
 		"Cost": 90000,
@@ -1932,7 +1932,7 @@
 		"Overwhelm": 15
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ad/Icon_Ellywick.png",
 		"Name": "Ellywick",
 		"Slot": 10,
 		"Cost": 1000000000000000,
@@ -1955,7 +1955,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ae/Icon_Prudence.png",
 		"Name": "Prudence",
 		"Slot": 5,
 		"Cost": 5000000,
@@ -1978,7 +1978,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2e/Icon_Coraz%C3%B3n.png",
 		"Name": "Corazón",
 		"Slot": 8,
 		"Cost": 366000000000,
@@ -2001,7 +2001,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_D%27hani.png",
 		"Name": "D'hani",
 		"Slot": 1,
 		"Cost": 40,
@@ -2024,7 +2024,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/68/Icon_Brig.png",
 		"Name": "Brig",
 		"Slot": 3,
 		"Cost": 7500,
@@ -2047,7 +2047,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d3/Icon_Widdle.png",
 		"Name": "Widdle",
 		"Slot": 2,
 		"Cost": 90,
@@ -2070,7 +2070,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Rust.png",
 		"Name": "Rust",
 		"Slot": 11,
 		"Cost": 1000000000000000000,
@@ -2093,7 +2093,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/00/Icon_Xerophon.png",
 		"Name": "Xerophon",
 		"Slot": 7,
 		"Cost": 5000000000,
@@ -2116,7 +2116,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f7/Icon_Viconia.png",
 		"Name": "Viconia",
 		"Slot": 5,
 		"Cost": 2500000,
@@ -2139,7 +2139,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0b/Icon_Yorven.png",
 		"Name": "Yorven",
 		"Slot": 10,
 		"Cost": 900000000000000,
@@ -2162,7 +2162,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_NERDS.png",
 		"Name": "NERDS",
 		"Slot": 1,
 		"Cost": 8,
@@ -2185,7 +2185,7 @@
 		"Overwhelm": 15
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Vi.png",
 		"Name": "Vi",
 		"Slot": 12,
 		"Cost": 150000000000000000000,
@@ -2208,7 +2208,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Tatyana.png",
 		"Name": "Tatyana",
 		"Slot": 8,
 		"Cost": 400000000000,
@@ -2231,7 +2231,7 @@
 		"Overwhelm": 25
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/44/Icon_Blooshi.png",
 		"Name": "Blooshi",
 		"Slot": 2,
 		"Cost": 150,
@@ -2254,7 +2254,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Gazrick.png",
 		"Name": "Gazrick",
 		"Slot": 7,
 		"Cost": 25000000000,
@@ -2277,7 +2277,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Dungeon_Master.png",
 		"Name": "Dungeon Master",
 		"Slot": 6,
 		"Cost": 100000000,
@@ -2300,7 +2300,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/70/Icon_Nordom.png",
 		"Name": "Nordom",
 		"Slot": 9,
 		"Cost": 25000000000000,
@@ -2323,7 +2323,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Merilwen.png",
 		"Name": "Merilwen",
 		"Slot": 2,
 		"Cost": 40,
@@ -2346,7 +2346,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/59/Icon_Nahara.png",
 		"Name": "Nahara",
 		"Slot": 3,
 		"Cost": 8000,
@@ -2369,7 +2369,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4e/Icon_Valentine.png",
 		"Name": "Valentine",
 		"Slot": 5,
 		"Cost": 2000000,
@@ -2392,7 +2392,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Desmond.png",
 		"Name": "Desmond",
 		"Slot": 4,
 		"Cost": 80000,
@@ -2415,7 +2415,7 @@
 		"Overwhelm": 5
 	},
 	{
-		"Icon": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/17/Icon_Voronika.png",
 		"Name": "Voronika",
 		"Slot": 1,
 		"Cost": 10,
