@@ -2,11 +2,11 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
-	enum SortDirectorion  {
+	enum SortDirectorion {
 		None = 0,
 		Asc = 1,
 		Desc = 2
-	};
+	}
 
 	interface IColumnState {
 		name: string;
@@ -35,19 +35,24 @@
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
 		if (event.shiftKey) {
-			columns = columns.map(column =>
+			columns = columns.map((column) =>
 				column.name !== clickedColumnData.name
 					? column
 					: {
-						...column,
-						sort: switchSortDirection(column.sort),
-						order: column.order !== 0 ? column.order : Math.max(...columns.map(column => column.order)) + 1
-					});
+							...column,
+							sort: switchSortDirection(column.sort),
+							order:
+								column.order !== 0
+									? column.order
+									: Math.max(...columns.map((column) => column.order)) + 1
+					  }
+			);
 		} else {
-			columns = columns.map(column =>
+			columns = columns.map((column) =>
 				clickedColumnData.name !== column.name
 					? { ...column, order: 0, sort: SortDirectorion.None }
-					: { ...column, sort: switchSortDirection(column.sort), order: 1 });
+					: { ...column, sort: switchSortDirection(column.sort), order: 1 }
+			);
 		}
 
 		const compear = (first: Record<string, any>, second: Record<string, any>) => {
@@ -76,8 +81,8 @@
 		{#each columns as column}
 			<th on:click={(event) => columnClick(column, event)}>
 				{column.name}
-				{#if column.sort === 1 }🔺{:else if column.sort === 2}🔻{/if}
-				{#if column.order > 1}<sup>{ column.order }</sup>{/if}
+				{#if column.sort === 1}🔺{:else if column.sort === 2}🔻{/if}
+				{#if column.order > 1}<sup>{column.order}</sup>{/if}
 			</th>
 		{/each}
 	</thead>
@@ -85,7 +90,13 @@
 		{#each datasource as datum}
 			<tr transition:fade>
 				{#each columns as column}
-					<td>{datum[column.name]}</td>
+					<td>
+						{#if column.name === 'Icon'}
+							<img src={datum[column.name]} alt={datum['Name']} />
+						{:else}
+							{datum[column.name]}
+						{/if}
+					</td>
 				{/each}
 			</tr>
 		{/each}
@@ -136,5 +147,9 @@
 		font-size: xx-small;
 		padding: 0;
 		margin-left: -0.5em;
+	}
+
+	td img {
+		width: 3em;
 	}
 </style>
