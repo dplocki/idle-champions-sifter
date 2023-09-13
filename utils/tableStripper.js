@@ -45,5 +45,24 @@
 			datum.Icon = datum.Icon.replace(/\.png.+$/, '.png');
 
 			return Object.assign({'Icon': null, 'Name': null }, datum);
+		})
+		.map(datum => {
+			datum['Alignment Good vs Bad'] = (datum['ALG-E'] === 'N')
+				? 'Neutral'
+				: ((datum['ALG-E'] === 'G')
+				? 'Good'
+				: 'Evil');
+
+			delete datum['ALG-E'];
+
+			datum['Alignment Law vs Chaotic'] = (datum['ALL-C'] === 'N')
+				? 'Neutral'
+				: ((datum['ALL-C'] === 'L')
+				? 'Law'
+				: 'Chaotic');
+
+			delete datum['ALL-C'];
+
+			return datum;
 		});
 })();

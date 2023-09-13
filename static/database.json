@@ -6,8 +6,6 @@
 		"Cost": 5,
 		"HP": 98,
 		"Age": 252,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Shield Dwarf",
 		"Class": "Fighter",
@@ -20,7 +18,9 @@
 		"Wis": 13,
 		"Cha": 12,
 		"Affliation": "Companions of the Hall",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b1/Icon_Celeste.png",
@@ -29,8 +29,6 @@
 		"Cost": 50,
 		"HP": 43,
 		"Age": 36,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Healing /Support",
 		"Race": "Human",
 		"Class": "Cleric",
@@ -43,7 +41,9 @@
 		"Wis": 15,
 		"Cha": 10,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Nayeli.png",
@@ -52,8 +52,6 @@
 		"Cost": 1000,
 		"HP": 188,
 		"Age": 39,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Tanking /Support",
 		"Race": "Human",
 		"Class": "Paladin",
@@ -66,7 +64,9 @@
 		"Wis": 10,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Jarlaxle.png",
@@ -75,8 +75,6 @@
 		"Cost": 25000,
 		"HP": 43,
 		"Age": 245,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "DPS /Gold",
 		"Race": "Drow",
 		"Class": "Rogue",
@@ -89,7 +87,9 @@
 		"Wis": 11,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0f/Icon_Calliope.png",
@@ -98,8 +98,6 @@
 		"Cost": 1000000,
 		"HP": 45,
 		"Age": 65,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Healing /Support",
 		"Race": "Half-Elf",
 		"Class": "Bard",
@@ -112,7 +110,9 @@
 		"Wis": 12,
 		"Cha": 19,
 		"Affliation": "Force Grey",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Asharra.png",
@@ -121,8 +121,6 @@
 		"Cost": 50000000,
 		"HP": 35,
 		"Age": 38,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Aarakocra",
 		"Class": "Wizard",
@@ -135,7 +133,9 @@
 		"Wis": 15,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4d/Icon_Minsc.png",
@@ -144,8 +144,6 @@
 		"Cost": 2500000000,
 		"HP": 47,
 		"Age": 45,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Support / Speed",
 		"Race": "Human",
 		"Class": "Ranger",
@@ -158,7 +156,9 @@
 		"Wis": 10,
 		"Cha": 10,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/24/Icon_Delina.png",
@@ -167,8 +167,6 @@
 		"Cost": 100000000000,
 		"HP": 41,
 		"Age": 245,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS",
 		"Race": "Elf",
 		"Class": "Sorcerer",
@@ -181,7 +179,9 @@
 		"Wis": 13,
 		"Cha": 17,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/30/Icon_Makos.png",
@@ -190,8 +190,6 @@
 		"Cost": 10000000000000,
 		"HP": 41,
 		"Age": 56,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "DPS / Support / Gold",
 		"Race": "Tiefling",
 		"Class": "Warlock",
@@ -204,7 +202,9 @@
 		"Wis": 8,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ca/Icon_Tyril.png",
@@ -213,8 +213,6 @@
 		"Cost": 1000000000000000,
 		"HP": 69,
 		"Age": 75,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Tanking / Healing / Support",
 		"Race": "Firbolg",
 		"Class": "Druid",
@@ -227,7 +225,9 @@
 		"Wis": 18,
 		"Cha": 13,
 		"Affliation": "Force Grey",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Jamilah.png",
@@ -236,8 +236,6 @@
 		"Cost": 250000000000000000,
 		"HP": 94,
 		"Age": 35,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "DPS",
 		"Race": "Human",
 		"Class": "Barbarian",
@@ -250,7 +248,9 @@
 		"Wis": 15,
 		"Cha": 14,
 		"Affliation": "Force Grey",
-		"Overwhelm": 15
+		"Overwhelm": 15,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/45/Icon_Arkhan.png",
@@ -259,8 +259,6 @@
 		"Cost": 100000000000000000000,
 		"HP": 441,
 		"Age": 40,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "DPS / Tanking",
 		"Race": "Dragonborn",
 		"Class": "Paladin",
@@ -273,7 +271,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Dark Order / Force Grey",
-		"Overwhelm": 30
+		"Overwhelm": 30,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b4/Icon_Hitch.png",
@@ -282,8 +282,6 @@
 		"Cost": 100000000000,
 		"HP": 43,
 		"Age": 29,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Human",
 		"Class": "Rogue",
@@ -296,7 +294,9 @@
 		"Wis": 15,
 		"Cha": 17,
 		"Affliation": "Force Grey",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_Stoki.png",
@@ -305,8 +305,6 @@
 		"Cost": 65000,
 		"HP": 41,
 		"Age": 45,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "Support / Gold",
 		"Race": "Gnome",
 		"Class": "Monk",
@@ -319,7 +317,9 @@
 		"Wis": 17,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9d/Icon_Krond.png",
@@ -328,8 +328,6 @@
 		"Cost": 100000000,
 		"HP": 1745,
 		"Age": 42,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "DPS",
 		"Race": "Half-Orc",
 		"Class": "Fighter",
@@ -342,7 +340,9 @@
 		"Wis": 13,
 		"Cha": 9,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/16/Icon_Gromma.png",
@@ -351,8 +351,6 @@
 		"Cost": 4300,
 		"HP": 0,
 		"Age": 80,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS / Tanking / Support",
 		"Race": "Tortle",
 		"Class": "Druid",
@@ -365,7 +363,9 @@
 		"Wis": 17,
 		"Cha": 13,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/47/Icon_Dhadius.png",
@@ -374,8 +374,6 @@
 		"Cost": 1500000,
 		"HP": 37,
 		"Age": 57,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Human",
 		"Class": "Wizard",
@@ -388,7 +386,9 @@
 		"Wis": 9,
 		"Cha": 11,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Drizzt.png",
@@ -397,8 +397,6 @@
 		"Cost": 12500000000000,
 		"HP": 1700,
 		"Age": 75,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "DPS",
 		"Race": "Drow",
 		"Class": "Ranger",
@@ -411,7 +409,9 @@
 		"Wis": 14,
 		"Cha": 11,
 		"Affliation": "Companions of the Hall",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/88/Icon_Barrowin.png",
@@ -420,8 +420,6 @@
 		"Cost": 1330000000000000,
 		"HP": 1753,
 		"Age": 115,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Tanking / Healing / Support",
 		"Race": "Dwarf",
 		"Class": "Cleric",
@@ -434,7 +432,9 @@
 		"Wis": 18,
 		"Cha": 10,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Regis.png",
@@ -443,8 +443,6 @@
 		"Cost": 65,
 		"HP": 1698,
 		"Age": 51,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Healing / Support / Gold",
 		"Race": "Halfling",
 		"Class": "Rogue",
@@ -457,7 +455,9 @@
 		"Wis": 10,
 		"Cha": 15,
 		"Affliation": "Companions of the Hall",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Birdsong.png",
@@ -466,8 +466,6 @@
 		"Cost": 8000000000000,
 		"HP": 1698,
 		"Age": 26,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Tabaxi",
 		"Class": "Bard",
@@ -480,7 +478,9 @@
 		"Wis": 11,
 		"Cha": 17,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/96/Icon_Zorbu.png",
@@ -489,8 +489,6 @@
 		"Cost": 50000000000000000000,
 		"HP": 45,
 		"Age": 325,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Gnome",
 		"Class": "Ranger",
@@ -503,7 +501,9 @@
 		"Wis": 16,
 		"Cha": 13,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_Strix.png",
@@ -512,8 +512,6 @@
 		"Cost": 35000000000000000,
 		"HP": 1696,
 		"Age": 82,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Tiefling",
 		"Class": "Sorcerer",
@@ -526,7 +524,9 @@
 		"Wis": 11,
 		"Cha": 18,
 		"Affliation": "Acquisitions Incorporated / Waffle Crew",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/46/Icon_Nrakk.png",
@@ -535,8 +535,6 @@
 		"Cost": 90000000000,
 		"HP": 1700,
 		"Age": 41,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Githzerai",
 		"Class": "Monk",
@@ -549,7 +547,9 @@
 		"Wis": 19,
 		"Cha": 11,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Catti-brie.png",
@@ -558,8 +558,6 @@
 		"Cost": 8000000000,
 		"HP": 1700,
 		"Age": 33,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Human",
 		"Class": "Fighter",
@@ -572,7 +570,9 @@
 		"Wis": 11,
 		"Cha": 13,
 		"Affliation": "Companions of the Hall",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f0/Icon_Evelyn.png",
@@ -581,8 +581,6 @@
 		"Cost": 78000000,
 		"HP": 1839,
 		"Age": 22,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Human",
 		"Class": "Paladin",
@@ -595,7 +593,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Acquisitions Incorporated / Waffle Crew",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/76/Icon_Binwin.png",
@@ -604,8 +604,6 @@
 		"Cost": 1250,
 		"HP": 98,
 		"Age": 39,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "DPS",
 		"Race": "Mountain Dwarf",
 		"Class": "Fighter / Barbarian",
@@ -618,7 +616,9 @@
 		"Wis": 11,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d7/Icon_Deekin.png",
@@ -627,8 +627,6 @@
 		"Cost": 10,
 		"HP": 45,
 		"Age": 28,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Support / Speed",
 		"Race": "Kobold",
 		"Class": "Bard",
@@ -641,7 +639,9 @@
 		"Wis": 10,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2f/Icon_Xander.png",
@@ -650,8 +650,6 @@
 		"Cost": 1250000,
 		"HP": 41,
 		"Age": 19,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support / Speed",
 		"Race": "Human",
 		"Class": "Rogue",
@@ -664,7 +662,9 @@
 		"Wis": 15,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0d/Icon_Azaka.png",
@@ -673,8 +673,6 @@
 		"Cost": 250000000000000000000,
 		"HP": 52,
 		"Age": 40,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS / Support / Gold",
 		"Race": "Human",
 		"Class": "Fighter",
@@ -687,7 +685,9 @@
 		"Wis": 9,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Ishi.png",
@@ -696,8 +696,6 @@
 		"Cost": 75000,
 		"HP": 47,
 		"Age": 27,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Gold",
 		"Race": "Kobold",
 		"Class": "Fighter / Rogue",
@@ -710,7 +708,9 @@
 		"Wis": 14,
 		"Cha": 15,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/95/Icon_Wulfgar.png",
@@ -719,8 +719,6 @@
 		"Cost": 750000000000000,
 		"HP": 534,
 		"Age": 33,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Human",
 		"Class": "Barbarian",
@@ -733,7 +731,9 @@
 		"Wis": 9,
 		"Cha": 14,
 		"Affliation": "Companions of the Hall",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Farideh.png",
@@ -742,8 +742,6 @@
 		"Cost": 5250000000,
 		"HP": 45,
 		"Age": 19,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "DPS",
 		"Race": "Tiefling",
 		"Class": "Warlock",
@@ -756,7 +754,9 @@
 		"Wis": 13,
 		"Cha": 18,
 		"Affliation": "Brimstone Angels",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Donaar.png",
@@ -765,8 +765,6 @@
 		"Cost": 45,
 		"HP": 94,
 		"Age": 19,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Healing / Support / Gold",
 		"Race": "Dragonborn",
 		"Class": "Paladin",
@@ -779,7 +777,9 @@
 		"Wis": 10,
 		"Cha": 16,
 		"Affliation": "Acquisitions Incorporated: The “C” Team",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a5/Icon_Vlahnya.png",
@@ -788,8 +788,6 @@
 		"Cost": 250000000000,
 		"HP": 37,
 		"Age": 530,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Eladrin",
 		"Class": "Bard / Wizard",
@@ -802,7 +800,9 @@
 		"Wis": 14,
 		"Cha": 16,
 		"Affliation": "Sirens of the Realms",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Warden.png",
@@ -811,8 +811,6 @@
 		"Cost": 500000000000000000,
 		"HP": 96,
 		"Age": 12,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "DPS / Support",
 		"Race": "Warforged",
 		"Class": "Warlock",
@@ -825,7 +823,9 @@
 		"Wis": 11,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Nerys.png",
@@ -834,8 +834,6 @@
 		"Cost": 100000000000000000000,
 		"HP": 45,
 		"Age": 26,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Human",
 		"Class": "Cleric",
@@ -848,7 +846,9 @@
 		"Wis": 17,
 		"Cha": 15,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b2/Icon_K%27thriss.png",
@@ -857,8 +857,6 @@
 		"Cost": 8,
 		"HP": 41,
 		"Age": 320,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Drow",
 		"Class": "Warlock",
@@ -871,7 +869,9 @@
 		"Wis": 10,
 		"Cha": 18,
 		"Affliation": "Acquisitions Incorporated: The “C” Team",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Paultin.png",
@@ -880,8 +880,6 @@
 		"Cost": 45000,
 		"HP": 41,
 		"Age": 25,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support / Gold",
 		"Race": "Human",
 		"Class": "Bard",
@@ -894,7 +892,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Waffle Crew",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e3/Icon_Black_Viper.png",
@@ -903,8 +903,6 @@
 		"Cost": 12500000000,
 		"HP": 47,
 		"Age": 32,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS",
 		"Race": "Human",
 		"Class": "Rogue",
@@ -917,7 +915,9 @@
 		"Wis": 11,
 		"Cha": 16,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Rosie.png",
@@ -926,8 +926,6 @@
 		"Cost": 900000000000000,
 		"HP": 0,
 		"Age": 110,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS",
 		"Race": "Halfling",
 		"Class": "Monk",
@@ -940,7 +938,9 @@
 		"Wis": 14,
 		"Cha": 14,
 		"Affliation": "Acquisitions Incorporated: The “C” Team",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1f/Icon_Aila.png",
@@ -949,8 +949,6 @@
 		"Cost": 7500000000000,
 		"HP": 239,
 		"Age": 25,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Tanking / Support",
 		"Race": "Wild Elf",
 		"Class": "Barbarian",
@@ -963,7 +961,9 @@
 		"Wis": 13,
 		"Cha": 10,
 		"Affliation": "Heroes of Aerois",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/98/Icon_Spurt.png",
@@ -972,8 +972,6 @@
 		"Cost": 750,
 		"HP": 35,
 		"Age": 0,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support",
 		"Race": "Kobold",
 		"Class": "Inventor (Rogue)",
@@ -986,7 +984,9 @@
 		"Wis": 7,
 		"Cha": 8,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Qillek.png",
@@ -995,8 +995,6 @@
 		"Cost": 2000000,
 		"HP": 39,
 		"Age": 3,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Aarakocra",
 		"Class": "Cleric / Bard",
@@ -1009,7 +1007,9 @@
 		"Wis": 18,
 		"Cha": 14,
 		"Affliation": "Heroes of Aerois",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/15/Icon_Korth.png",
@@ -1018,8 +1018,6 @@
 		"Cost": 75,
 		"HP": 98,
 		"Age": 55,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Healing / Support",
 		"Race": "Lizardfolk",
 		"Class": "Samurai (Fighter)",
@@ -1032,7 +1030,9 @@
 		"Wis": 13,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Walnut.png",
@@ -1041,8 +1041,6 @@
 		"Cost": 150000000000,
 		"HP": 270,
 		"Age": 62,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "Tanking / Support",
 		"Race": "Wood Elf",
 		"Class": "Druid",
@@ -1055,7 +1053,9 @@
 		"Wis": 20,
 		"Cha": 10,
 		"Affliation": "Acquisitions Incorporated: The “C” Team",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/ff/Icon_Shandie.png",
@@ -1064,8 +1064,6 @@
 		"Cost": 125000000,
 		"HP": 47,
 		"Age": 63,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support / Speed",
 		"Race": "Halfling",
 		"Class": "Rogue",
@@ -1078,7 +1076,9 @@
 		"Wis": 12,
 		"Cha": 14,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Jim.png",
@@ -1087,8 +1087,6 @@
 		"Cost": 7500000000,
 		"HP": 35,
 		"Age": 41,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Support / Gold",
 		"Race": "Human",
 		"Class": "Wizard",
@@ -1101,7 +1099,9 @@
 		"Wis": 12,
 		"Cha": 14,
 		"Affliation": "Acquisitions Incorporated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Turiel.png",
@@ -1110,8 +1110,6 @@
 		"Cost": 20,
 		"HP": 41,
 		"Age": 121,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Aasimar",
 		"Class": "Cleric",
@@ -1124,7 +1122,9 @@
 		"Wis": 17,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4c/Icon_Pwent.png",
@@ -1133,8 +1133,6 @@
 		"Cost": 900000,
 		"HP": 98,
 		"Age": 176,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Dwarf",
 		"Class": "Barbarian",
@@ -1147,7 +1145,9 @@
 		"Wis": 12,
 		"Cha": 8,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/07/Icon_Avren.png",
@@ -1156,8 +1156,6 @@
 		"Cost": 750000000000000000,
 		"HP": 45,
 		"Age": 40,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Half-Elf",
 		"Class": "Warlock / Sorcerer",
@@ -1170,7 +1168,9 @@
 		"Wis": 10,
 		"Cha": 18,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/92/Icon_Sentry.png",
@@ -1179,8 +1179,6 @@
 		"Cost": 50000,
 		"HP": 215,
 		"Age": 13,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Tanking / Support / Speed",
 		"Race": "Warforged",
 		"Class": "Paladin",
@@ -1193,7 +1191,9 @@
 		"Wis": 14,
 		"Cha": 14,
 		"Affliation": "Heroes of Aerois",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0e/Icon_Krull.png",
@@ -1202,8 +1202,6 @@
 		"Cost": 90000000,
 		"HP": 232,
 		"Age": 40,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / Gold",
 		"Race": "Tortle",
 		"Class": "Cleric",
@@ -1216,7 +1214,9 @@
 		"Wis": 20,
 		"Cha": 12,
 		"Affliation": "Dark Order",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/32/Icon_Artemis.png",
@@ -1225,8 +1225,6 @@
 		"Cost": 2500,
 		"HP": 45,
 		"Age": 131,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "DPS",
 		"Race": "Human",
 		"Class": "Rogue",
@@ -1239,7 +1237,9 @@
 		"Wis": 16,
 		"Cha": 13,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7c/Icon_M%C3%B4rg%C3%A6n.png",
@@ -1248,8 +1248,6 @@
 		"Cost": 11000000000000,
 		"HP": 43,
 		"Age": 150,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support / Gold",
 		"Race": "High Elf",
 		"Class": "Ranger",
@@ -1262,7 +1260,9 @@
 		"Wis": 15,
 		"Cha": 10,
 		"Affliation": "Acquisitions Incorporated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/43/Icon_Dragonbait.png",
@@ -1271,8 +1271,6 @@
 		"Cost": 75000000000000000,
 		"HP": 0,
 		"Age": 242,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Saurial",
 		"Class": "Paladin",
@@ -1285,7 +1283,9 @@
 		"Wis": 16,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Havilar.png",
@@ -1294,8 +1294,6 @@
 		"Cost": 300000000000000,
 		"HP": 342,
 		"Age": 19,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tanking / Support / Speed",
 		"Race": "Tiefling",
 		"Class": "Fighter",
@@ -1308,7 +1306,9 @@
 		"Wis": 12,
 		"Cha": 12,
 		"Affliation": "Brimstone Angels",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Sisaspia.png",
@@ -1317,8 +1317,6 @@
 		"Cost": 30,
 		"HP": 47,
 		"Age": 37,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Healing / Support",
 		"Race": "Yuan-ti Pureblood",
 		"Class": "Druid",
@@ -1331,7 +1329,9 @@
 		"Wis": 18,
 		"Cha": 16,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4f/Icon_Briv.png",
@@ -1340,8 +1340,6 @@
 		"Cost": 3000000,
 		"HP": 0,
 		"Age": 42,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tanking / Healing / Support / Speed",
 		"Race": "Half-Orc",
 		"Class": "Paladin",
@@ -1354,7 +1352,9 @@
 		"Wis": 8,
 		"Cha": 18,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 30
+		"Overwhelm": 30,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/dd/Icon_Melf.png",
@@ -1363,8 +1363,6 @@
 		"Cost": 200000000000000000000,
 		"HP": 45,
 		"Age": 210,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support / Speed",
 		"Race": "Elf",
 		"Class": "Fighter / Wizard",
@@ -1377,7 +1375,9 @@
 		"Wis": 11,
 		"Cha": 10,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a6/Icon_Krydle.png",
@@ -1386,8 +1386,6 @@
 		"Cost": 100,
 		"HP": 45,
 		"Age": 36,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Half-Elf",
 		"Class": "Rogue",
@@ -1400,7 +1398,9 @@
 		"Wis": 11,
 		"Cha": 16,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b5/Icon_Jaheira.png",
@@ -1409,8 +1409,6 @@
 		"Cost": 100000,
 		"HP": 45,
 		"Age": 36,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Half-Elf",
 		"Class": "Fighter / Druid",
@@ -1423,7 +1421,9 @@
 		"Wis": 14,
 		"Cha": 15,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c5/Icon_Nova.png",
@@ -1432,8 +1432,6 @@
 		"Cost": 100000000000000000,
 		"HP": 581,
 		"Age": 20,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Air-Genasi",
 		"Class": "Warlock",
@@ -1446,7 +1444,9 @@
 		"Wis": 8,
 		"Cha": 20,
 		"Affliation": "Heroes of Aerois",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bf/Icon_Freely.png",
@@ -1455,8 +1455,6 @@
 		"Cost": 15000000000,
 		"HP": 43,
 		"Age": 42,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support / Gold",
 		"Race": "Halfling",
 		"Class": "Bard / Warlock",
@@ -1469,7 +1467,9 @@
 		"Wis": 10,
 		"Cha": 16,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/90/Icon_Beadle.png",
@@ -1478,8 +1478,6 @@
 		"Cost": 500000000000,
 		"HP": 0,
 		"Age": 91,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Support / Gold",
 		"Race": "Dwarf",
 		"Class": "Rogue / Wizard",
@@ -1492,7 +1490,9 @@
 		"Wis": 10,
 		"Cha": 8,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2a/Icon_Grimm.png",
@@ -1501,8 +1501,6 @@
 		"Cost": 500000000000,
 		"HP": 47,
 		"Age": 26,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Human",
 		"Class": "Barbarian",
@@ -1515,7 +1513,9 @@
 		"Wis": 9,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e9/Icon_Omin.png",
@@ -1524,8 +1524,6 @@
 		"Cost": 5000,
 		"HP": 94,
 		"Age": 43,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "Support / Gold / Healing",
 		"Race": "Half-Elf",
 		"Class": "Cleric",
@@ -1538,7 +1536,9 @@
 		"Wis": 18,
 		"Cha": 12,
 		"Affliation": "Acquisitions Incorporated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/42/Icon_Ulkoria.png",
@@ -1547,8 +1547,6 @@
 		"Cost": 500000000000000,
 		"HP": 0,
 		"Age": 377,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Dwarf",
 		"Class": "Wizard",
@@ -1561,7 +1559,9 @@
 		"Wis": 15,
 		"Cha": 16,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/51/Icon_Lazaapz.png",
@@ -1570,8 +1570,6 @@
 		"Cost": 20000000000000,
 		"HP": 145,
 		"Age": 19,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Tanking / Support",
 		"Race": "Goblin",
 		"Class": "Artificer",
@@ -1584,7 +1582,9 @@
 		"Wis": 10,
 		"Cha": 8,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/64/Icon_Torogar.png",
@@ -1593,8 +1593,6 @@
 		"Cost": 850000000000000,
 		"HP": 112,
 		"Age": 32,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / DPS",
 		"Race": "Minotaur",
 		"Class": "Barbarian",
@@ -1607,7 +1605,9 @@
 		"Wis": 9,
 		"Cha": 15,
 		"Affliation": "Dark Order",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/6c/Icon_Ezmerelda.png",
@@ -1616,8 +1616,6 @@
 		"Cost": 15,
 		"HP": 43,
 		"Age": 27,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Human",
 		"Class": "Fighter / Wizard",
@@ -1630,7 +1628,9 @@
 		"Wis": 11,
 		"Cha": 17,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/ce/Icon_Penelope.png",
@@ -1639,8 +1639,6 @@
 		"Cost": 10000000000000000000,
 		"HP": 37,
 		"Age": 37,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support / Gold / Healing",
 		"Race": "Halfling",
 		"Class": "Druid / Warlock",
@@ -1653,7 +1651,9 @@
 		"Wis": 17,
 		"Cha": 14,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e5/Icon_Lucius.png",
@@ -1662,8 +1662,6 @@
 		"Cost": 10000000000,
 		"HP": 43,
 		"Age": 76,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "DPS",
 		"Race": "High Elf",
 		"Class": "Sorcerer",
@@ -1676,7 +1674,9 @@
 		"Wis": 13,
 		"Cha": 18,
 		"Affliation": "Heroes of Aerois",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/af/Icon_Baeloth.png",
@@ -1685,8 +1685,6 @@
 		"Cost": 90000,
 		"HP": 41,
 		"Age": 222,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "Gold / Support",
 		"Race": "Drow",
 		"Class": "Sorcerer",
@@ -1699,7 +1697,9 @@
 		"Wis": 12,
 		"Cha": 16,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/52/Icon_Talin.png",
@@ -1708,8 +1708,6 @@
 		"Cost": 60,
 		"HP": 47,
 		"Age": 26,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Tiefling",
 		"Class": "Rogue",
@@ -1722,7 +1720,9 @@
 		"Wis": 13,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/34/Icon_Hew_Maan.png",
@@ -1731,8 +1731,6 @@
 		"Cost": 125000000000,
 		"HP": 35,
 		"Age": 67,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / Speed",
 		"Race": "Kobold / \"Human\"",
 		"Class": "Rogue / Bard",
@@ -1745,7 +1743,9 @@
 		"Wis": 8,
 		"Cha": 16,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/87/Icon_Orisha.png",
@@ -1754,8 +1754,6 @@
 		"Cost": 425000000000000000,
 		"HP": 41,
 		"Age": 30,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Aasimar",
 		"Class": "Cleric / Bard",
@@ -1768,7 +1766,9 @@
 		"Wis": 17,
 		"Cha": 17,
 		"Affliation": "Sirens of the Realms",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/77/Icon_Alyndra.png",
@@ -1777,8 +1777,6 @@
 		"Cost": 150000000,
 		"HP": 45,
 		"Age": 168,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Elf",
 		"Class": "Wizard / Cleric",
@@ -1791,7 +1789,9 @@
 		"Wis": 14,
 		"Cha": 11,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/26/Icon_Reya.png",
@@ -1800,8 +1800,6 @@
 		"Cost": 250000000,
 		"HP": 623,
 		"Age": 19,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Human / Celestial",
 		"Class": "Paladin",
@@ -1814,7 +1812,9 @@
 		"Wis": 11,
 		"Cha": 20,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b7/Icon_Orkira.png",
@@ -1823,8 +1823,6 @@
 		"Cost": 25,
 		"HP": 49,
 		"Age": 34,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Dragonborn",
 		"Class": "Cleric",
@@ -1837,7 +1835,9 @@
 		"Wis": 20,
 		"Cha": 18,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Shaka.png",
@@ -1846,8 +1846,6 @@
 		"Cost": 3000000000000,
 		"HP": 45,
 		"Age": 29,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Tiefling",
 		"Class": "Warlock",
@@ -1860,7 +1858,9 @@
 		"Wis": 13,
 		"Cha": 16,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a2/Icon_Mehen.png",
@@ -1869,8 +1869,6 @@
 		"Cost": 3750,
 		"HP": 47,
 		"Age": 48,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support / Gold",
 		"Race": "Dragonborn",
 		"Class": "Fighter",
@@ -1883,7 +1881,9 @@
 		"Wis": 12,
 		"Cha": 14,
 		"Affliation": "Brimstone Angels",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/81/Icon_Sgt._Knox.png",
@@ -1892,8 +1892,6 @@
 		"Cost": 250000000,
 		"HP": 148,
 		"Age": 50,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Tanking / Support",
 		"Race": "Human",
 		"Class": "Fighter",
@@ -1906,7 +1904,9 @@
 		"Wis": 10,
 		"Cha": 14,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2d/Icon_Selise.png",
@@ -1915,8 +1915,6 @@
 		"Cost": 15000000000000000000,
 		"HP": 524,
 		"Age": 42,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "Tanking / Support",
 		"Race": "Human",
 		"Class": "Paladin",
@@ -1929,7 +1927,9 @@
 		"Wis": 13,
 		"Cha": 15,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 15
+		"Overwhelm": 15,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ad/Icon_Ellywick.png",
@@ -1938,8 +1938,6 @@
 		"Cost": 1000000000000000,
 		"HP": 42,
 		"Age": 125,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support / Gold / Healing",
 		"Race": "Gnome",
 		"Class": "Bard",
@@ -1952,7 +1950,9 @@
 		"Wis": 12,
 		"Cha": 20,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ae/Icon_Prudence.png",
@@ -1961,8 +1961,6 @@
 		"Cost": 5000000,
 		"HP": 37,
 		"Age": 28,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "DPS",
 		"Race": "Tiefling",
 		"Class": "Warlock",
@@ -1975,7 +1973,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/2e/Icon_Coraz%C3%B3n.png",
@@ -1984,8 +1984,6 @@
 		"Cost": 366000000000,
 		"HP": 43,
 		"Age": 30,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Human",
 		"Class": "Rogue",
@@ -1998,7 +1996,9 @@
 		"Wis": 15,
 		"Cha": 18,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9b/Icon_D%27hani.png",
@@ -2007,8 +2007,6 @@
 		"Cost": 40,
 		"HP": 43,
 		"Age": 8,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "DPS / Gold",
 		"Race": "Aarakocra",
 		"Class": "Monk",
@@ -2021,7 +2019,9 @@
 		"Wis": 20,
 		"Cha": 7,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/68/Icon_Brig.png",
@@ -2030,8 +2030,6 @@
 		"Cost": 7500,
 		"HP": 49,
 		"Age": 38,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Human",
 		"Class": "Rogue / Bard",
@@ -2044,7 +2042,9 @@
 		"Wis": 13,
 		"Cha": 16,
 		"Affliation": "Sirens of the Realms",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d3/Icon_Widdle.png",
@@ -2053,8 +2053,6 @@
 		"Cost": 90,
 		"HP": 49,
 		"Age": 423,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support / Healing / Speed",
 		"Race": "Dhampir Gnome",
 		"Class": "Wizard",
@@ -2067,7 +2065,9 @@
 		"Wis": 12,
 		"Cha": 11,
 		"Affliation": "Heroes of the Planes",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Rust.png",
@@ -2076,8 +2076,6 @@
 		"Cost": 1000000000000000000,
 		"HP": 47,
 		"Age": 23,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Gold / Support",
 		"Race": "Tabaxi",
 		"Class": "Rogue",
@@ -2090,7 +2088,9 @@
 		"Wis": 12,
 		"Cha": 14,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/00/Icon_Xerophon.png",
@@ -2099,8 +2099,6 @@
 		"Cost": 5000000000,
 		"HP": 0,
 		"Age": 47,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Doppelganger",
 		"Class": "Rogue",
@@ -2113,7 +2111,9 @@
 		"Wis": 14,
 		"Cha": 17,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f7/Icon_Viconia.png",
@@ -2122,8 +2122,6 @@
 		"Cost": 2500000,
 		"HP": 39,
 		"Age": 270,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Healing / Support",
 		"Race": "Drow",
 		"Class": "Cleric",
@@ -2136,7 +2134,9 @@
 		"Wis": 18,
 		"Cha": 14,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0b/Icon_Yorven.png",
@@ -2145,8 +2145,6 @@
 		"Cost": 900000000000000,
 		"HP": 47,
 		"Age": 39,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Harengon",
 		"Class": "Barbarian / Druid",
@@ -2159,7 +2157,9 @@
 		"Wis": 13,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_NERDS.png",
@@ -2168,8 +2168,6 @@
 		"Cost": 8,
 		"HP": 0,
 		"Age": 38,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Tanking / Healing / Support",
 		"Race": "NERDS",
 		"Class": "Fighter / Ranger / Bard / Cleric / Rogue / Wizard",
@@ -2182,7 +2180,9 @@
 		"Wis": 11,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 15
+		"Overwhelm": 15,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Vi.png",
@@ -2191,8 +2191,6 @@
 		"Cost": 150000000000000000000,
 		"HP": 41,
 		"Age": 500,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Gold / Speed / Support",
 		"Race": "Gnome",
 		"Class": "Artificer",
@@ -2205,7 +2203,9 @@
 		"Wis": 13,
 		"Cha": 12,
 		"Affliation": "Acquisitions Incorporated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Tatyana.png",
@@ -2214,8 +2214,6 @@
 		"Cost": 400000000000,
 		"HP": 322,
 		"Age": 30,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Tanking / Support / Speed",
 		"Race": "Air Genasi",
 		"Class": "Barbarian / Druid",
@@ -2228,7 +2226,9 @@
 		"Wis": 14,
 		"Cha": 11,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/44/Icon_Blooshi.png",
@@ -2237,8 +2237,6 @@
 		"Cost": 150,
 		"HP": 132,
 		"Age": 11.5,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Support / Tanking",
 		"Race": "Bullywug",
 		"Class": "Warlock",
@@ -2251,7 +2249,9 @@
 		"Wis": 8,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Gazrick.png",
@@ -2260,8 +2260,6 @@
 		"Cost": 25000000000,
 		"HP": 139,
 		"Age": 130,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Gold / Support",
 		"Race": "Gnome (Rock)",
 		"Class": "Druid",
@@ -2274,7 +2272,9 @@
 		"Wis": 20,
 		"Cha": 14,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/10/Icon_Dungeon_Master.png",
@@ -2283,8 +2283,6 @@
 		"Cost": 100000000,
 		"HP": 146,
 		"Age": "1000+",
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Gold / Healing / Support",
 		"Race": "Human",
 		"Class": "Wizard",
@@ -2297,7 +2295,9 @@
 		"Wis": 18,
 		"Cha": 18,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/70/Icon_Nordom.png",
@@ -2306,8 +2306,6 @@
 		"Cost": 25000000000000,
 		"HP": 160,
 		"Age": 122,
-		"ALL-C": "L",
-		"ALG-E": "N",
 		"Role": "Support",
 		"Race": "Modron",
 		"Class": "Fighter",
@@ -2320,7 +2318,9 @@
 		"Wis": 8,
 		"Cha": 8,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Merilwen.png",
@@ -2329,8 +2329,6 @@
 		"Cost": 40,
 		"HP": 45,
 		"Age": 101,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Gold / Support",
 		"Race": "Elf (Wood)",
 		"Class": "Druid",
@@ -2343,7 +2341,9 @@
 		"Wis": 20,
 		"Cha": 11,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/59/Icon_Nahara.png",
@@ -2352,8 +2352,6 @@
 		"Cost": 8000,
 		"HP": 65,
 		"Age": 27,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Speed",
 		"Race": "Aasimar (Reborn)",
 		"Class": "Warlock / Bard",
@@ -2366,7 +2364,9 @@
 		"Wis": 13,
 		"Cha": 16,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4e/Icon_Valentine.png",
@@ -2375,8 +2375,6 @@
 		"Cost": 2000000,
 		"HP": 170,
 		"Age": 22,
-		"ALL-C": "N",
-		"ALG-E": "N",
 		"Role": "Support / Gold",
 		"Race": "Half-elf (Reborn)",
 		"Class": "Sorcerer",
@@ -2389,7 +2387,9 @@
 		"Wis": 13,
 		"Cha": 17,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Desmond.png",
@@ -2398,8 +2398,6 @@
 		"Cost": 80000,
 		"HP": 142,
 		"Age": 33,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Human",
 		"Class": "Ranger",
@@ -2412,7 +2410,9 @@
 		"Wis": 12,
 		"Cha": 13,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/17/Icon_Voronika.png",
@@ -2421,8 +2421,6 @@
 		"Cost": 10,
 		"HP": 61,
 		"Age": 31,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "Support",
 		"Race": "Eladrin",
 		"Class": "Druid",
@@ -2435,7 +2433,9 @@
 		"Wis": 23,
 		"Cha": 17,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/fe/Icon_Dob.png",
@@ -2444,8 +2444,6 @@
 		"Cost": 75000000000000000000,
 		"HP": 186,
 		"Age": 28,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Support / Gold",
 		"Race": "Half-Orc",
 		"Class": "Bard",
@@ -2458,7 +2456,9 @@
 		"Wis": 14,
 		"Cha": 18,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/bb/Icon_Egbert.png",
@@ -2467,8 +2467,6 @@
 		"Cost": 50000000000,
 		"HP": 2219,
 		"Age": 24,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Tank / Support / Healing / Gold",
 		"Race": "Dragonborn",
 		"Class": "Paladin",
@@ -2481,7 +2479,9 @@
 		"Wis": 8,
 		"Cha": 18,
 		"Affliation": "Oxventurers Guild",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/db/Icon_Kent.png",
@@ -2490,8 +2490,6 @@
 		"Cost": 125000,
 		"HP": 206,
 		"Age": 35,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "DPS / Support",
 		"Race": "Tiefling",
 		"Class": "Rogue",
@@ -2504,7 +2502,9 @@
 		"Wis": 10,
 		"Cha": 14,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/80/Icon_Virgil.png",
@@ -2513,8 +2513,6 @@
 		"Cost": 1250000000000000,
 		"HP": 198,
 		"Age": 32,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support / Speed",
 		"Race": "Aasimar",
 		"Class": "Sorcerer",
@@ -2527,7 +2525,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Rivals of Waterdeep",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/29/Icon_Warduke.png",
@@ -2536,8 +2536,6 @@
 		"Cost": 4000000000,
 		"HP": 3680,
 		"Age": 39,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "Tanking / DPS",
 		"Race": "Human",
 		"Class": "Fighter",
@@ -2550,7 +2548,9 @@
 		"Wis": 11,
 		"Cha": 11,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 25
+		"Overwhelm": 25,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c0/Icon_Imoen.png",
@@ -2559,8 +2559,6 @@
 		"Cost": 500000000000000000,
 		"HP": 189,
 		"Age": 20,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Human",
 		"Class": "Rogue / Wizard",
@@ -2573,7 +2571,9 @@
 		"Wis": 11,
 		"Cha": 16,
 		"Affliation": "Heroes of Baldur's Gate",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/27/Icon_Fen.png",
@@ -2582,8 +2582,6 @@
 		"Cost": 200000000,
 		"HP": 258,
 		"Age": 200,
-		"ALL-C": "C",
-		"ALG-E": "E",
 		"Role": "DPS / Support",
 		"Race": "Dhampir Drow",
 		"Class": "Warlock / Rogue",
@@ -2596,7 +2594,9 @@
 		"Wis": 12,
 		"Cha": 14,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/cb/Icon_Brother_Uriah.png",
@@ -2605,8 +2605,6 @@
 		"Cost": 15000000000000,
 		"HP": 217,
 		"Age": 33,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Human",
 		"Class": "Cleric",
@@ -2619,7 +2617,9 @@
 		"Wis": 22,
 		"Cha": 15,
 		"Affliation": "Black Dice Society",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c6/Icon_Solaak.png",
@@ -2628,8 +2628,6 @@
 		"Cost": 250,
 		"HP": 0,
 		"Age": 22,
-		"ALL-C": "N",
-		"ALG-E": "G",
 		"Role": "Support",
 		"Race": "Kalashtar",
 		"Class": "Ranger",
@@ -2642,7 +2640,9 @@
 		"Wis": 15,
 		"Cha": 13,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Neutral"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d5/Icon_Miria.png",
@@ -2651,8 +2651,6 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 347,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / Tanking",
 		"Race": "Elf (Shadar-kai)",
 		"Class": "Wizard",
@@ -2665,7 +2663,9 @@
 		"Wis": 13,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/aa/Icon_Antrius.png",
@@ -2674,8 +2674,6 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 45,
-		"ALL-C": "C",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Human",
 		"Class": "Bard",
@@ -2688,7 +2686,9 @@
 		"Wis": 12,
 		"Cha": 18,
 		"Affliation": "Awful Ones",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1e/Icon_Nixie.png",
@@ -2697,8 +2697,6 @@
 		"Cost": 50,
 		"HP": 0,
 		"Age": 19,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "DPS / Support",
 		"Race": "Tiefling",
 		"Class": "Sorcerer",
@@ -2711,7 +2709,9 @@
 		"Wis": 8,
 		"Cha": 20,
 		"Affliation": "Awful Ones",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Evandra.png",
@@ -2720,8 +2720,6 @@
 		"Cost": 1750000,
 		"HP": 198,
 		"Age": 27,
-		"ALL-C": "C",
-		"ALG-E": "N",
 		"Role": "Support / Tanking / Gold",
 		"Race": "Half-Elf",
 		"Class": "Fighter",
@@ -2734,7 +2732,9 @@
 		"Wis": 9,
 		"Cha": 11,
 		"Affliation": "Awful Ones",
-		"Overwhelm": 20
+		"Overwhelm": 20,
+		"Alignment Good vs Bad": "Neutral",
+		"Alignment Law vs Chaotic": "Chaotic"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/1d/Icon_BBEG.png",
@@ -2743,8 +2743,6 @@
 		"Cost": 6000,
 		"HP": 71,
 		"Age": 500,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / Speed",
 		"Race": "Drow",
 		"Class": "Wizard",
@@ -2757,7 +2755,9 @@
 		"Wis": 15,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/03/Icon_Strongheart.png",
@@ -2766,8 +2766,6 @@
 		"Cost": 850000000000000000,
 		"HP": 49,
 		"Age": 39,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "Healing / Support",
 		"Race": "Human",
 		"Class": "Paladin",
@@ -2780,7 +2778,9 @@
 		"Wis": 13,
 		"Cha": 17,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Commodore_Krux.png",
@@ -2789,8 +2789,6 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 52,
-		"ALL-C": "L",
-		"ALG-E": "G",
 		"Role": "DPS / Support / Tanking",
 		"Race": "Giff",
 		"Class": "Fighter",
@@ -2803,7 +2801,9 @@
 		"Wis": 12,
 		"Cha": 12,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 0
+		"Overwhelm": 0,
+		"Alignment Good vs Bad": "Good",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a8/Icon_Vin_Ursa.png",
@@ -2812,8 +2812,6 @@
 		"Cost": 12500000000,
 		"HP": 341,
 		"Age": 27,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / Gold",
 		"Race": "Plasmoid",
 		"Class": "Fighter / Rogue",
@@ -2826,7 +2824,9 @@
 		"Wis": 17,
 		"Cha": 10,
 		"Affliation": "Unaffiliated",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Lae%27zel.png",
@@ -2835,8 +2835,6 @@
 		"Cost": 125,
 		"HP": 54,
 		"Age": 22,
-		"ALL-C": "L",
-		"ALG-E": "E",
 		"Role": "Support / DPS / Speed",
 		"Race": "Githyanki",
 		"Class": "Fighter",
@@ -2849,7 +2847,9 @@
 		"Wis": 12,
 		"Cha": 8,
 		"Affliation": "Absolute Adversaries",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Law"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a9/Icon_Astarion.png",
@@ -2858,8 +2858,6 @@
 		"Cost": 1200000000000000,
 		"HP": 70,
 		"Age": 350,
-		"ALL-C": "N",
-		"ALG-E": "E",
 		"Role": "Gold / Support",
 		"Race": "Elf",
 		"Class": "Rogue",
@@ -2872,6 +2870,8 @@
 		"Wis": 13,
 		"Cha": 10,
 		"Affliation": "Absolute Adversaries",
-		"Overwhelm": 5
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
 	}
 ]
