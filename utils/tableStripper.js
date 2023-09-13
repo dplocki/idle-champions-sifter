@@ -58,7 +58,7 @@
 			datum['Alignment Law vs Chaotic'] = (datum['ALL-C'] === 'N')
 				? 'Neutral'
 				: ((datum['ALL-C'] === 'L')
-				? 'Law'
+				? 'Lawful'
 				: 'Chaotic');
 
 			delete datum['ALL-C'];

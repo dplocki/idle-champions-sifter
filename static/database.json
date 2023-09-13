@@ -43,7 +43,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7a/Icon_Nayeli.png",
@@ -66,7 +66,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 20,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/5a/Icon_Jarlaxle.png",
@@ -135,7 +135,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4d/Icon_Minsc.png",
@@ -319,7 +319,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/9d/Icon_Krond.png",
@@ -365,7 +365,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 20,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/47/Icon_Dhadius.png",
@@ -411,7 +411,7 @@
 		"Affliation": "Companions of the Hall",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/88/Icon_Barrowin.png",
@@ -434,7 +434,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 25,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/5/57/Icon_Regis.png",
@@ -480,7 +480,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/9/96/Icon_Zorbu.png",
@@ -549,7 +549,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/37/Icon_Catti-brie.png",
@@ -618,7 +618,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d7/Icon_Deekin.png",
@@ -687,7 +687,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/da/Icon_Ishi.png",
@@ -848,7 +848,7 @@
 		"Affliation": "Heroes of Baldur's Gate",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b2/Icon_K%27thriss.png",
@@ -986,7 +986,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Qillek.png",
@@ -1009,7 +1009,7 @@
 		"Affliation": "Heroes of Aerois",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/1/15/Icon_Korth.png",
@@ -1055,7 +1055,7 @@
 		"Affliation": "Acquisitions Incorporated: The “C” Team",
 		"Overwhelm": 25,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/ff/Icon_Shandie.png",
@@ -1124,7 +1124,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4c/Icon_Pwent.png",
@@ -1193,7 +1193,7 @@
 		"Affliation": "Heroes of Aerois",
 		"Overwhelm": 20,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/0e/Icon_Krull.png",
@@ -1216,7 +1216,7 @@
 		"Affliation": "Dark Order",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/3/32/Icon_Artemis.png",
@@ -1239,7 +1239,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/7c/Icon_M%C3%B4rg%C3%A6n.png",
@@ -1285,7 +1285,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 25,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/4a/Icon_Havilar.png",
@@ -1538,7 +1538,7 @@
 		"Affliation": "Acquisitions Incorporated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/4/42/Icon_Ulkoria.png",
@@ -1607,7 +1607,7 @@
 		"Affliation": "Dark Order",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/6/6c/Icon_Ezmerelda.png",
@@ -1676,7 +1676,7 @@
 		"Affliation": "Heroes of Aerois",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/af/Icon_Baeloth.png",
@@ -1745,7 +1745,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/8/87/Icon_Orisha.png",
@@ -1814,7 +1814,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/b/b7/Icon_Orkira.png",
@@ -1929,7 +1929,7 @@
 		"Affliation": "Rivals of Waterdeep",
 		"Overwhelm": 15,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/ad/Icon_Ellywick.png",
@@ -2297,7 +2297,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/7/70/Icon_Nordom.png",
@@ -2320,7 +2320,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Neutral",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/f/f5/Icon_Merilwen.png",
@@ -2619,7 +2619,7 @@
 		"Affliation": "Black Dice Society",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/c/c6/Icon_Solaak.png",
@@ -2665,7 +2665,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/aa/Icon_Antrius.png",
@@ -2757,7 +2757,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/03/Icon_Strongheart.png",
@@ -2780,7 +2780,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/2/23/Icon_Commodore_Krux.png",
@@ -2803,7 +2803,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 0,
 		"Alignment Good vs Bad": "Good",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a8/Icon_Vin_Ursa.png",
@@ -2826,7 +2826,7 @@
 		"Affliation": "Unaffiliated",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/0/02/Icon_Lae%27zel.png",
@@ -2849,7 +2849,7 @@
 		"Affliation": "Absolute Adversaries",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
-		"Alignment Law vs Chaotic": "Law"
+		"Alignment Law vs Chaotic": "Lawful"
 	},
 	{
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/a9/Icon_Astarion.png",
