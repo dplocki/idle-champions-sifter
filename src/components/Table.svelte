@@ -40,6 +40,10 @@
 	}
 
 	function columnClick(clickedColumnData: IColumnState, event: MouseEvent): void {
+		if (clickedColumnData.type === 'img-link') {
+			return;
+		}
+
 		if (event.shiftKey) {
 			columns = columns.map((column) =>
 				column.name !== clickedColumnData.name
