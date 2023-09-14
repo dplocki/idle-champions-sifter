@@ -6,9 +6,13 @@
 		"Cost": 5,
 		"HP": 98,
 		"Age": 252,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Shield Dwarf",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 4,
 		"Str": 17,
@@ -29,9 +33,14 @@
 		"Cost": 50,
 		"HP": 43,
 		"Age": 36,
-		"Role": "Healing /Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 14,
@@ -52,9 +61,14 @@
 		"Cost": 1000,
 		"HP": 188,
 		"Age": 39,
-		"Role": "Tanking /Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.7,
 		"Str": 16,
@@ -75,9 +89,14 @@
 		"Cost": 25000,
 		"HP": 43,
 		"Age": 245,
-		"Role": "DPS /Gold",
+		"Role": [
+			"DPS",
+			"Gold"
+		],
 		"Race": "Drow",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 10,
@@ -98,9 +117,14 @@
 		"Cost": 1000000,
 		"HP": 45,
 		"Age": 65,
-		"Role": "Healing /Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Half-Elf",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 3.7,
 		"Str": 12,
@@ -121,9 +145,14 @@
 		"Cost": 50000000,
 		"HP": 35,
 		"Age": 38,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Aarakocra",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 7,
 		"Str": 10,
@@ -144,9 +173,15 @@
 		"Cost": 2500000000,
 		"HP": 47,
 		"Age": 45,
-		"Role": "DPS / Support / Speed",
+		"Role": [
+			"DPS",
+			"Support",
+			"Speed"
+		],
 		"Race": "Human",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 18,
@@ -167,9 +202,13 @@
 		"Cost": 100000000000,
 		"HP": 41,
 		"Age": 245,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Elf",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 9,
@@ -190,9 +229,15 @@
 		"Cost": 10000000000000,
 		"HP": 41,
 		"Age": 56,
-		"Role": "DPS / Support / Gold",
+		"Role": [
+			"DPS",
+			"Support",
+			"Gold"
+		],
 		"Race": "Tiefling",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 5.7,
 		"Str": 11,
@@ -213,9 +258,15 @@
 		"Cost": 1000000000000000,
 		"HP": 69,
 		"Age": 75,
-		"Role": "Tanking / Healing / Support",
+		"Role": [
+			"Tanking",
+			"Healing",
+			"Support"
+		],
 		"Race": "Firbolg",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.7,
 		"Str": 18,
@@ -236,9 +287,13 @@
 		"Cost": 250000000000000000,
 		"HP": 94,
 		"Age": 35,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Human",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 18,
@@ -259,9 +314,14 @@
 		"Cost": 100000000000000000000,
 		"HP": 441,
 		"Age": 40,
-		"Role": "DPS / Tanking",
+		"Role": [
+			"DPS",
+			"Tanking"
+		],
 		"Race": "Dragonborn",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 3.9,
 		"Str": 20,
@@ -282,9 +342,13 @@
 		"Cost": 100000000000,
 		"HP": 43,
 		"Age": 29,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.9,
 		"Str": 11,
@@ -305,9 +369,14 @@
 		"Cost": 65000,
 		"HP": 41,
 		"Age": 45,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Gnome",
-		"Class": "Monk",
+		"Class": [
+			"Monk"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.75,
 		"Str": 11,
@@ -328,9 +397,13 @@
 		"Cost": 100000000,
 		"HP": 1745,
 		"Age": 42,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Half-Orc",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.25,
 		"Str": 18,
@@ -351,9 +424,15 @@
 		"Cost": 4300,
 		"HP": 0,
 		"Age": 80,
-		"Role": "DPS / Tanking / Support",
+		"Role": [
+			"DPS",
+			"Tanking",
+			"Support"
+		],
 		"Race": "Tortle",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.9,
 		"Str": 14,
@@ -374,9 +453,14 @@
 		"Cost": 1500000,
 		"HP": 37,
 		"Age": 57,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 3.5,
 		"Str": 8,
@@ -397,9 +481,13 @@
 		"Cost": 12500000000000,
 		"HP": 1700,
 		"Age": 75,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Drow",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.7,
 		"Str": 10,
@@ -420,9 +508,15 @@
 		"Cost": 1330000000000000,
 		"HP": 1753,
 		"Age": 115,
-		"Role": "Tanking / Healing / Support",
+		"Role": [
+			"Tanking",
+			"Healing",
+			"Support"
+		],
 		"Race": "Dwarf",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.6,
 		"Str": 16,
@@ -443,9 +537,15 @@
 		"Cost": 65,
 		"HP": 1698,
 		"Age": 51,
-		"Role": "Healing / Support / Gold",
+		"Role": [
+			"Healing",
+			"Support",
+			"Gold"
+		],
 		"Race": "Halfling",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 7.7,
 		"Str": 8,
@@ -466,9 +566,14 @@
 		"Cost": 8000000000000,
 		"HP": 1698,
 		"Age": 26,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Tabaxi",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Melee",
 		"CD": 3.75,
 		"Str": 9,
@@ -489,9 +594,14 @@
 		"Cost": 50000000000000000000,
 		"HP": 45,
 		"Age": 325,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Gnome",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Ranged",
 		"CD": 6.2,
 		"Str": 8,
@@ -512,9 +622,14 @@
 		"Cost": 35000000000000000,
 		"HP": 1696,
 		"Age": 82,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Tiefling",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 10,
@@ -535,9 +650,14 @@
 		"Cost": 90000000000,
 		"HP": 1700,
 		"Age": 41,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Githzerai",
-		"Class": "Monk",
+		"Class": [
+			"Monk"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.5,
 		"Str": 13,
@@ -558,9 +678,14 @@
 		"Cost": 8000000000,
 		"HP": 1700,
 		"Age": 33,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5.3,
 		"Str": 15,
@@ -581,9 +706,14 @@
 		"Cost": 78000000,
 		"HP": 1839,
 		"Age": 22,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 7,
 		"Str": 19,
@@ -604,9 +734,14 @@
 		"Cost": 1250,
 		"HP": 98,
 		"Age": 39,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Mountain Dwarf",
-		"Class": "Fighter / Barbarian",
+		"Class": [
+			"Fighter",
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 6,
 		"Str": 18,
@@ -627,9 +762,14 @@
 		"Cost": 10,
 		"HP": 45,
 		"Age": 28,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Kobold",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Ranged",
 		"CD": 7.5,
 		"Str": 8,
@@ -650,9 +790,14 @@
 		"Cost": 1250000,
 		"HP": 41,
 		"Age": 19,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Human",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 3.5,
 		"Str": 8,
@@ -673,9 +818,15 @@
 		"Cost": 250000000000000000000,
 		"HP": 52,
 		"Age": 40,
-		"Role": "DPS / Support / Gold",
+		"Role": [
+			"DPS",
+			"Support",
+			"Gold"
+		],
 		"Race": "Human",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 19,
@@ -696,9 +847,15 @@
 		"Cost": 75000,
 		"HP": 47,
 		"Age": 27,
-		"Role": "DPS / Gold",
+		"Role": [
+			"DPS",
+			"Gold"
+		],
 		"Race": "Kobold",
-		"Class": "Fighter / Rogue",
+		"Class": [
+			"Fighter",
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.25,
 		"Str": 10,
@@ -719,9 +876,14 @@
 		"Cost": 750000000000000,
 		"HP": 534,
 		"Age": 33,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 20,
@@ -742,9 +904,13 @@
 		"Cost": 5250000000,
 		"HP": 45,
 		"Age": 19,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Tiefling",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 10,
@@ -765,9 +931,15 @@
 		"Cost": 45,
 		"HP": 94,
 		"Age": 19,
-		"Role": "Healing / Support / Gold",
+		"Role": [
+			"Healing",
+			"Support",
+			"Gold"
+		],
 		"Race": "Dragonborn",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Magic",
 		"CD": 3.8,
 		"Str": 18,
@@ -788,9 +960,14 @@
 		"Cost": 250000000000,
 		"HP": 37,
 		"Age": 530,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Eladrin",
-		"Class": "Bard / Wizard",
+		"Class": [
+			"Bard",
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.5,
 		"Str": 8,
@@ -811,9 +988,14 @@
 		"Cost": 500000000000000000,
 		"HP": 96,
 		"Age": 12,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Warforged",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.75,
 		"Str": 14,
@@ -834,9 +1016,14 @@
 		"Cost": 100000000000000000000,
 		"HP": 45,
 		"Age": 26,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.8,
 		"Str": 16,
@@ -857,9 +1044,13 @@
 		"Cost": 8,
 		"HP": 41,
 		"Age": 320,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Drow",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 8,
@@ -880,9 +1071,14 @@
 		"Cost": 45000,
 		"HP": 41,
 		"Age": 25,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Human",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Ranged",
 		"CD": 4,
 		"Str": 14,
@@ -903,9 +1099,13 @@
 		"Cost": 12500000000,
 		"HP": 47,
 		"Age": 32,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Human",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 6,
 		"Str": 11,
@@ -926,9 +1126,13 @@
 		"Cost": 900000000000000,
 		"HP": 0,
 		"Age": 110,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Halfling",
-		"Class": "Monk",
+		"Class": [
+			"Monk"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 8,
@@ -949,9 +1153,14 @@
 		"Cost": 7500000000000,
 		"HP": 239,
 		"Age": 25,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Wild Elf",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 18,
@@ -972,9 +1181,13 @@
 		"Cost": 750,
 		"HP": 35,
 		"Age": 0,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Kobold",
-		"Class": "Inventor (Rogue)",
+		"Class": [
+			"Inventor (Rogue)"
+		],
 		"Damage Type": "Ranged",
 		"CD": 7.5,
 		"Str": 7,
@@ -995,9 +1208,15 @@
 		"Cost": 2000000,
 		"HP": 39,
 		"Age": 3,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Aarakocra",
-		"Class": "Cleric / Bard",
+		"Class": [
+			"Cleric",
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.75,
 		"Str": 12,
@@ -1018,9 +1237,14 @@
 		"Cost": 75,
 		"HP": 98,
 		"Age": 55,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Lizardfolk",
-		"Class": "Samurai (Fighter)",
+		"Class": [
+			"Samurai (Fighter)"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.5,
 		"Str": 14,
@@ -1041,9 +1265,14 @@
 		"Cost": 150000000000,
 		"HP": 270,
 		"Age": 62,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Wood Elf",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 8,
@@ -1064,9 +1293,14 @@
 		"Cost": 125000000,
 		"HP": 47,
 		"Age": 63,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Halfling",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5,
 		"Str": 10,
@@ -1087,9 +1321,15 @@
 		"Cost": 7500000000,
 		"HP": 35,
 		"Age": 41,
-		"Role": "DPS / Support / Gold",
+		"Role": [
+			"DPS",
+			"Support",
+			"Gold"
+		],
 		"Race": "Human",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.75,
 		"Str": 8,
@@ -1110,9 +1350,13 @@
 		"Cost": 20,
 		"HP": 41,
 		"Age": 121,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Aasimar",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Magic",
 		"CD": 10,
 		"Str": 9,
@@ -1133,9 +1377,13 @@
 		"Cost": 900000,
 		"HP": 98,
 		"Age": 176,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Dwarf",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 18,
@@ -1156,9 +1404,14 @@
 		"Cost": 750000000000000000,
 		"HP": 45,
 		"Age": 40,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Half-Elf",
-		"Class": "Warlock / Sorcerer",
+		"Class": [
+			"Warlock",
+			"Sorcerer"
+		],
 		"Damage Type": "Magic (Ultimate : Melee)",
 		"CD": 6.5,
 		"Str": 8,
@@ -1179,9 +1432,15 @@
 		"Cost": 50000,
 		"HP": 215,
 		"Age": 13,
-		"Role": "Tanking / Support / Speed",
+		"Role": [
+			"Tanking",
+			"Support",
+			"Speed"
+		],
 		"Race": "Warforged",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 4,
 		"Str": 18,
@@ -1202,9 +1461,14 @@
 		"Cost": 90000000,
 		"HP": 232,
 		"Age": 40,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Tortle",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 20,
@@ -1225,9 +1489,13 @@
 		"Cost": 2500,
 		"HP": 45,
 		"Age": 131,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Human",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.7,
 		"Str": 14,
@@ -1248,9 +1516,14 @@
 		"Cost": 11000000000000,
 		"HP": 43,
 		"Age": 150,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "High Elf",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5.2,
 		"Str": 12,
@@ -1271,9 +1544,14 @@
 		"Cost": 75000000000000000,
 		"HP": 0,
 		"Age": 242,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Saurial",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.8,
 		"Str": 15,
@@ -1294,9 +1572,15 @@
 		"Cost": 300000000000000,
 		"HP": 342,
 		"Age": 19,
-		"Role": "Tanking / Support / Speed",
+		"Role": [
+			"Tanking",
+			"Support",
+			"Speed"
+		],
 		"Race": "Tiefling",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 7,
 		"Str": 18,
@@ -1317,9 +1601,14 @@
 		"Cost": 30,
 		"HP": 47,
 		"Age": 37,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Yuan-ti Pureblood",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Magic",
 		"CD": 7.8,
 		"Str": 11,
@@ -1340,9 +1629,16 @@
 		"Cost": 3000000,
 		"HP": 0,
 		"Age": 42,
-		"Role": "Tanking / Healing / Support / Speed",
+		"Role": [
+			"Tanking",
+			"Healing",
+			"Support",
+			"Speed"
+		],
 		"Race": "Half-Orc",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 7.5,
 		"Str": 16,
@@ -1363,9 +1659,15 @@
 		"Cost": 200000000000000000000,
 		"HP": 45,
 		"Age": 210,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Elf",
-		"Class": "Fighter / Wizard",
+		"Class": [
+			"Fighter",
+			"Wizard"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 17,
@@ -1386,9 +1688,14 @@
 		"Cost": 100,
 		"HP": 45,
 		"Age": 36,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Half-Elf",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.3,
 		"Str": 14,
@@ -1409,9 +1716,15 @@
 		"Cost": 100000,
 		"HP": 45,
 		"Age": 36,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Half-Elf",
-		"Class": "Fighter / Druid",
+		"Class": [
+			"Fighter",
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.4,
 		"Str": 15,
@@ -1432,9 +1745,14 @@
 		"Cost": 100000000000000000,
 		"HP": 581,
 		"Age": 20,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Air-Genasi",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Melee",
 		"CD": 3.9,
 		"Str": 7,
@@ -1455,9 +1773,15 @@
 		"Cost": 15000000000,
 		"HP": 43,
 		"Age": 42,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Halfling",
-		"Class": "Bard / Warlock",
+		"Class": [
+			"Bard",
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.8,
 		"Str": 13,
@@ -1478,9 +1802,15 @@
 		"Cost": 500000000000,
 		"HP": 0,
 		"Age": 91,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Dwarf",
-		"Class": "Rogue / Wizard",
+		"Class": [
+			"Rogue",
+			"Wizard"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 13,
@@ -1501,9 +1831,14 @@
 		"Cost": 500000000000,
 		"HP": 47,
 		"Age": 26,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 18,
@@ -1524,9 +1859,15 @@
 		"Cost": 5000,
 		"HP": 94,
 		"Age": 43,
-		"Role": "Support / Gold / Healing",
+		"Role": [
+			"Support",
+			"Gold",
+			"Healing"
+		],
 		"Race": "Half-Elf",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Melee",
 		"CD": 7,
 		"Str": 16,
@@ -1547,9 +1888,13 @@
 		"Cost": 500000000000000,
 		"HP": 0,
 		"Age": 377,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Dwarf",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 6.5,
 		"Str": 10,
@@ -1570,9 +1915,14 @@
 		"Cost": 20000000000000,
 		"HP": 145,
 		"Age": 19,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Goblin",
-		"Class": "Artificer",
+		"Class": [
+			"Artificer"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 8,
@@ -1593,9 +1943,14 @@
 		"Cost": 850000000000000,
 		"HP": 112,
 		"Age": 32,
-		"Role": "Support / DPS",
+		"Role": [
+			"Support",
+			"DPS"
+		],
 		"Race": "Minotaur",
-		"Class": "Barbarian",
+		"Class": [
+			"Barbarian"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.25,
 		"Str": 23,
@@ -1616,9 +1971,14 @@
 		"Cost": 15,
 		"HP": 43,
 		"Age": 27,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Fighter / Wizard",
+		"Class": [
+			"Fighter",
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 14,
@@ -1639,9 +1999,16 @@
 		"Cost": 10000000000000000000,
 		"HP": 37,
 		"Age": 37,
-		"Role": "Support / Gold / Healing",
+		"Role": [
+			"Support",
+			"Gold",
+			"Healing"
+		],
 		"Race": "Halfling",
-		"Class": "Druid / Warlock",
+		"Class": [
+			"Druid",
+			"Warlock"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.5,
 		"Str": 10,
@@ -1662,9 +2029,13 @@
 		"Cost": 10000000000,
 		"HP": 43,
 		"Age": 76,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "High Elf",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 13,
@@ -1685,9 +2056,14 @@
 		"Cost": 90000,
 		"HP": 41,
 		"Age": 222,
-		"Role": "Gold / Support",
+		"Role": [
+			"Gold",
+			"Support"
+		],
 		"Race": "Drow",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 6.5,
 		"Str": 12,
@@ -1708,9 +2084,13 @@
 		"Cost": 60,
 		"HP": 47,
 		"Age": 26,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Tiefling",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.2,
 		"Str": 10,
@@ -1731,9 +2111,15 @@
 		"Cost": 125000000000,
 		"HP": 35,
 		"Age": 67,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Kobold / \"Human\"",
-		"Class": "Rogue / Bard",
+		"Class": [
+			"Rogue",
+			"Bard"
+		],
 		"Damage Type": "Ranged",
 		"CD": 6.3,
 		"Str": 11,
@@ -1754,9 +2140,15 @@
 		"Cost": 425000000000000000,
 		"HP": 41,
 		"Age": 30,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Aasimar",
-		"Class": "Cleric / Bard",
+		"Class": [
+			"Cleric",
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.5,
 		"Str": 14,
@@ -1777,9 +2169,14 @@
 		"Cost": 150000000,
 		"HP": 45,
 		"Age": 168,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Elf",
-		"Class": "Wizard / Cleric",
+		"Class": [
+			"Wizard",
+			"Cleric"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 8,
@@ -1800,9 +2197,13 @@
 		"Cost": 250000000,
 		"HP": 623,
 		"Age": 19,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human / Celestial",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 5.5,
 		"Str": 18,
@@ -1823,9 +2224,14 @@
 		"Cost": 25,
 		"HP": 49,
 		"Age": 34,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Dragonborn",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 13,
@@ -1846,9 +2252,14 @@
 		"Cost": 3000000000000,
 		"HP": 45,
 		"Age": 29,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Tiefling",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.8,
 		"Str": 10,
@@ -1869,9 +2280,14 @@
 		"Cost": 3750,
 		"HP": 47,
 		"Age": 48,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Dragonborn",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 4,
 		"Str": 19,
@@ -1892,9 +2308,14 @@
 		"Cost": 250000000,
 		"HP": 148,
 		"Age": 50,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 8,
 		"Str": 19,
@@ -1915,9 +2336,14 @@
 		"Cost": 15000000000000000000,
 		"HP": 524,
 		"Age": 42,
-		"Role": "Tanking / Support",
+		"Role": [
+			"Tanking",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 6,
 		"Str": 19,
@@ -1938,9 +2364,15 @@
 		"Cost": 1000000000000000,
 		"HP": 42,
 		"Age": 125,
-		"Role": "Support / Gold / Healing",
+		"Role": [
+			"Support",
+			"Gold",
+			"Healing"
+		],
 		"Race": "Gnome",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 6.4,
 		"Str": 12,
@@ -1961,9 +2393,13 @@
 		"Cost": 5000000,
 		"HP": 37,
 		"Age": 28,
-		"Role": "DPS",
+		"Role": [
+			"DPS"
+		],
 		"Race": "Tiefling",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 7,
 		"Str": 14,
@@ -1984,9 +2420,13 @@
 		"Cost": 366000000000,
 		"HP": 43,
 		"Age": 30,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.8,
 		"Str": 13,
@@ -2007,9 +2447,14 @@
 		"Cost": 40,
 		"HP": 43,
 		"Age": 8,
-		"Role": "DPS / Gold",
+		"Role": [
+			"DPS",
+			"Gold"
+		],
 		"Race": "Aarakocra",
-		"Class": "Monk",
+		"Class": [
+			"Monk"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.5,
 		"Str": 11,
@@ -2030,9 +2475,14 @@
 		"Cost": 7500,
 		"HP": 49,
 		"Age": 38,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Rogue / Bard",
+		"Class": [
+			"Rogue",
+			"Bard"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 14,
@@ -2053,9 +2503,15 @@
 		"Cost": 90,
 		"HP": 49,
 		"Age": 423,
-		"Role": "Support / Healing / Speed",
+		"Role": [
+			"Support",
+			"Healing",
+			"Speed"
+		],
 		"Race": "Dhampir Gnome",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 5.5,
 		"Str": 18,
@@ -2076,9 +2532,14 @@
 		"Cost": 1000000000000000000,
 		"HP": 47,
 		"Age": 23,
-		"Role": "Gold / Support",
+		"Role": [
+			"Gold",
+			"Support"
+		],
 		"Race": "Tabaxi",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5,
 		"Str": 12,
@@ -2097,11 +2558,15 @@
 		"Name": "Xerophon",
 		"Slot": 7,
 		"Cost": 5000000000,
-		"HP": 0,
+		"HP": 94,
 		"Age": 47,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Doppelganger",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 7.5,
 		"Str": 9,
@@ -2122,9 +2587,14 @@
 		"Cost": 2500000,
 		"HP": 39,
 		"Age": 270,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Drow",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5.25,
 		"Str": 10,
@@ -2145,9 +2615,15 @@
 		"Cost": 900000000000000,
 		"HP": 47,
 		"Age": 39,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Harengon",
-		"Class": "Barbarian / Druid",
+		"Class": [
+			"Barbarian",
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 20,
@@ -2168,9 +2644,21 @@
 		"Cost": 8,
 		"HP": 0,
 		"Age": 38,
-		"Role": "DPS / Tanking / Healing / Support",
+		"Role": [
+			"DPS",
+			"Tanking",
+			"Healing",
+			"Support"
+		],
 		"Race": "NERDS",
-		"Class": "Fighter / Ranger / Bard / Cleric / Rogue / Wizard",
+		"Class": [
+			"Fighter",
+			"Ranger",
+			"Bard",
+			"Cleric",
+			"Rogue",
+			"Wizard"
+		],
 		"Damage Type": "Melee",
 		"CD": 4.2,
 		"Str": 9,
@@ -2191,9 +2679,15 @@
 		"Cost": 150000000000000000000,
 		"HP": 41,
 		"Age": 500,
-		"Role": "Gold / Speed / Support",
+		"Role": [
+			"Gold",
+			"Speed",
+			"Support"
+		],
 		"Race": "Gnome",
-		"Class": "Artificer",
+		"Class": [
+			"Artificer"
+		],
 		"Damage Type": "Ranged",
 		"CD": 7,
 		"Str": 8,
@@ -2214,9 +2708,16 @@
 		"Cost": 400000000000,
 		"HP": 322,
 		"Age": 30,
-		"Role": "Tanking / Support / Speed",
+		"Role": [
+			"Tanking",
+			"Support",
+			"Speed"
+		],
 		"Race": "Air Genasi",
-		"Class": "Barbarian / Druid",
+		"Class": [
+			"Barbarian",
+			"Druid"
+		],
 		"Damage Type": "Melee",
 		"CD": 6,
 		"Str": 16,
@@ -2237,9 +2738,14 @@
 		"Cost": 150,
 		"HP": 132,
 		"Age": 11.5,
-		"Role": "Support / Tanking",
+		"Role": [
+			"Support",
+			"Tanking"
+		],
 		"Race": "Bullywug",
-		"Class": "Warlock",
+		"Class": [
+			"Warlock"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.5,
 		"Str": 10,
@@ -2260,9 +2766,14 @@
 		"Cost": 25000000000,
 		"HP": 139,
 		"Age": 130,
-		"Role": "Gold / Support",
+		"Role": [
+			"Gold",
+			"Support"
+		],
 		"Race": "Gnome (Rock)",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 8,
@@ -2283,9 +2794,15 @@
 		"Cost": 100000000,
 		"HP": 146,
 		"Age": "1000+",
-		"Role": "Gold / Healing / Support",
+		"Role": [
+			"Gold",
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 9,
 		"Str": 18,
@@ -2306,9 +2823,13 @@
 		"Cost": 25000000000000,
 		"HP": 160,
 		"Age": 122,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Modron",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Ranged",
 		"CD": 7,
 		"Str": 16,
@@ -2329,9 +2850,14 @@
 		"Cost": 40,
 		"HP": 45,
 		"Age": 101,
-		"Role": "Gold / Support",
+		"Role": [
+			"Gold",
+			"Support"
+		],
 		"Race": "Elf (Wood)",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Magic",
 		"CD": 7.5,
 		"Str": 12,
@@ -2352,9 +2878,15 @@
 		"Cost": 8000,
 		"HP": 65,
 		"Age": 27,
-		"Role": "DPS / Speed",
+		"Role": [
+			"DPS",
+			"Speed"
+		],
 		"Race": "Aasimar (Reborn)",
-		"Class": "Warlock / Bard",
+		"Class": [
+			"Warlock",
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 9,
@@ -2375,9 +2907,14 @@
 		"Cost": 2000000,
 		"HP": 170,
 		"Age": 22,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Half-elf (Reborn)",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 7,
 		"Str": 9,
@@ -2398,9 +2935,13 @@
 		"Cost": 80000,
 		"HP": 142,
 		"Age": 33,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Ranged / Melee",
 		"CD": 6.25,
 		"Str": 16,
@@ -2421,9 +2962,13 @@
 		"Cost": 10,
 		"HP": 61,
 		"Age": 31,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Eladrin",
-		"Class": "Druid",
+		"Class": [
+			"Druid"
+		],
 		"Damage Type": "Magic",
 		"CD": 10,
 		"Str": 10,
@@ -2444,9 +2989,14 @@
 		"Cost": 75000000000000000000,
 		"HP": 186,
 		"Age": 28,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Half-Orc",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 8.75,
 		"Str": 12,
@@ -2467,9 +3017,16 @@
 		"Cost": 50000000000,
 		"HP": 2219,
 		"Age": 24,
-		"Role": "Tank / Support / Healing / Gold",
+		"Role": [
+			"Tank",
+			"Support",
+			"Healing",
+			"Gold"
+		],
 		"Race": "Dragonborn",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Ranged",
 		"CD": 8,
 		"Str": 18,
@@ -2490,9 +3047,14 @@
 		"Cost": 125000,
 		"HP": 206,
 		"Age": 35,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Tiefling",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 4,
 		"Str": 8,
@@ -2513,9 +3075,14 @@
 		"Cost": 1250000000000000,
 		"HP": 198,
 		"Age": 32,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Aasimar",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 8,
 		"Str": 9,
@@ -2536,9 +3103,14 @@
 		"Cost": 4000000000,
 		"HP": 3680,
 		"Age": 39,
-		"Role": "Tanking / DPS",
+		"Role": [
+			"Tanking",
+			"DPS"
+		],
 		"Race": "Human",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 19,
@@ -2559,9 +3131,15 @@
 		"Cost": 500000000000000000,
 		"HP": 189,
 		"Age": 20,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Rogue / Wizard",
+		"Class": [
+			"Rogue",
+			"Wizard"
+		],
 		"Damage Type": "Ranged",
 		"CD": 3.5,
 		"Str": 9,
@@ -2582,9 +3160,15 @@
 		"Cost": 200000000,
 		"HP": 258,
 		"Age": 200,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Dhampir Drow",
-		"Class": "Warlock / Rogue",
+		"Class": [
+			"Warlock",
+			"Rogue"
+		],
 		"Damage Type": "Melee",
 		"CD": 6.5,
 		"Str": 14,
@@ -2605,9 +3189,14 @@
 		"Cost": 15000000000000,
 		"HP": 217,
 		"Age": 33,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Cleric",
+		"Class": [
+			"Cleric"
+		],
 		"Damage Type": "Magic",
 		"CD": 4.75,
 		"Str": 10,
@@ -2628,9 +3217,13 @@
 		"Cost": 250,
 		"HP": 0,
 		"Age": 22,
-		"Role": "Support",
+		"Role": [
+			"Support"
+		],
 		"Race": "Kalashtar",
-		"Class": "Ranger",
+		"Class": [
+			"Ranger"
+		],
 		"Damage Type": "Ranged",
 		"CD": 3.2,
 		"Str": 14,
@@ -2651,9 +3244,14 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 347,
-		"Role": "Support / Tanking",
+		"Role": [
+			"Support",
+			"Tanking"
+		],
 		"Race": "Elf (Shadar-kai)",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 10,
@@ -2674,9 +3272,14 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 45,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Bard",
+		"Class": [
+			"Bard"
+		],
 		"Damage Type": "Magic",
 		"CD": 5.5,
 		"Str": 10,
@@ -2697,9 +3300,14 @@
 		"Cost": 50,
 		"HP": 0,
 		"Age": 19,
-		"Role": "DPS / Support",
+		"Role": [
+			"DPS",
+			"Support"
+		],
 		"Race": "Tiefling",
-		"Class": "Sorcerer",
+		"Class": [
+			"Sorcerer"
+		],
 		"Damage Type": "Magic",
 		"CD": 6,
 		"Str": 8,
@@ -2720,9 +3328,15 @@
 		"Cost": 1750000,
 		"HP": 198,
 		"Age": 27,
-		"Role": "Support / Tanking / Gold",
+		"Role": [
+			"Support",
+			"Tanking",
+			"Gold"
+		],
 		"Race": "Half-Elf",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Melee",
 		"CD": 5,
 		"Str": 17,
@@ -2743,9 +3357,14 @@
 		"Cost": 6000,
 		"HP": 71,
 		"Age": 500,
-		"Role": "Support / Speed",
+		"Role": [
+			"Support",
+			"Speed"
+		],
 		"Race": "Drow",
-		"Class": "Wizard",
+		"Class": [
+			"Wizard"
+		],
 		"Damage Type": "Magic",
 		"CD": 5,
 		"Str": 10,
@@ -2766,9 +3385,14 @@
 		"Cost": 850000000000000000,
 		"HP": 49,
 		"Age": 39,
-		"Role": "Healing / Support",
+		"Role": [
+			"Healing",
+			"Support"
+		],
 		"Race": "Human",
-		"Class": "Paladin",
+		"Class": [
+			"Paladin"
+		],
 		"Damage Type": "Melee",
 		"CD": 4,
 		"Str": 15,
@@ -2789,9 +3413,15 @@
 		"Cost": 0,
 		"HP": 0,
 		"Age": 52,
-		"Role": "DPS / Support / Tanking",
+		"Role": [
+			"DPS",
+			"Support",
+			"Tanking"
+		],
 		"Race": "Giff",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Ranged",
 		"CD": 0,
 		"Str": 18,
@@ -2812,9 +3442,15 @@
 		"Cost": 12500000000,
 		"HP": 341,
 		"Age": 27,
-		"Role": "Support / Gold",
+		"Role": [
+			"Support",
+			"Gold"
+		],
 		"Race": "Plasmoid",
-		"Class": "Fighter / Rogue",
+		"Class": [
+			"Fighter",
+			"Rogue"
+		],
 		"Damage Type": "Ranged",
 		"CD": 7.5,
 		"Str": 8,
@@ -2835,9 +3471,15 @@
 		"Cost": 125,
 		"HP": 54,
 		"Age": 22,
-		"Role": "Support / DPS / Speed",
+		"Role": [
+			"Support",
+			"DPS",
+			"Speed"
+		],
 		"Race": "Githyanki",
-		"Class": "Fighter",
+		"Class": [
+			"Fighter"
+		],
 		"Damage Type": "Magic / Melee",
 		"CD": 8,
 		"Str": 17,
@@ -2858,9 +3500,14 @@
 		"Cost": 1200000000000000,
 		"HP": 70,
 		"Age": 350,
-		"Role": "Gold / Support",
+		"Role": [
+			"Gold",
+			"Support"
+		],
 		"Race": "Elf",
-		"Class": "Rogue",
+		"Class": [
+			"Rogue"
+		],
 		"Damage Type": "Ranged",
 		"CD": 5.5,
 		"Str": 8,

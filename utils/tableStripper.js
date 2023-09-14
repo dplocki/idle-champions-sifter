@@ -2,6 +2,7 @@
 	const table = document.getElementsByTagName('table')[0];
 	const headers = Array.from(table.getElementsByTagName('th')).map(header => header.textContent.trim());
 	const columnsCount = headers.length;
+	const splitBySlash = value => value.split('/').map(v => v.trim());
 
 	return Array.from(table.querySelectorAll('tbody tr'))
 		.map(row => {
@@ -62,6 +63,12 @@
 				: 'Chaotic');
 
 			delete datum['ALL-C'];
+
+			return datum;
+		})
+		.map(datum => {
+			datum['Role'] = splitBySlash(datum['Role']);
+			datum['Class'] = splitBySlash(datum['Class']);
 
 			return datum;
 		});
