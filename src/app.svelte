@@ -14,7 +14,7 @@
 
 <QueryTextBox on:query={newquery} />
 
-<Table datasource={database} />
+<Table datasource={database} columnsSettings={{ 'Icon': 'img-link' }} />
 
 <style>
 	h1 {

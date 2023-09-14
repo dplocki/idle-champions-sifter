@@ -8,13 +8,18 @@
 		Desc = 2
 	}
 
+	type ColumnType = 'img-link';
+
 	interface IColumnState {
+		type?: ColumnType;
 		name: string;
 		sort: SortDirectorion;
 		order: number;
 	}
 
 	export let datasource: any[] = [];
+	export let columnsSettings: { [key: string]: ColumnType } = {};
+
 	let columns: IColumnState[] = [];
 
 	onMount(() => {
@@ -23,6 +28,7 @@
 		}
 
 		columns = Object.keys(datasource[0]).map((columnName) => ({
+			type: columnsSettings[columnName] ?? undefined,
 			name: columnName,
 			sort: SortDirectorion.None,
 			order: 0
@@ -97,7 +103,7 @@
 			<tr transition:fade>
 				{#each columns as column}
 					<td>
-						{#if column.name === 'Icon'}
+						{#if column.type === 'img-link' }
 							<img src={datum[column.name]} alt={datum['Name']} />
 						{:else}
 							{datum[column.name]}
