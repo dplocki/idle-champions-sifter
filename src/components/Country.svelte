@@ -1,6 +1,6 @@
 <script lang="ts">
-	export let itemLabel;
-	export let highlighted;
+	export let itemLabel: number;
+	export let highlighted: number;
 </script>
 
 <li class="autocomplete-items" class:autocomplete-active={highlighted} on:click>
