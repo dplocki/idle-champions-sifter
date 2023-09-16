@@ -1,27 +1,27 @@
-<script>
-	export let onSubmit = () => {};
-	export let options = [];
-	export let searchModifiers = [];
+<script lang="ts">
+	export let onSubmit = (a: string, b: string) => {};
+	export let options: string[] = [];
+	export let searchModifiers: string[] = [];
 	export let className = '';
 	export let themeColor = '#333';
 	export let highlightTextColor = '#fff';
 	export let keepValueOnSubmit = false;
 	export let selectedValue = '';
 
-	const findMatches = (options, searchTerm) =>
+	const findMatches = (options: string[], searchTerm: string) =>
 		options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
 			return foundIndex > -1;
 		});
 
-	const spanWrapSearchTerm = (option, foundIndex, searchTermLength) => {
+	const spanWrapSearchTerm = (option: string, foundIndex: number, searchTermLength: number) => {
 		const searchTerm = option.slice(foundIndex, foundIndex + searchTermLength);
 
 		return `<span>${searchTerm}</span>`;
 	};
 
-	const boldSearchTerm = (option, searchTerm) => {
+	const boldSearchTerm = (option: string, searchTerm: string) => {
 		const lowercaseOption = option.toLowerCase();
 		const lowercaseSearchTerm = searchTerm.toLowerCase();
 		let foundIndex = lowercaseOption.indexOf(lowercaseSearchTerm);
@@ -54,38 +54,38 @@
 		return html || option;
 	};
 
-	const MODIFIERS = searchModifiers.reduce((acc, cur) => {
+	const MODIFIERS = searchModifiers.reduce((acc: {[key: string]: boolean }, cur: string) => {
 		acc[cur] = true;
 
 		return acc;
 	}, {});
 
 	let results = [...options, ...searchModifiers];
-	let searchModifier = '';
-	let modifierLabelWidth;
-	let inputRef;
+	let searchModifier: string = '';
+	let modifierLabelWidth: number;
+	let inputRef: HTMLElement;
 	let showAutocompleteResults = false;
 	let highlightIndex = 0;
 
-	const showResults = () => {
+	const showResults = (): void => {
 		highlightIndex = 0;
 		showAutocompleteResults = true;
 	};
 
-	const hideResults = () => (showAutocompleteResults = false);
+	const hideResults = (): void => { showAutocompleteResults = false };
 
-	const removeSearchModifier = () => {
+	const removeSearchModifier = (): void => {
 		searchModifier = '';
 		inputRef.focus();
 	};
 
-	const handleInput = () => {
+	const handleInput = (): void => {
 		if (!searchModifier) {
 			showResults();
 		}
 	};
 
-	const handleKeyDown = ({ key }) => {
+	const handleKeyDown = ({ key }: KeyboardEvent): void => {
 		switch (key) {
 			case 'Escape':
 				hideResults();
@@ -128,7 +128,7 @@
 		}
 	};
 
-	const handleSubmit = (value) => {
+	const handleSubmit = (value: string) => {
 		if (!value) return;
 
 		if (MODIFIERS[value]) {
