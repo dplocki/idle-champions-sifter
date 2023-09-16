@@ -1,162 +1,325 @@
-<script lang="ts">
-	import { createEventDispatcher } from 'svelte';
-	import Country from './Country.svelte';
+<script>
+	const findMatches = (options, searchTerm) =>
+		options.filter((option) => {
+			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
-	export const countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla","Antigua and Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","British Virgin Islands","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Cayman Islands","Central African Republic","Chad","Chile","China","Colombia","Congo","Cook Islands","Costa Rica","Cote D Ivoire","Croatia","Cuba","Curacao","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Falkland Islands","Faroe Islands","Fiji","Finland","France","French Polynesia","French West Indies","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guam","Guatemala","Guernsey","Guinea","Guinea Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Isle of Man","Israel","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Macedonia","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauro","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","North Korea","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania","Russia","Rwanda","Saint Pierre and Miquelon","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","St Kitts and Nevis","St Lucia","St Vincent","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor L'Este","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Turks and Caicos","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States of America","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Virgin Islands (US)","Yemen","Zambia","Zimbabwe"];
+			return foundIndex > -1;
+		});
 
-	const dispatch = createEventDispatcher();
-	let query: string = '';
+	const spanWrapSearchTerm = (option, foundIndex, searchTermLength) => {
+		const searchTerm = option.slice(foundIndex, foundIndex + searchTermLength);
 
-	// function clearQuery() {
-	// 	query = '';
-	// }
+		return `<span>${searchTerm}</span>`;
+	};
 
-	// function keypressed(event: KeyboardEvent) {
-	// 	if (event.key === 'Enter') {
-	// 		dispatch('query', query);
-	// 	} else {
-	// 		showResults(query);
-	// 	}
-	// }
+	const boldSearchTerm = (option, searchTerm) => {
+		const lowercaseOption = option.toLowerCase();
+		const lowercaseSearchTerm = searchTerm.toLowerCase();
+		let foundIndex = lowercaseOption.indexOf(lowercaseSearchTerm);
+		let html = '';
 
-	/* FILTERING countres DATA BASED ON INPUT */
-	let filteredCountries: string[] = [];
-	// $: console.log(filteredCountries)
+		if (!searchTerm) return option;
 
-	const filterCountries = () => {
-		let storageArr: string[] = [];
-		if (inputValue) {
-			countries.forEach((country) => {
-				if (country.toLowerCase().startsWith(inputValue.toLowerCase())) {
-					storageArr = [...storageArr, makeMatchBold(country)];
+		while (foundIndex !== -1) {
+			const previousIndex = foundIndex;
+			const searchTermLength = searchTerm.length;
+
+			if (!html) {
+				html = option.slice(0, foundIndex);
+			}
+
+			html += spanWrapSearchTerm(option, foundIndex, searchTermLength);
+
+			// check for another match
+			foundIndex = lowercaseOption.indexOf(lowercaseSearchTerm, foundIndex + 1);
+
+			if (foundIndex !== -1) {
+				// second match: add raw string before next section of html
+				html += option.slice(previousIndex + searchTermLength, foundIndex);
+			} else {
+				// single match, finish the string
+				html += option.slice(previousIndex + searchTermLength);
+			}
+		}
+
+		return html || option;
+	};
+	export let onSubmit = () => {};
+	export let options = [];
+	export let searchModifiers = [];
+	export let className = '';
+	export let themeColor = '#333';
+	export let highlightTextColor = '#fff';
+	export let keepValueOnSubmit = false;
+	export let selectedValue = '';
+
+	const MODIFIERS = searchModifiers.reduce((acc, cur) => {
+		acc[cur] = true;
+
+		return acc;
+	}, {});
+
+	let results = [...options, ...searchModifiers];
+	let searchModifier = '';
+	let modifierLabelWidth;
+	let inputRef;
+	let showAutocompleteResults = false;
+	let highlightIndex = 0;
+
+	const showResults = () => {
+		highlightIndex = 0;
+		showAutocompleteResults = true;
+	};
+
+	const hideResults = () => (showAutocompleteResults = false);
+
+	const removeSearchModifier = () => {
+		searchModifier = '';
+		inputRef.focus();
+	};
+
+	const handleInput = () => {
+		if (!searchModifier) {
+			showResults();
+		}
+	};
+
+	const handleKeyDown = ({ key }) => {
+		switch (key) {
+			case 'Escape':
+				hideResults();
+				break;
+			case 'ArrowUp':
+				if (showAutocompleteResults && highlightIndex === 0) {
+					highlightIndex = matches.length - 1;
+				} else {
+					highlightIndex -= 1;
 				}
-			});
+				break;
+			case 'ArrowDown':
+				if (!selectedValue && !showAutocompleteResults) {
+					showResults();
+					break;
+				}
+
+				if (showAutocompleteResults && highlightIndex === matches.length - 1) {
+					highlightIndex = 0;
+				} else {
+					highlightIndex += 1;
+				}
+				break;
+			case 'Tab':
+				hideResults();
+				break;
+			case 'Enter':
+				const highlightedOption = matches[highlightIndex];
+				const value = highlightedOption || selectedValue;
+
+				handleSubmit(value);
+				break;
+			case 'Backspace':
+				if (!selectedValue) {
+					removeSearchModifier();
+				}
+				break;
+			default:
+				return;
 		}
-		filteredCountries = storageArr;
 	};
 
-	/* HANDLING THE INPUT */
-	let searchInput: HTMLElement; // use with bind:this to focus element
-	let inputValue = '';
+	const handleSubmit = (value) => {
+		if (!value) return;
 
-	$: if (!inputValue) {
-		filteredCountries = [];
-		hiLiteIndex = null;
-	}
-
-	const clearInput = () => {
-		inputValue = '';
-		searchInput.focus();
-	};
-
-	const setInputVal = (countryName: string) => {
-		inputValue = removeBold(countryName);
-		filteredCountries = [];
-		hiLiteIndex = null;
-		(document.querySelector('#country-input') as any).focus();
-	};
-
-	const submitValue = () => {
-		if (inputValue) {
-			console.log(`${inputValue} is submitted!`);
-			setTimeout(clearInput, 1000);
+		if (MODIFIERS[value]) {
+			searchModifier = value;
+			inputRef.focus();
 		} else {
-			alert("You didn't type anything.");
+			onSubmit(value, searchModifier);
+			removeSearchModifier();
 		}
+
+		selectedValue = keepValueOnSubmit ? value : '';
+		hideResults();
 	};
 
-	const makeMatchBold = (str: string) => {
-		// replace part of (country name === inputValue) with strong tags
-		let matched = str.substring(0, inputValue.length);
-		let makeBold = `<strong>${matched}</strong>`;
-		let boldedMatch = str.replace(matched, makeBold);
-		return boldedMatch;
-	};
-
-	const removeBold = (str: string) => {
-		//replace < and > all characters between
-		return str.replace(/<(.)*?>/g, '');
-		// return str.replace(/<(strong)>/g, "").replace(/<\/(strong)>/g, "");
-	};
-
-	/* NAVIGATING OVER THE LIST OF COUNTRIES W HIGHLIGHTING */
-	let hiLiteIndex: number | null = null;
-	//$: console.log(hiLiteIndex);
-	$: hiLitedCountry = filteredCountries[hiLiteIndex!];
-
-	const navigateList = (e: KeyboardEvent) => {
-		if (e.key === 'ArrowDown' && hiLiteIndex! <= filteredCountries.length - 1) {
-			hiLiteIndex === null ? (hiLiteIndex = 0) : (hiLiteIndex += 1);
-		} else if (e.key === 'ArrowUp' && hiLiteIndex !== null) {
-			hiLiteIndex === 0 ? (hiLiteIndex = filteredCountries.length - 1) : (hiLiteIndex -= 1);
-		} else if (e.key === 'Enter') {
-			setInputVal(filteredCountries[hiLiteIndex!]);
-		} else {
-			return;
-		}
-	};
+	$: matches = findMatches(results, selectedValue);
 </script>
 
-<svelte:window on:keydown={navigateList} />
+<div
+	class="svelte-autocomplete {className}"
+	style="--theme: {themeColor};
+				 --highlightTextColor: {highlightTextColor};
+				 --modifier-label-width: {modifierLabelWidth + 8}px;"
+>
+	<input
+		bind:value={selectedValue}
+		bind:this={inputRef}
+		on:keydown={handleKeyDown}
+		on:input={handleInput}
+		on:click={showResults}
+		autocomplete="off"
+		class:modified-search={searchModifier}
+	/>
 
-<form autocomplete="off" on:submit|preventDefault={submitValue}>
-	<div class="autocomplete">
-		<input
-			id="country-input"
-			type="text"
-			placeholder="Search Country Names"
-			bind:this={searchInput}
-			bind:value={inputValue}
-			on:input={filterCountries}
-		/>
-	</div>
-
-	<input type="submit" />
-
-	<!-- FILTERED LIST OF COUNTRIES -->
-	{#if filteredCountries.length > 0}
-		<ul id="autocomplete-items-list">
-			{#each filteredCountries as country, i}
-				<Country
-					itemLabel={country}
-					highlighted={i === hiLiteIndex}
-					on:click={() => setInputVal(country)}
-				/>
-			{/each}
-		</ul>
+	{#if searchModifier}
+		<span
+			class="search-modifier"
+			on:click={removeSearchModifier}
+			bind:clientWidth={modifierLabelWidth}
+		>
+			{searchModifier}
+		</span>
+	{:else}
+		<div
+			class:showAutocompleteResults
+			class="svelte-autocomplete-results-container"
+			aria-hidden={showAutocompleteResults}
+			autocapitalize="none"
+			aria-autocomplete="list"
+			aria-expanded={showAutocompleteResults}
+		>
+			<div class="click-catcher" on:click={hideResults} />
+			<ul class="results-list" class:border-none={!matches.length}>
+				{#each matches as match, index (match)}
+					<li
+						on:click={() => handleSubmit(match)}
+						class:modifier={MODIFIERS[match]}
+						class:highlight={index === highlightIndex}
+						aria-selected={index === highlightIndex}
+						aria-label={match}
+						role="option"
+					>
+						{#if index >= options.length || MODIFIERS[match]}
+							<span class="search-label">Search</span>
+						{/if}
+						{@html boldSearchTerm(match, selectedValue)}
+					</li>
+				{/each}
+			</ul>
+		</div>
 	{/if}
-</form>
+</div>
 
 <style>
-	div.autocomplete {
-		/*the container must be positioned relative:*/
-		position: relative;
+	.svelte-autocomplete {
 		display: inline-block;
-		width: 300px;
-	}
-	input {
-		border: 1px solid transparent;
-		background-color: #f1f1f1;
-		padding: 10px;
-		font-size: 16px;
-		margin: 0;
-	}
-	input[type='text'] {
-		background-color: #f1f1f1;
-		width: 100%;
-	}
-	input[type='submit'] {
-		background-color: DodgerBlue;
-		color: #fff;
+		position: relative;
 	}
 
-	#autocomplete-items-list {
-		position: relative;
-		margin: 0;
-		padding: 0;
+	input {
+		height: 2.25rem;
+		min-width: 200px;
+		padding: 0.25rem 0.5rem;
+		font-size: 1rem;
+		color: #333;
+		border-radius: 0.25rem;
+		box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+	}
+
+	input.modified-search {
+		padding: 0.25rem 2rem 0.25rem var(--modifier-label-width);
+	}
+
+	input,
+	.results-list {
+		border: 1px solid #dbdbdb;
+	}
+
+	.search-modifier {
+		display: block;
+		position: absolute;
+		left: 0.25rem;
+		top: 0.25rem;
+		height: calc(100% - 0.5rem);
+		display: flex;
+		align-items: center;
+		padding: 0.25rem;
+		border-radius: 3px;
+		background-color: var(--theme);
+		color: var(--highlightTextColor);
+		font-size: 14px;
+	}
+
+	.svelte-autocomplete-results-container {
+		display: none;
+	}
+
+	.svelte-autocomplete-results-container.showAutocompleteResults {
+		display: block;
+	}
+
+	.click-catcher {
+		position: fixed;
 		top: 0;
-		width: 297px;
-		border: 1px solid #ddd;
-		background-color: #ddd;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.results-list {
+		width: calc(100% - 2px);
+		position: absolute;
+		left: 1px;
+		top: 35px;
+		list-style-type: none;
+		background-color: #fff;
+		color: #595959;
+		border-radius: 0 0 2px 2px;
+		padding-left: 0;
+		margin: 0;
+		z-index: 10;
+		text-align: left;
+	}
+
+	.results-list.border-none {
+		border: none;
+	}
+
+	.results-list li {
+		padding: 0.5rem;
+		user-select: none;
+	}
+
+	:global(.results-list li span) {
+		font-weight: bold;
+		color: #111;
+	}
+
+	.modifier {
+		display: flex;
+		align-items: center;
+		border-top: 1px solid #dbdbdb;
+	}
+
+	.search-label {
+		border: 1px solid var(--theme);
+		background-color: var(--theme);
+		border-radius: 0.25rem;
+		padding: 0.25rem;
+		margin-right: 0.25rem;
+		color: var(--highlightTextColor);
+		font-size: 0.5rem;
+		font-weight: 500;
+	}
+
+	.highlight .search-label {
+		border: 1px solid var(--highlightTextColor);
+	}
+
+	.highlight,
+	.results-list li:hover,
+	:global(.results-list li:hover span),
+	:global(.results-list .highlight span) {
+		background: var(--theme);
+		color: var(--highlightTextColor);
+		font-weight: normal;
+	}
+
+	:global(.svelte-autocomplete svg) {
+		width: 1.5rem;
+		position: absolute;
+		top: 0.25rem;
+		right: 0.35rem;
+		fill: var(--theme);
 	}
 </style>
