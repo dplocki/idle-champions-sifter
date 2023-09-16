@@ -1,4 +1,13 @@
 <script>
+	export let onSubmit = () => {};
+	export let options = [];
+	export let searchModifiers = [];
+	export let className = '';
+	export let themeColor = '#333';
+	export let highlightTextColor = '#fff';
+	export let keepValueOnSubmit = false;
+	export let selectedValue = '';
+
 	const findMatches = (options, searchTerm) =>
 		options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
@@ -44,14 +53,6 @@
 
 		return html || option;
 	};
-	export let onSubmit = () => {};
-	export let options = [];
-	export let searchModifiers = [];
-	export let className = '';
-	export let themeColor = '#333';
-	export let highlightTextColor = '#fff';
-	export let keepValueOnSubmit = false;
-	export let selectedValue = '';
 
 	const MODIFIERS = searchModifiers.reduce((acc, cur) => {
 		acc[cur] = true;
