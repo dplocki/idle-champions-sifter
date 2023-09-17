@@ -4,7 +4,6 @@
 	export let className = '';
 	export let themeColor = '#333';
 	export let highlightTextColor = '#fff';
-	export let keepValueOnSubmit = false;
 	export let selectedValue = '';
 
 	const findMatches = (options: string[], searchTerm: string) =>
@@ -133,7 +132,7 @@
 		onSubmit(value);
 		removeSearchModifier();
 
-		selectedValue = keepValueOnSubmit ? value : '';
+		selectedValue = value;
 		hideResults();
 	};
 
