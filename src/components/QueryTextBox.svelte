@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let onSubmit = (a: string, b: string) => {};
 	export let options: string[] = [];
 	export let searchModifiers: string[] = [];
 	export let className = '';
@@ -122,12 +121,16 @@
 		}
 	};
 
+	function onSubmit(value: string): void {
+		console.log(value);
+	}
+
 	const handleSubmit = (value: string) => {
 		if (!value) {
 			return;
 		}
 
-		onSubmit(value, searchModifier);
+		onSubmit(value);
 		removeSearchModifier();
 
 		selectedValue = keepValueOnSubmit ? value : '';
