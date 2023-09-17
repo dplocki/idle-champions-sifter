@@ -9,8 +9,6 @@
 		console.log('newquery', lexer(event.detail));
 	}
 
-	const searchModifiers = ['books', 'philosophy']
-
 	const handleSubmit = (selectedValue: string) => {
 		console.log(selectedValue)
 	}

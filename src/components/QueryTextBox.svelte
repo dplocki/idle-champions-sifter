@@ -54,12 +54,6 @@
 		return html || option;
 	};
 
-	const MODIFIERS = searchModifiers.reduce((acc: {[key: string]: boolean }, cur: string) => {
-		acc[cur] = true;
-
-		return acc;
-	}, {});
-
 	let results = [...options, ...searchModifiers];
 	let searchModifier: string = '';
 	let modifierLabelWidth: number;
@@ -129,15 +123,12 @@
 	};
 
 	const handleSubmit = (value: string) => {
-		if (!value) return;
-
-		if (MODIFIERS[value]) {
-			searchModifier = value;
-			inputRef.focus();
-		} else {
-			onSubmit(value, searchModifier);
-			removeSearchModifier();
+		if (!value) {
+			return;
 		}
+
+		onSubmit(value, searchModifier);
+		removeSearchModifier();
 
 		selectedValue = keepValueOnSubmit ? value : '';
 		hideResults();
@@ -184,13 +175,12 @@
 				{#each matches as match, index (match)}
 					<li
 						on:click={() => handleSubmit(match)}
-						class:modifier={MODIFIERS[match]}
 						class:highlight={index === highlightIndex}
 						aria-selected={index === highlightIndex}
 						aria-label={match}
 						role="option"
 					>
-						{#if index >= options.length || MODIFIERS[match]}
+						{#if index >= options.length}
 							<span class="search-label">Search</span>
 						{/if}
 						{@html boldSearchTerm(match, selectedValue)}
