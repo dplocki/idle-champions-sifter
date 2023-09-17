@@ -148,7 +148,6 @@
 		bind:this={inputRef}
 		on:keydown={handleKeyDown}
 		on:input={handleInput}
-		on:click={showResults}
 		autocomplete="off"
 		class:modified-search={searchModifier}
 	/>
