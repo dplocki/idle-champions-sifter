@@ -51,7 +51,6 @@
 		return html || option;
 	};
 
-	let results = [...options];
 	let searchModifier: string = '';
 	let modifierLabelWidth: number;
 	let inputRef: HTMLElement;
@@ -135,7 +134,7 @@
 		hideResults();
 	};
 
-	$: matches = findMatches(results, selectedValue);
+	$: matches = findMatches(options, selectedValue);
 </script>
 
 <div
