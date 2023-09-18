@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let options: string[] = [];
+	export let options: string[] = ['Jorge Luis Borges', 'Voltaire', 'Oscar Wilde', 'Julio Cortazar', 'T.S. Eliot'];
 	export let searchModifiers: string[] = [];
 	export let className = '';
 	export let themeColor = '#333';

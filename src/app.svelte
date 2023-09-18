@@ -8,14 +8,12 @@
 	function newquery(event: CustomEvent<string>) {
 		console.log('newquery', lexer(event.detail));
 	}
-
-	let options = ['Jorge Luis Borges', 'Voltaire', 'Oscar Wilde', 'Julio Cortazar', 'T.S. Eliot']
 </script>
 
 <h1>Idle Champions Sifter</h1>
 
 
-<QueryTextBox {options} />
+<QueryTextBox />
 
 
 <Table datasource={database} columnsSettings={{ 'Icon': 'img-link' }} />
