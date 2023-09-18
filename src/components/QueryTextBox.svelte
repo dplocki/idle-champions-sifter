@@ -1,5 +1,11 @@
 <script lang="ts">
-	export let options: string[] = ['Jorge Luis Borges', 'Voltaire', 'Oscar Wilde', 'Julio Cortazar', 'T.S. Eliot'];
+	export let options: string[] = [
+		'Jorge Luis Borges',
+		'Voltaire',
+		'Oscar Wilde',
+		'Julio Cortazar',
+		'T.S. Eliot'
+	];
 	export let className = '';
 	export let themeColor = '#333';
 	export let highlightTextColor = '#fff';
@@ -51,9 +57,7 @@
 		return html || option;
 	};
 
-	let searchModifier: string = '';
 	let modifierLabelWidth: number;
-	let inputRef: HTMLElement;
 	let showAutocompleteResults = false;
 	let highlightIndex = 0;
 
@@ -62,17 +66,12 @@
 		showAutocompleteResults = true;
 	};
 
-	const hideResults = (): void => { showAutocompleteResults = false };
-
-	const removeSearchModifier = (): void => {
-		searchModifier = '';
-		inputRef.focus();
+	const hideResults = (): void => {
+		showAutocompleteResults = false;
 	};
 
 	const handleInput = (): void => {
-		if (!searchModifier) {
-			showResults();
-		}
+		showResults();
 	};
 
 	const handleKeyDown = ({ key }: KeyboardEvent): void => {
@@ -108,11 +107,7 @@
 
 				handleSubmit(value);
 				break;
-			case 'Backspace':
-				if (!selectedValue) {
-					removeSearchModifier();
-				}
-				break;
+
 			default:
 				return;
 		}
@@ -128,7 +123,6 @@
 		}
 
 		onSubmit(value);
-		removeSearchModifier();
 
 		selectedValue = value;
 		hideResults();
@@ -145,49 +139,37 @@
 >
 	<input
 		bind:value={selectedValue}
-		bind:this={inputRef}
 		on:keydown={handleKeyDown}
 		on:input={handleInput}
 		autocomplete="off"
-		class:modified-search={searchModifier}
 	/>
 
-	{#if searchModifier}
-		<span
-			class="search-modifier"
-			on:click={removeSearchModifier}
-			bind:clientWidth={modifierLabelWidth}
-		>
-			{searchModifier}
-		</span>
-	{:else}
-		<div
-			class:showAutocompleteResults
-			class="svelte-autocomplete-results-container"
-			aria-hidden={showAutocompleteResults}
-			autocapitalize="none"
-			aria-autocomplete="list"
-			aria-expanded={showAutocompleteResults}
-		>
-			<div class="click-catcher" on:click={hideResults} />
-			<ul class="results-list" class:border-none={!matches.length}>
-				{#each matches as match, index (match)}
-					<li
-						on:click={() => handleSubmit(match)}
-						class:highlight={index === highlightIndex}
-						aria-selected={index === highlightIndex}
-						aria-label={match}
-						role="option"
-					>
-						{#if index >= options.length}
-							<span class="search-label">Search</span>
-						{/if}
-						{@html boldSearchTerm(match, selectedValue)}
-					</li>
-				{/each}
-			</ul>
-		</div>
-	{/if}
+	<div
+		class:showAutocompleteResults
+		class="svelte-autocomplete-results-container"
+		aria-hidden={showAutocompleteResults}
+		autocapitalize="none"
+		aria-autocomplete="list"
+		aria-expanded={showAutocompleteResults}
+	>
+		<div class="click-catcher" on:click={hideResults} />
+		<ul class="results-list" class:border-none={!matches.length}>
+			{#each matches as match, index (match)}
+				<li
+					on:click={() => handleSubmit(match)}
+					class:highlight={index === highlightIndex}
+					aria-selected={index === highlightIndex}
+					aria-label={match}
+					role="option"
+				>
+					{#if index >= options.length}
+						<span class="search-label">Search</span>
+					{/if}
+					{@html boldSearchTerm(match, selectedValue)}
+				</li>
+			{/each}
+		</ul>
+	</div>
 </div>
 
 <style>
