@@ -71,8 +71,10 @@
 		showAutocompleteResults = false;
 	};
 
-	const handleInput = (): void => {
-		showResults();
+	const handleInput = (event: InputEvent): void => {
+		if (event.data !== '') {
+			showResults();
+		}
 	};
 
 	const handleKeyDown = (event: KeyboardEvent): void => {
