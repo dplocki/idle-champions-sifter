@@ -75,8 +75,11 @@
 		showResults();
 	};
 
-	const handleKeyDown = ({ key }: KeyboardEvent): void => {
-		switch (key) {
+	const handleKeyDown = (event: KeyboardEvent): void => {
+		const highlightedOption = matches[highlightIndex];
+		const value = highlightedOption || selectedValue;
+
+		switch (event.key) {
 			case 'Escape':
 				hideResults();
 				break;
@@ -100,12 +103,12 @@
 				}
 				break;
 			case 'Tab':
-				hideResults();
+				if (showAutocompleteResults) {
+					handleSubmit(value);
+					event?.preventDefault();
+				}
 				break;
 			case 'Enter':
-				const highlightedOption = matches[highlightIndex];
-				const value = highlightedOption || selectedValue;
-
 				handleSubmit(value);
 				break;
 
