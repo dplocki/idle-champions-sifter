@@ -12,9 +12,7 @@
 
 <h1>Idle Champions Sifter</h1>
 
-
-<QueryTextBox />
-
+<QueryTextBox columns={Object.keys(database[0])} />
 
 <Table datasource={database} columnsSettings={{ 'Icon': 'img-link' }} />
 

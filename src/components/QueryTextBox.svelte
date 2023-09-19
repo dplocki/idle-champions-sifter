@@ -1,4 +1,5 @@
 <script lang="ts">
+	export let columns: string[] = [];
 	export let options: string[] = [
 		'Jorge Luis Borges',
 		'Voltaire',
@@ -12,7 +13,7 @@
 	export let selectedValue = '';
 
 	const findMatches = (options: string[], searchTerm: string) =>
-		options.filter((option) => {
+		columns.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
 			return foundIndex > -1;
@@ -128,7 +129,7 @@
 		hideResults();
 	};
 
-	$: matches = findMatches(options, selectedValue);
+	$: matches = findMatches(columns, selectedValue);
 </script>
 
 <div
