@@ -1,19 +1,12 @@
 <script lang="ts">
 	export let columns: string[] = [];
-	export let options: string[] = [
-		'Jorge Luis Borges',
-		'Voltaire',
-		'Oscar Wilde',
-		'Julio Cortazar',
-		'T.S. Eliot'
-	];
 	export let className = '';
 	export let themeColor = '#333';
 	export let highlightTextColor = '#fff';
 	export let selectedValue = '';
 
 	const findMatches = (options: string[], searchTerm: string) =>
-		columns.filter((option) => {
+		options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
 			return foundIndex > -1;
@@ -168,9 +161,6 @@
 					aria-label={match}
 					role="option"
 				>
-					{#if index >= options.length}
-						<span class="search-label">Search</span>
-					{/if}
 					{@html boldSearchTerm(match, selectedValue)}
 				</li>
 			{/each}
