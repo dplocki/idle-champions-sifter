@@ -78,6 +78,7 @@
 			case 'Escape':
 				hideResults();
 				break;
+
 			case 'ArrowUp':
 				if (showAutocompleteResults && highlightIndex === 0) {
 					highlightIndex = matches.length - 1;
@@ -85,6 +86,7 @@
 					highlightIndex -= 1;
 				}
 				break;
+
 			case 'ArrowDown':
 				if (!selectedValue && !showAutocompleteResults) {
 					showResults();
@@ -97,14 +99,13 @@
 					highlightIndex += 1;
 				}
 				break;
+
 			case 'Tab':
+			case 'Enter':
 				if (showAutocompleteResults) {
 					handleSubmit(value);
 					event?.preventDefault();
 				}
-				break;
-			case 'Enter':
-				handleSubmit(value);
 				break;
 
 			default:
