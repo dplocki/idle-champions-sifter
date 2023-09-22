@@ -51,6 +51,7 @@
 		return html || option;
 	};
 
+	let input: HTMLInputElement;
 	let modifierLabelWidth: number;
 	let showAutocompleteResults = false;
 	let highlightIndex = 0;
@@ -138,6 +139,7 @@
 				 --modifier-label-width: {modifierLabelWidth + 8}px;"
 >
 	<input
+		bind:this={input}
 		bind:value={selectedValue}
 		on:keydown={handleKeyDown}
 		on:input={handleInput}
