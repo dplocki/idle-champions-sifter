@@ -64,7 +64,7 @@
 		showAutocompleteResults = false;
 	};
 
-	const handleInput = (event: InputEvent): void => {
+	const handleInput = (event: InputEventInit): void => {
 		if (event.data !== '') {
 			showResults();
 		}
