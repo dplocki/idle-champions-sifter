@@ -114,16 +114,10 @@
 		}
 	};
 
-	function onSubmit(value: string): void {
-		console.log(value);
-	}
-
 	const handleSubmit = (value: string) => {
 		if (!value) {
 			return;
 		}
-
-		onSubmit(value);
 
 		selectedValue = value + ' ';
 		hideResults();
