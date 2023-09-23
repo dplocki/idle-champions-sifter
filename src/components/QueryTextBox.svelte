@@ -9,6 +9,7 @@
 	let modifierLabelWidth: number;
 	let showAutocompleteResults = false;
 	let highlightIndex = 0;
+	let matches: string[] = [];
 
 	const findMatches = (options: string[], searchTerm: string) =>
 		options.filter((option) => {
@@ -67,6 +68,7 @@
 
 	const handleInput = (event: InputEventInit): void => {
 		if (event.data !== '') {
+			matches = findMatches(columns, selectedValue);
 			showResults();
 		}
 	};
@@ -124,8 +126,6 @@
 
 		input.focus();
 	};
-
-	$: matches = findMatches(columns, selectedValue);
 </script>
 
 <div
