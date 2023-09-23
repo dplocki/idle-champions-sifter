@@ -125,8 +125,10 @@
 
 		onSubmit(value);
 
-		selectedValue = value;
+		selectedValue = value + ' ';
 		hideResults();
+
+		input.focus();
 	};
 
 	$: matches = findMatches(columns, selectedValue);
