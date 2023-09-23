@@ -5,6 +5,11 @@
 	export let highlightTextColor = '#fff';
 	export let selectedValue = '';
 
+	let input: HTMLInputElement;
+	let modifierLabelWidth: number;
+	let showAutocompleteResults = false;
+	let highlightIndex = 0;
+
 	const findMatches = (options: string[], searchTerm: string) =>
 		options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
@@ -50,11 +55,6 @@
 
 		return html || option;
 	};
-
-	let input: HTMLInputElement;
-	let modifierLabelWidth: number;
-	let showAutocompleteResults = false;
-	let highlightIndex = 0;
 
 	const showResults = (): void => {
 		highlightIndex = 0;
