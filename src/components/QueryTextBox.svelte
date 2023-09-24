@@ -136,6 +136,7 @@
 	};
 </script>
 
+<svelte:document on:click={hideResults} />
 <div
 	class="svelte-autocomplete {className}"
 	style="--theme: {themeColor};
@@ -158,7 +159,6 @@
 		aria-autocomplete="list"
 		aria-expanded={showAutocompleteResults}
 	>
-		<div class="click-catcher" role="none" on:click={hideResults} />
 		<ul class="results-list" class:border-none={!matches.length}>
 			{#each matches as match, index (match)}
 				<li
@@ -221,14 +221,6 @@
 
 	.svelte-autocomplete-results-container.showAutocompleteResults {
 		display: block;
-	}
-
-	.click-catcher {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
 	}
 
 	.results-list {
