@@ -11,12 +11,18 @@
 	let highlightIndex = 0;
 	let matches: string[] = [];
 
-	const findMatches = (options: string[], searchTerm: string) =>
-		options.filter((option) => {
+	const findMatches = (options: string[]) => {
+		const cursorIndex = input?.selectionEnd!;
+		const indexSpaceBefore = selectedValue.substring(0, cursorIndex).lastIndexOf(' ') + 1;
+		const indexSpaceAfter = selectedValue.indexOf(' ', cursorIndex);
+		const searchTerm = selectedValue.substring(indexSpaceBefore, (indexSpaceAfter > 0) ? indexSpaceAfter : undefined);
+
+		return options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
 			return foundIndex > -1;
 		});
+	}
 
 	const spanWrapSearchTerm = (option: string, foundIndex: number, searchTermLength: number) => {
 		const searchTerm = option.slice(foundIndex, foundIndex + searchTermLength);
@@ -70,7 +76,7 @@
 
 	const handleInput = (event: InputEventInit): void => {
 		if (event.data !== '') {
-			matches = findMatches(columns, selectedValue);
+			matches = findMatches(columns);
 			showResults();
 		}
 	};
