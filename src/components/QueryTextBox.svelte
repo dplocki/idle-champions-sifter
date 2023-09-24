@@ -30,7 +30,9 @@
 		let foundIndex = lowercaseOption.indexOf(lowercaseSearchTerm);
 		let html = '';
 
-		if (!searchTerm) return option;
+		if (!searchTerm) {
+			return option;
+		}
 
 		while (foundIndex !== -1) {
 			const previousIndex = foundIndex;
