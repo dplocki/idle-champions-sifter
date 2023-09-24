@@ -152,7 +152,7 @@
 		aria-autocomplete="list"
 		aria-expanded={showAutocompleteResults}
 	>
-		<div class="click-catcher" on:click={hideResults} />
+		<div class="click-catcher" role="none" on:click={hideResults} />
 		<ul class="results-list" class:border-none={!matches.length}>
 			{#each matches as match, index (match)}
 				<li
