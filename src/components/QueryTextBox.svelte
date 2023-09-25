@@ -124,12 +124,23 @@
 		}
 	};
 
+	const replaceChoiceBySelection = (value: string): string => {
+		const cursorIndex = input?.selectionEnd!;
+		const indexSpaceBefore = selectedValue.substring(0, cursorIndex).lastIndexOf(' ') + 1;
+		const indexSpaceAfter = selectedValue.indexOf(' ', cursorIndex);
+
+		const beforePart = selectedValue.substring(0, indexSpaceBefore);
+		const afterPart =  indexSpaceAfter > -1 ? selectedValue.substring(indexSpaceAfter) : '';
+
+		return beforePart + value + ' ' + afterPart;
+	};
+
 	const handleSubmit = (value: string) => {
 		if (!value) {
 			return;
 		}
 
-		selectedValue = value + ' ';
+		selectedValue = replaceChoiceBySelection(value)
 		hideResults();
 
 		input.focus();
