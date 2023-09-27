@@ -3241,7 +3241,7 @@
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/d/d5/Icon_Miria.png",
 		"Name": "Miria",
 		"Slot": 12,
-		"Cost": 0,
+		"Cost": 200000000000000000000,
 		"HP": 0,
 		"Age": 347,
 		"Role": [
@@ -3269,7 +3269,7 @@
 		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/a/aa/Icon_Antrius.png",
 		"Name": "Antrius",
 		"Slot": 4,
-		"Cost": 0,
+		"Cost": 60000,
 		"HP": 0,
 		"Age": 45,
 		"Role": [
@@ -3519,6 +3519,35 @@
 		"Affliation": "Absolute Adversaries",
 		"Overwhelm": 5,
 		"Alignment Good vs Bad": "Evil",
+		"Alignment Law vs Chaotic": "Neutral"
+	},
+	{
+		"Icon": "https://static.wikia.nocookie.net/idlechampions_gamepedia_en/images/e/e6/Icon_Certainty.png",
+		"Name": "Certainty",
+		"Slot": 5,
+		"Cost": 0,
+		"HP": 0,
+		"Age": 19,
+		"Role": [
+			"Gold",
+			"Support"
+		],
+		"Race": "Half-Elf / Aasimar",
+		"Class": [
+			"Wizard",
+			"Bard"
+		],
+		"Damage Type": "Magic",
+		"CD": 0,
+		"Str": 14,
+		"Dex": 12,
+		"Con": 12,
+		"Int": 16,
+		"Wis": 13,
+		"Cha": 16,
+		"Affliation": "Acquisitions Incorporated",
+		"Overwhelm": 5,
+		"Alignment Good vs Bad": "Good",
 		"Alignment Law vs Chaotic": "Neutral"
 	}
 ]
