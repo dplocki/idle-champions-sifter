@@ -1,9 +1,13 @@
 <script lang="ts">
+	import { lexer } from "../query.parser";
+
 	export let columns: string[] = [];
 	export let className = '';
 	export let themeColor = '#333';
 	export let highlightTextColor = '#fff';
 	export let selectedValue = '';
+
+	let tokens = [];
 
 	let input: HTMLInputElement;
 	let modifierLabelWidth: number;
@@ -130,7 +134,7 @@
 		const indexSpaceAfter = selectedValue.indexOf(' ', cursorIndex);
 
 		const beforePart = selectedValue.substring(0, indexSpaceBefore);
-		const afterPart =  indexSpaceAfter > -1 ? selectedValue.substring(indexSpaceAfter) : '';
+		const afterPart = indexSpaceAfter > -1 ? selectedValue.substring(indexSpaceAfter) : '';
 
 		return beforePart + value + ' ' + afterPart;
 	};
@@ -145,6 +149,8 @@
 
 		input.focus();
 	};
+
+	$: tokens = lexer(selectedValue);
 </script>
 
 <svelte:document on:click={hideResults} />
