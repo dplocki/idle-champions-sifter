@@ -144,7 +144,7 @@
 			return;
 		}
 
-		selectedValue = replaceChoiceBySelection(value)
+		selectedValue = lexer(replaceChoiceBySelection(value)).join(' ');
 		hideResults();
 
 		input.focus();
