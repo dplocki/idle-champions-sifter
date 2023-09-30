@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { lexer } from "../query.parser";
+	import { lexer } from '../query.parser';
 
 	export let columns: string[] = [];
 	export let className = '';
@@ -7,7 +7,15 @@
 	export let highlightTextColor = '#fff';
 	export let selectedValue = '';
 
-	let tokens = [];
+
+	interface Token {
+		value: string;
+		start: number;
+		end: number;
+		index: number;
+	};
+
+	let tokens: Token[] = [];
 
 	let input: HTMLInputElement;
 	let modifierLabelWidth: number;
@@ -19,14 +27,17 @@
 		const cursorIndex = input?.selectionEnd!;
 		const indexSpaceBefore = selectedValue.substring(0, cursorIndex).lastIndexOf(' ') + 1;
 		const indexSpaceAfter = selectedValue.indexOf(' ', cursorIndex);
-		const searchTerm = selectedValue.substring(indexSpaceBefore, (indexSpaceAfter > 0) ? indexSpaceAfter : undefined);
+		const searchTerm = selectedValue.substring(
+			indexSpaceBefore,
+			indexSpaceAfter > 0 ? indexSpaceAfter : undefined
+		);
 
 		return options.filter((option) => {
 			const foundIndex = option.toLowerCase().indexOf(searchTerm.toLowerCase());
 
 			return foundIndex > -1;
 		});
-	}
+	};
 
 	const spanWrapSearchTerm = (option: string, foundIndex: number, searchTermLength: number) => {
 		const searchTerm = option.slice(foundIndex, foundIndex + searchTermLength);
@@ -130,6 +141,8 @@
 
 	const replaceChoiceBySelection = (value: string): string => {
 		const cursorIndex = input?.selectionEnd!;
+
+		const spacesIndexes: number[] = [];
 		const indexSpaceBefore = selectedValue.substring(0, cursorIndex).lastIndexOf(' ') + 1;
 		const indexSpaceAfter = selectedValue.indexOf(' ', cursorIndex);
 
@@ -150,7 +163,47 @@
 		input.focus();
 	};
 
-	$: tokens = lexer(selectedValue);
+	const splitQueryInputToTokens = (selectedValue: string): Token[] => {
+		let result: Token[] = [];
+		let startIndex = -1;
+		let endIndex = -1;
+		let tokenIndex = 0;
+
+		for (let index = 0; index < selectedValue.length; index++) {
+			if (selectedValue[index] === ' ') {
+				if (startIndex > -1) {
+					result.push({
+						value: selectedValue.substring(startIndex, endIndex),
+						start: startIndex,
+						end: endIndex,
+						index: tokenIndex++
+					});
+				}
+
+				startIndex = -1;
+				endIndex = -1;
+			} else {
+				if (startIndex === -1) {
+					startIndex = index;
+				}
+
+				endIndex = index + 1;
+			}
+		}
+
+		if (startIndex > -1) {
+			result.push({
+				value: selectedValue.substring(startIndex, endIndex),
+				start: startIndex,
+				end: endIndex,
+				index: tokenIndex++
+			});
+		}
+
+		return result;
+	}
+
+	$: tokens = splitQueryInputToTokens(selectedValue);
 </script>
 
 <svelte:document on:click={hideResults} />
