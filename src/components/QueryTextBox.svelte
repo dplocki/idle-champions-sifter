@@ -132,11 +132,11 @@
 		showAutocompleteResults = false;
 	};
 
-	const handleInput = (event: InputEventInit): void => {
+	const handleInput = (): void => {
 		tokens = splitQueryInputToTokens(selectedValue);
 		const token = findEditedToken(input?.selectionEnd!);
 
-		if (event.data !== '') {
+		if (!token) {
 			matches = findMatches(columns);
 			showResults();
 		}
@@ -205,6 +205,7 @@
 
 		selectedValue = lexer(replaceChoiceBySelection(value)).join(' ');
 		hideResults();
+		handleInput();
 
 		input.focus();
 	};
