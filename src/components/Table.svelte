@@ -121,7 +121,6 @@
 </table>
 
 <style>
-	/* Stylowanie tabeli */
 	table {
 		width: 100%;
 		border-collapse: collapse;
@@ -129,23 +128,25 @@
 		margin-bottom: 20px;
 	}
 
-	/* Stylowanie wierszy parzystych */
 	tr:nth-child(even) {
 		background-color: #f5f5f5;
 	}
 
-	/* Stylowanie wierszy nieparzystych */
 	tr:nth-child(odd) {
 		background-color: #ffffff;
 	}
 
-	/* Stylowanie komórek danych */
 	td {
 		padding: 8px;
 		border: 1px solid #ccc;
 	}
 
-	/* Stylowanie komórek nagłówka */
+	thead > th,
+	tr > td {
+		min-width: 3em;
+		width: 3em;
+	}
+
 	th {
 		min-width: 10em;
 		padding: 1em;
